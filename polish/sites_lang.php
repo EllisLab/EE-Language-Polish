@@ -85,7 +85,7 @@ $lang = array(
 'Po wyłączeniu tylko Superadministratorzy i grupy członkowskie z uprawnieniami będą mogli przeglądać tę witrynę.',
 
 'site_updated' => 
-'Site Updated',
+'Uaktualniono witrynę',
 
 'sites' => 
 'Witryny',

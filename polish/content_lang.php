@@ -1,975 +1,1439 @@
 <?php
-
 $lang = array(
 
-'all_channel_entries' => 'All %s entries',
 
-'all_comments' => 'All Comments',
+'all_channel_entries' => 
+'Wszystkie %s wpisy',
 
-'all_comments_for_entry' => 'All Comments for %s',
+'all_comments' => 
+'Wszystkie komentarze',
 
-'all_entries' => 'All %d entries',
+'all_comments_for_entry' => 
+'Wszystkie komentarze dla %s',
 
-'allow_comments' => 'Allow comments?',
+'all_entries' => 
+'Wszystkie %d wpisy',
 
-'allow_comments_desc' => 'When enabled, members with permissions will be able to post comments to this entry.',
+'allow_comments' => 
+'Czy zezwolić na komentarze?',
 
-'author' => 'Author',
+'allow_comments_desc' => 
+'Gdy włączone, uprawnieni członkowie będą mogli wysyłać komentarze dla tego wpisu.',
 
-'author_desc' => 'Member that wrote this entry.',
+'author' => 
+'Autor',
 
-'author_information' => 'Author information',
+'author_desc' => 
+'Członkowie, którzy napisali ten wpis.',
 
-'author_information_desc' => 'Information about the author of this comment, non-editable.',
+'author_information' => 
+'Informacje o autorze',
 
-'auto_saved' => 'auto saved',
+'author_information_desc' => 
+'Informacja o autorze komentarza - edycja niemożliwa.',
 
-'auto_saved_entries' => 'Auto Saved Entries',
+'auto_saved' => 
+'zapisano automatycznie',
 
-'btn_add_category' => 'Add Category',
+'auto_saved_entries' => 
+'Automatyczne zapisywanie wpisów',
 
-'btn_create_new' => 'Create New',
+'btn_add_category' => 
+'Dodaj kategorię',
 
-'btn_create_new_entry_in_channel' => 'New in %s',
+'btn_create_new' => 
+'Utwórz nowy',
 
-'btn_edit_comment' => 'Save',
+'btn_create_new_entry_in_channel' => 
+'Nowy w %s',
 
-'btn_publish' => 'Publish',
+'btn_edit_comment' => 
+'Zapisz',
 
-'btn_save_revision' => 'Save Revision',
+'btn_publish' => 
+'Publikuj',
 
-'btn_search_entries' => 'Search Entries',
+'btn_save_revision' => 
+'Zapisz wersję',
 
-'by' => 'by',
+'btn_search_entries' => 
+'Szukaj wpisów',
 
-'categories' => 'Categories',
+'by' => 
+'przez',
 
-'categories_desc' => 'Categorize this entry.',
+'categories' => 
+'Kategorie',
 
-'channel' => 'Channel',
+'categories_desc' => 
+'Skategoryzuj ten wpis.',
 
-'channel_desc' => 'Channel this entry should be submitted to.',
+'channel' => 
+'Kanał',
 
-'column_comment' => 'Comment',
+'channel_desc' => 
+'Kanał, do którego należy ten wpis, należy przesłać.',
 
-'column_comment_date' => 'Date',
+'column_comment' => 
+'Komentarz',
 
-'column_comment_total' => 'Comments',
+'column_comment_date' => 
+'Data',
 
-'column_entry_date' => 'Date',
+'column_comment_total' => 
+'Komentarze',
 
-'column_entry_id' => 'ID#',
+'column_entry_date' => 
+'Data',
 
-'column_ip_address' => 'IP',
+'column_entry_id' => 
+'ID#',
 
-'column_status' => 'Status',
+'column_ip_address' => 
+'IP',
 
-'column_title' => 'Title',
+'column_status' => 
+'Status',
 
-'comment_content' => 'Comment content',
+'column_title' => 
+'Tytuł',
 
-'comment_content_desc' => 'Content of this comment.',
+'comment_content' => 
+'Treść komentarza',
 
-'comment_expiration_date' => 'Comment expiration date',
+'comment_content_desc' => 
+'Treść tego komentarza.',
 
-'comment_expiration_date_desc' => 'Date comments for this entry should no longer be accepted.',
+'comment_expiration_date' => 
+'Data wygaśnięcia komentarza',
 
-'comment_status_desc' => 'Status of this comment.',
+'comment_expiration_date_desc' => 
+'Komentarze do tego wpisu nie będą już akceptowane.',
 
-'comments_removed_desc' => 'The following comments were removed',
+'comment_status_desc' => 
+'Status tego komentarza.',
 
-'comments_status_updated_desc' => 'The following comments were set to %s',
+'comments_removed_desc' => 
+'Następujące komentarze zostaną usunięte',
 
-'create_entry_error' => 'Cannot Create Entry',
+'comments_status_updated_desc' => 
+'Następujące komentarze zostały przypisane do %s',
 
-'create_entry_error_desc' => 'We were unable to create this entry, please review and fix errors below.',
+'create_entry_error' => 
+'Nie można utworzyć wpisu',
 
-'create_entry_success' => 'Entry Created',
+'create_entry_error_desc' => 
+'Nie można utworzyć tego wpisu, prosze przejrzeć i usunąć poniższe błędy.',
 
-'create_entry_success_desc' => 'The entry <b>%s</b> has been created.',
+'create_entry_success' => 
+'Utworzono wpis',
 
-'create_entry_with_channel_name' => 'New Entry: %s',
+'create_entry_success_desc' => 
+'Wpis <b>%s</b> został utworzony.',
 
-'custom_date' => 'custom date',
+'create_entry_with_channel_name' => 
+'Nowy wpis: %s',
 
-'custom_limit' => 'custom limit',
+'custom_date' => 
+'niestandardowa data',
 
-'edit_channel_entries' => 'Edit Channel Entries',
+'custom_limit' => 
+'niestandardowy limit',
 
-'edit_comment_error' => 'Cannot Edit Comment',
+'edit_channel_entries' => 
+'Edycja wpisów kanału',
 
-'edit_comment_error_desc' => 'We were unable to edit the comment, please review and fix errors below.',
+'edit_comment_error' => 
+'Nie można edytować komentarza',
 
-'edit_comment_success' => 'Success',
+'edit_comment_error_desc' => 
+'Nie udało się edytować komentarza, sprawdź i napraw poniższe błędy.',
 
-'edit_comment_success_desc' => 'The comment has been edited.',
+'edit_comment_success' => 
+'Sukces',
 
-'edit_entry_error' => 'Cannot Update Entry',
+'edit_comment_success_desc' => 
+'Komentarz został wyedytowany.',
 
-'edit_entry_error_desc' => 'We were unable to update this entry, please review and fix errors below.',
+'edit_entry_error' => 
+'Nie można edytować wpisu',
 
-'edit_entry_success' => 'Entry Updated',
+'edit_entry_error_desc' => 
+'Nie udało się zaktualizować komentarza, sprawdź i napraw poniższe błędy.',
 
-'edit_entry_success_desc' => 'The entry <b>%s</b> has been updated.',
+'edit_entry_success' => 
+'Zaktualizowano wpis',
 
-'edit_entry_with_title' => 'Edit Entry: %s',
+'edit_entry_success_desc' => 
+'Wpisy <b>%s</b> zostały uaktualnione.',
 
-'entries' => 'entries',
+'edit_entry_with_title' => 
+'Edycja wpisu: %s',
 
-'entries_removed_desc' => 'The following entries were removed',
+'entries' => 
+'wpisy',
 
-'entry' => 'Entry',
+'entries_removed_desc' => 
+'Następujące wpisy zostały usunięte',
 
-'entry_date' => 'Entry date',
+'entry' => 
+'Wpis',
 
-'entry_date_desc' => 'Date of publication for this entry.',
+'entry_date' => 
+'Data wpisu',
 
-'entry_limit_reached' => 'Channel limit reached',
+'entry_date_desc' => 
+'Data publikacji tego wpisu.',
 
-'entry_limit_reached_desc' => 'This channel is limited to %d entries.',
+'entry_limit_reached' => 
+'Osiągnięto limit dla kanału',
 
-'entry_limit_reached_one_desc' => 'This channel is limited to one entry.',
+'entry_limit_reached_desc' => 
+'Kanał ma ograniczenie do %d wpisów.',
 
-'entry_manager' => 'Entry Manager',
+'entry_limit_reached_one_desc' => 
+'Kanał jest ograniczony do jednego wpisu.',
 
-'entry_status' => 'Status',
+'entry_manager' => 
+'Manager Wpisów',
 
-'entry_status_desc' => 'Entry status.',
+'entry_status' => 
+'Status',
 
-'expiration_date' => 'Expiration date',
+'entry_status_desc' => 
+'Status wpisu.',
 
-'expiration_date_desc' => 'Date this entry should expire.',
+'expiration_date' => 
+'Termin ważności',
 
-'filter_autosaves' => 'filter auto saves',
+'expiration_date_desc' => 
+'Data tego wpisu powinna wygasnąć.',
 
-'filter_by_author' => 'author',
+'filter_autosaves' => 
+'automatyczne zapisywanie filtru',
 
-'filter_by_category' => 'category',
+'filter_by_author' => 
+'autor',
 
-'filter_by_channel' => 'channel',
+'filter_by_category' => 
+'kategoria',
 
-'filter_by_status' => 'status',
+'filter_by_channel' => 
+'kanał',
 
-'in' => 'in',
+'filter_by_status' => 
+'status',
 
-'ip_address' => '<abbr title="Internet Protocol">IP</abbr>',
+'in' => 
+'w',
 
-'manage_categories' => 'Manage Categories',
+'ip_address' => 
+'<abbr title="Internet Protocol">IP</abbr>',
 
-'move_comment' => 'Move Comment?',
+'manage_categories' => 
+'Zarządzaj kategoriami',
 
-'move_comment_desc' => 'Enter an Entry <abbr title="Identifier">ID</abbr> to move this comment to.<br>Currently on: %s (%s)',
+'move_comment' => 
+'Przenieść komentarz?',
 
-'no_comments' => 'No comments were found.',
+'move_comment_desc' => 
+'Otwórz wpis <abbr title="Identifier">ID</abbr>, aby przenieść komentarz do.<br>Aktualnie włączony: %s (%s)',
 
-'set_to_closed' => 'Set to closed',
+'no_comments' => 
+'Nie znaleziono komentarzy.',
 
-'set_to_open' => 'Set to open',
+'set_to_closed' => 
+'Ustaw jako zamknięte',
 
-'set_to_pending' => 'Set to pending',
+'set_to_open' => 
+'Ustaw jako otwarte',
 
-'sticky' => 'Make entry sticky?',
+'set_to_pending' => 
+'Ustaw jako oczekujace',
 
-'sticky_desc' => 'When enabled, this entry will be given preference in sorted listings.',
+'sticky' => 
+'Ustawić wpis jako przyklejony?',
 
-'url_title' => '<abbr title="Unified Resource Locator">URL</abbr> title',
+'sticky_desc' => 
+'Po włączeniu ten wpis będzie miał pierwszeństwo w posortowanych listach.',
 
-'url_title_desc' => '<abbr title="Unified Resource Locator">URL</abbr> location of this entry.',
+'url_title' => 
+'Tytuł <abbr title="Unified Resource Locator">URL</abbr>',
 
+'url_title_desc' => 
+'<abbr title="Unified Resource Locator">URL</abbr> lokalizacji tego wpisu.',
 
-/* Publish page */
-'action_delete' => 'Delete',
+'action_delete' => 
+'Usuń',
 
-'actions' => 'Actions',
+'actions' => 
+'Operacje',
 
-'add_author' => 'Add Author',
+'add_author' => 
+'Dodaj autora',
 
-'add_author_desc' => 'Group settings over-ride individual settings, and some users cannot be removed from the author list.',
+'add_author_desc' => 
+'Ustawienia grupowe zastępują indywidualne ustawienia, a niektórych użytkowników nie można usunąć z listy autorów.',
 
-'add_categories' => 'Add Categories',
+'add_categories' => 
+'Dodaj kategorie',
 
-'add_category' => 'Add Category',
+'add_category' => 
+'Dodaj kategorie',
 
-'all_channels' => 'All Channels',
+'all_channels' => 
+'Wszystkie kanały',
 
-'alpha' => 'Alphabetical',
+'alpha' => 
+'Alfabetycznie',
 
-'anchor' => 'Hyperlink',
+'anchor' => 
+'Hiperłącze',
 
-'any_date' => 'Custom Date Range',
+'any_date' => 
+'Niestandardowy zakres dat',
 
-'ascending' => 'Oldest First',
+'ascending' => 
+'Najpierw najstarsze',
 
-'authors' => 'Authors',
+'authors' => 
+'Autorzy',
 
-'autosave_data_available' => 'auto saved data available',
+'autosave_data_available' => 
+'zapisane automatycznie dane są dostępne',
 
-'autosave_success' => 'Auto Saved',
+'autosave_success' => 
+'Zapisano automatycznie',
 
-'autosave_title' => 'Saved data available',
+'autosave_title' => 
+'Zapisane dane są dostępne',
 
-'autosave_warning_1' => 'ExpressionEngine has saved data from this entry since it was last saved.',
+'autosave_warning_1' => 
+'ExpressionEngine zapisał dane z tego wpisu od jego ostatniego zapisania.',
 
-'autosave_warning_2' => 'Saved data is removed when an entry is saved or re-saved.',
+'autosave_warning_2' => 
+'Zapisane dane zostały usunięte, gdy wpis jesyt zapisany lub zapisany ponownie.',
 
-'autosave_warning_3' => 'Would you like to load this data now?',
+'autosave_warning_3' => 
+'Czy chcesz teraz wczytać te dane?',
 
-'autosaved' => 'Auto saved',
+'autosaved' => 
+'Zapisano automatycznie',
 
-'autosaved_entries' => 'Auto-saved Entries',
+'autosaved_entries' => 
+'Automatycznie zapisano wpisy',
 
-'autosaved_versions' => 'Auto-saved versions',
+'autosaved_versions' => 
+'Automatycznie zapisano wersje',
 
-'autosaved_versions_desc' => 'Below is a list of auto-saved versions of this entry.',
+'autosaved_versions_desc' => 
+'Poniżej znajduje się lista automatycznie zapisanych wersji tego wpisu.',
 
-'autosaves' => 'Auto Saves',
+'autosaves' => 
+'Autozapisy',
 
-'blockquote' => 'Blockquote',
+'blockquote' => 
+'Cytat',
 
-'bold' => 'Bold',
+'bold' => 
+'Pogrubiony',
 
-'button_mode' => 'Button Mode:',
+'button_mode' => 
+'Tryb klawisza:',
 
-'calendar' => 'Calendar',
+'calendar' => 
+'Kalendarz',
 
-'cancel_preview' => 'Cancel Preview',
+'cancel_preview' => 
+'Anuluj podgląd',
 
-'category' => 'Category',
+'category' => 
+'Kategoria',
 
-'channel_name' => 'Channel:',
+'channel_name' => 
+'Kanał:',
 
-'channels' => 'Channels',
+'channels' => 
+'Kanały',
 
-'check_spelling' => 'Check Spelling',
+'check_spelling' => 
+'Sprawdź pisownię',
 
-'choose_a_destination' => 'Where would like your file to appear?',
+'choose_a_destination' => 
+'Gdzie powinien pojawić się twój plik?',
 
-'choose_a_destination_for_emoticon' => 'Choose a destination for your emoticon',
+'choose_a_destination_for_emoticon' => 
+'Wybierz miejsce docelowe emotikonów',
 
-'choose_a_destination_for_thumb' => 'Where would you like the image to appear?',
+'choose_a_destination_for_thumb' => 
+'Gdzie chciałbyś, aby obraz się pojawił?',
 
-'choose_entry_for_comment_move' => 'Choose Entry for Comment Move',
+'choose_entry_for_comment_move' => 
+'Wybierz pozycję do przeniesienia komentarza',
 
-'choose_file' => 'Choose File',
+'choose_file' => 
+'Wybierz plik',
 
-'choose_layout_group_preview' => 'Select the group layout you wish to preview.',
+'choose_layout_group_preview' => 
+'Wybierz grupę szablonów,które chcesz wyświetlić.',
 
-'choose_only_one_entry' => 'You Must Choose Only One Entry',
+'choose_only_one_entry' => 
+'Należy wybrać tylko jeden wpis',
 
-'clear' => 'Clear',
+'clear' => 
+'Wyczyść',
 
-'click_emoticon' => 'Click an image to place it in your entry',
+'click_emoticon' => 
+'Kliknik obrazek, aby umieścić go we wpisie',
 
-'click_to_view_your_entry' => 'Click here to view your entry',
+'click_to_view_your_entry' => 
+'Kliknij tutaj, aby zobaczyć wpis',
 
-'close' => 'Close',
+'close' => 
+'Zamknij',
 
-'close_all' => 'Close All',
+'close_all' => 
+'Zamknij wszystko',
 
-'close_for_no_change' => 'Close this window to cancel.',
+'close_for_no_change' => 
+'Zamknij to okno, aby anulować.',
 
-'close_selected' => 'Close Selected',
+'close_selected' => 
+'Zamknij wybrane',
 
-'close_window' => 'Close Window',
+'close_window' => 
+'Zamknij okno',
 
-'closed' => 'Closed',
+'closed' => 
+'Zamknięte',
 
-'comment' => 'Comment',
+'comment' => 
+'Komentarz',
 
-'comment_action' => 'Action:',
+'comment_action' => 
+'Operacja:',
 
-'comment_date' => 'Date:',
+'comment_date' => 
+'Data:',
 
-'comment_deleted' => 'Comments Deleted',
+'comment_deleted' => 
+'Usunięte komentarze',
 
-'comment_email' => 'Email:',
+'comment_email' => 
+'Email:',
 
-'comment_ip' => 'IP:',
+'comment_ip' => 
+'IP:',
 
-'comment_updated' => 'Comment Updated',
+'comment_updated' => 
+'Uaktualniono komentarz',
 
-'comment_url' => 'URL:',
+'comment_url' => 
+'URL:',
 
-'comments' => 'Comments',
+'comments' => 
+'Komentarze',
 
-'confirm_exit' => 'When you leave, any data entered will be lost. Are you sure you want to leave?',
+'confirm_exit' => 
+'Po wyjściu wszystkie wprowadzone dane zostaną utracone. Jesteś pewny, że chcesz wyjść?',
 
-'constrain_proportions' => 'Constrain Proportions',
+'constrain_proportions' => 
+'Ogranicz proporcje',
 
-'content' => 'Content',
+'content' => 
+'Zawartość',
 
-'content_publish' => 'Publish',
+'content_publish' => 
+'Publikuj',
 
-'continue' => 'Continue',
+'continue' => 
+'Kontynuuj',
 
-'continue_editing' => 'Continue Editing',
+'continue_editing' => 
+'Kontynuuj edycję',
 
-'create_popup' => 'Create pop-up for image?',
+'create_popup' => 
+'Utwórzyć wyskakujące okienko dla grafiki?',
 
-'create_thumb' => 'Create Image Thumbnail',
+'create_thumb' => 
+'Utworzyć miniaturę grafiki',
 
-'create_thumb_copy' => 'Create a separate copy',
+'create_thumb_copy' => 
+'Utworzyć osobną kopię',
 
-'current_rev' => 'Currently Loaded',
+'current_rev' => 
+'Obecnie załadowane',
 
-'date' => 'Date',
+'date' => 
+'Data',
 
-'date_calendar' => 'Date Calendar',
+'date_calendar' => 
+'Kalendarz daty',
 
-'date_outside_of_range' => 'The date you submitted is outside the accepted range (1902 - 2037).',
+'date_outside_of_range' => 
+'Wysłana data jest poza dopuszczalnym zakresem (1902 - 2037).',
 
-'date_range' => 'Date Range',
+'date_range' => 
+'Zakres dat',
 
-'delete_comment' => 'Delete Comments',
+'delete_comment' => 
+'Usuń komentarze',
 
-'delete_comment_confirm' => 'Are you sure you want to permanently delete this comment?',
+'delete_comment_confirm' => 
+'Czy na pewno chcesz trwale usunąć ten komentarz?',
 
-'delete_comments_confirm' => 'Are you sure you want to permanently delete these comments?',
+'delete_comments_confirm' => 
+'Czy na pewno chcesz trwale usunąć te komentarze?',
 
-'delete_confirm' => 'Delete Confirm',
+'delete_confirm' => 
+'Potwierdź usunięcie',
 
-'delete_entries_confirm' => 'Are you sure you want to permanently delete these entries?',
+'delete_entries_confirm' => 
+'Czy na pewno chcesz trwale usunąć te wpisy?',
 
-'delete_entry_confirm' => 'Are you sure you want to permanently delete this entry?',
+'delete_entry_confirm' => 
+'Czy na pewno chcesz trwale usunąć ten wpis?',
 
-'delete_selected' => 'Delete Selected',
+'delete_selected' => 
+'Usuń zaznaczone',
 
-'descending' => 'Newest First',
+'descending' => 
+'Najpierw najnowsze',
 
-'discard_autosave' => 'Discard Auto saved Data',
+'discard_autosave' => 
+'Odrzuć automatycznie zapisane dane',
 
-'div' => 'Div',
+'div' => 
+'Div',
 
-'do_not_place_file' => 'Do not place file in entry',
+'do_not_place_file' => 
+'Nie umieszczaj pliku we wpisie',
 
-'edit_categories' => 'Edit Categories',
+'edit_categories' => 
+'Edytuj kategorie',
 
-'edit_comment' => 'Edit Comment',
+'edit_comment' => 
+'Edytuj komentarz',
 
-'edit_entry' => 'Edit Entry',
+'edit_entry' => 
+'Edytuj wpis',
 
-'edit_selected' => 'Edit Selected',
+'edit_selected' => 
+'Edytuj zaznaczone',
 
-'edit_this_entry' => 'Edit This Entry',
+'edit_this_entry' => 
+'Edytuj ten wpis',
 
-'email' => 'Email',
+'email' => 
+'Email',
 
-'embedded' => 'Embedded in Entry',
+'embedded' => 
+'Osadzone we wpisie',
 
-'emoticons' => 'Smileys',
+'emoticons' => 
+'Uśmieszki',
 
-'end_date' => 'End',
+'end_date' => 
+'Koniec',
 
-'entries_deleted' => 'Deleted',
+'entries_deleted' => 
+'Usunięte',
 
-'entry_has_been_added' => 'New Entry Submitted',
+'entry_has_been_added' => 
+'Wprowadzono nowy wpis',
 
-'entry_has_been_updated' => 'Entry Has Been Updated',
+'entry_has_been_updated' => 
+'Wpis został uaktualniony',
 
-'entry_title_with_title' => 'Entry title: \'%title\'',
+'entry_title_with_title' => 
+'Tytuł wpisu: \'%title\'',
 
-'exact_match' => 'Exact Match',
+'exact_match' => 
+'Dokładne dopasowanie',
 
-'field_blank' => 'You left a field blank.',
+'field_blank' => 
+'Zostawiłeś puste pole.',
 
-'fields' => 'Fields',
+'fields' => 
+'Pola',
 
-'file_exists' => 'A file already exists with this name',
+'file_exists' => 
+'Pole o takiej nazwie już istnieje',
 
-'file_exists_warning' => 'File Exists Warning',
+'file_exists_warning' => 
+'Ostrzeżenie, że plik istnieje',
 
-'file_manager' => 'File Manager',
+'file_manager' => 
+'Manadżer plików',
 
-'file_saved' => 'File Saved',
+'file_saved' => 
+'Zapisano plik',
 
-'file_type' => 'File Type',
+'file_type' => 
+'Typ pliku',
 
-'file_upload' => 'File Upload',
+'file_upload' => 
+'Plik wgrany',
 
-'file_uploaded' => 'File Uploaded:',
+'file_uploaded' => 
+'Plik wgrany:',
 
-'files' => 'Files',
+'files' => 
+'Pliki',
 
-'fixed_date' => 'Fixed',
+'fixed_date' => 
+'Naprawiony',
 
-'font' => 'Font',
+'font' => 
+'Font',
 
-'formatting' => 'Formatting:',
+'formatting' => 
+'Formatowanie:',
 
-'forum' => 'Forum',
+'forum' => 
+'Forum',
 
-'forum_body' => 'Forum Topic Text',
+'forum_body' => 
+'Tekst na forum',
 
-'forum_no_forum_body' => 'You cannot create a forum topic without content.',
+'forum_no_forum_body' => 
+'Nie można utworzyć forum bez zawartości.',
 
-'forum_no_forum_title' => 'You must give the forum topic a title.',
+'forum_no_forum_title' => 
+'Musisz nadać tytułowi forum tytuł.',
 
-'forum_no_forum_id' => 'You must choose a forum.',
+'forum_no_forum_id' => 
+'Musisz wybrać forum.',
 
-'forum_title' => 'Forum Topic Title',
+'forum_title' => 
+'Tytuł na forum',
 
-'forum_topic_id' => 'Forum Topic ID',
+'forum_topic_id' => 
+'ID tematu forum',
 
-'forum_topic_id_exitsts' => 'If a forum topic already exists and you would like to associate it with your entry, submit the topic ID number and leave the above fields blank.',
+'forum_topic_id_exitsts' => 
+'Jeśli temat forum już istnieje i chcesz go powiązać z wpisem, zgłoś numer identyfikacyjny tematu i pozostaw powyższe pola puste.',
 
-'forum_topic_id_info' => 'This field enables this channel entry to be associated with a forum topic.',
+'forum_topic_id_info' => 
+'Pole umożliwia powiązanie tego wpisu kanału z tematem forum.',
 
-'forums_unavailable' => 'There are no forums available to post into',
+'forums_unavailable' => 
+'Brak forów na których można by pisać.',
 
-'guided' => 'Guided',
+'guided' => 
+'Prowadzony',
 
-'heading_1' => 'Heading 1',
+'heading_1' => 
+'Nagłówek 1',
 
-'heading_2' => 'Heading 2',
+'heading_2' => 
+'Nagłówek 2',
 
-'heading_3' => 'Heading 3',
+'heading_3' => 
+'Nagłówek 3',
 
-'heading_4' => 'Heading 4',
+'heading_4' => 
+'Nagłówek 4',
 
-'heading_5' => 'Heading 5',
+'heading_5' => 
+'Nagłówek 5',
 
-'height' => 'Height',
+'height' => 
+'Wysokość',
 
-'hide_toolbar' => 'hide toolbar',
+'hide_toolbar' => 
+'ukryj pasek narzędzi',
 
-'horizontal_rule' => 'Horizontal Rule',
+'horizontal_rule' => 
+'Linia pozioma',
 
-'html_buttons_email_text' => 'Enter the email address',
+'html_buttons_email_text' => 
+'Wpisz adres email',
 
-'html_buttons_email_title' => 'Enter the link title (or leave the field empty to use the email address as the title.)',
+'html_buttons_email_title' => 
+'Wpisz tytułowy link (or leave the field empty to use the email address as the title.)',
 
-'html_buttons_enter_text' => 'Enter the text you want to format',
+'html_buttons_enter_text' => 
+'Wpisz tekst, który chcesz formatować',
 
-'html_buttons_image_text' => 'Enter the image URL',
+'html_buttons_image_text' => 
+'Wpisz URL grafiki',
 
-'html_buttons_no_cursor' => 'In order to use these buttons you must first place your cursor in a field.',
+'html_buttons_no_cursor' => 
+'Aby używać tych przycisków, należy najpierw umieścić kursor w polu.',
 
-'html_buttons_title_text' => 'Optional: Enter a title attribute',
+'html_buttons_title_text' => 
+'Opcjonalnie: Wpisz atrybut tytułu',
 
-'html_buttons_url_text' => 'Enter the hyperlink URL',
+'html_buttons_url_text' => 
+'Wpisz URL hiperłącza',
 
-'html_buttons_webpage_text' => 'Enter the title of the link',
+'html_buttons_webpage_text' => 
+'Wpisz tytuł odnośnika',
 
-'html_glossary' => 'Glossary',
+'html_glossary' => 
+'Słownik',
 
-'image' => 'Image',
+'image' => 
+'Grafika',
 
-'image_link' => 'Image Link',
+'image_link' => 
+'Link do grafiki',
 
-'image_location' => 'Image Location',
+'image_location' => 
+'Położenie grafiki',
 
-'image_options' => 'Image Options',
+'image_options' => 
+'Opcje grafiki',
 
-'image_resized' => 'Your image has been resized',
+'image_resized' => 
+'Grafika została przeskalowana',
 
-'image_size_not_different' => 'The width and height values you submitted are the same as the original.',
+'image_size_not_different' => 
+'Wysłane wartości szerokości i wysokości są takie same jak oryginału.',
 
-'instructions' => 'Instructions: ',
+'instructions' => 
+'Instrukcje: ',
 
-'invalid_author' => 'The selected author is invalid.',
+'invalid_author' => 
+'Wybrany autor jest nieprawidłowy.',
 
-'invalid_comment_date_formatting' => 'The comment expiration date you submitted was not formatted correctly (year-month-day hour:minute). Leave the field blank if you do not wish your comments to expire.',
+'invalid_comment_date_formatting' => 
+'Przesłana data ważności komentarza nie została poprawnie sformatowana (rok-miesiąc-dzień godzina: minuta). Pozostaw to pole puste, jeśli nie chcesz, aby Twoje komentarze wygasły.',
 
-'invalid_date_formatting' => 'The date you submitted was not formatted correctly (year-month-day hour:minute)',
+'invalid_date_formatting' => 
+'Przesłana data nie została poprawnie sformatowana (rok-miesiąc-dzień godzina: minuta)',
 
-'italic' => 'Italic',
+'italic' => 
+'Pochylony',
 
-'keywords' => 'Keywords',
+'keywords' => 
+'Słowa kluczowe',
 
-'layout_group' => 'Group',
+'layout_group' => 
+'Grupa',
 
-'layout_removed' => 'Layout Removed.',
+'layout_removed' => 
+'Usunięto szablon.',
 
-'layout_save_warning' => 'If you have altered your layout, the changes will not be saved.',
+'layout_save_warning' => 
+'Jeśli zmieniłeś swój układ, zmiany nie zostaną zapisane.',
 
-'line_break' => 'Line Break',
+'line_break' => 
+'Złamanie linii',
 
-'link' => 'Link',
+'link' => 
+'Link',
 
-'live_view' => 'Click to View',
+'live_view' => 
+'Kliknij, aby zobaczyć',
 
-'load_revision' => 'Load Revision',
+'load_revision' => 
+'Wczytaj wersję',
 
-'localized_date' => 'Localized',
+'localized_date' => 
+'Zlokalizowane',
 
-'located_in' => 'Location:',
+'located_in' => 
+'Położenie:',
 
-'location' => 'Location',
+'location' => 
+'Położenie',
 
-'missing_comment' => 'You must submit a comment',
+'missing_comment' => 
+'Musisz wysłac komentarz',
 
-'missing_date' => 'Your channel entry must have a date.',
+'missing_date' => 
+'Wpis do kanału musi posiadać datę.',
 
-'missing_title' => 'Your channel entry must have a title.',
+'missing_title' => 
+'Wpis do kanału musi posiadać tytuł.',
 
-'move_comments_to_entry' => 'Move Comments to Entry',
+'move_comments_to_entry' => 
+'Przesuń komentarze do wpisu',
 
-'move_selected' => 'Move Selected',
+'move_selected' => 
+'Przenieś zaznaczone',
 
-'multi_entries_updated' => 'Entrie(s) have been Updated',
+'multi_entries_updated' => 
+'Wpis(y) zostały uaktualnione',
 
-'multi_entry_category_editor' => 'Multi Entry Category Editor',
+'multi_entry_category_editor' => 
+'Edytor wielu kategorii',
 
-'multi_entry_editor' => 'Multi Entry Editor',
+'multi_entry_editor' => 
+'Edytor wielu wpisów',
 
-'name' => 'Name',
+'name' => 
+'Nazwa',
 
-'new_entry' => 'New Entry',
+'new_entry' => 
+'Nowy wpis',
 
-'newline_format' => 'Formatting:',
+'newline_format' => 
+'Formatowanie:',
 
-'no_autosave_data' => 'No Auto saved Entries',
+'no_autosave_data' => 
+'Brak autozapisu dla wpisów',
 
-'no_categories' => 'No categories have been assigned to this channel.',
+'no_categories' => 
+'Żadna z kategorii nie została przypisana do kanału.',
 
-'no_categories_assigned' => 'No Categories Assigned',
+'no_categories_assigned' => 
+'Nie przypisano kategorii',
 
-'no_categories_assigned_desc' => 'There are no categories assigned to this channel. <a href="%s">Assign a category group.</a>',
+'no_categories_assigned_desc' => 
+'Nie przypisano kategorii do tego kanału. <a href="%s">Przypisz krupę kategorii.</a>',
 
-'no_category_group_match' => 'No Category Group Match was found for all of the entries. Please choose entries that have at least one category group in common.',
+'no_category_group_match' => 
+'Nie znaleziono dopasowania grupy kategorii dla wszystkich wpisów. Wybierz pozycje, które mają wspólną co najmniej jedną kategorię.
+',
 
-'no_channel_exists' => 'You have tried to access a channel that does not exist.',
+'no_channel_exists' => 
+'Próbujesz dostać się do kanału, który nie istnieje.',
 
-'no_channels' => 'You have no channels assigned to you for this site.',
+'no_channels' => 
+'Brak przypisanych kanałów do ciebie dla tej witryny.',
 
-'no_channels_exist' => 'There are currently no channels',
+'no_channels_exist' => 
+'Brak kanałów w chwili obecnej',
 
-'no_emoticons' => 'Unable to find the location of your emoticons',
+'no_emoticons' => 
+'Nie można odnaleźć localizacji twoich emotikonów',
 
-'no_entries_exist' => 'No <b>Entries</b> found.',
+'no_entries_exist' => 
+'Nie znaleziono <b>wpisów</b>.',
 
-'no_entries_matching_that_criteria' => 'There are no entries matching the criteria you selected.',
+'no_entries_matching_that_criteria' => 
+'Nie ma wpisów odpowiadających wybranym kryteriom.',
 
-'no_glossary' => 'A glossary does not exist',
+'no_glossary' => 
+'Glosariusz nie istnieje',
 
-'no_member_groups' => 'You need to select at least one member group to apply/remove a layout.',
+'no_member_groups' => 
+'Powinieneś wybrać co najmniej jedną grupę członków, aby dodać/usunąć układ.',
 
-'no_related_entries' => 'No entries exist for this related channel',
+'no_related_entries' => 
+'Brak wpisów dla tego powiązanego kanału',
 
-'no_revisions' => 'There are currently no revisions for this entry.',
+'no_revisions' => 
+'Obecnie nie ma poprawek dla tego wpisu.',
 
-'no_smileys' => 'Unable to locate the smileys',
+'no_smileys' => 
+'Nie można zlokalizować uśmieszków (emotikonów)',
 
-'no_spellcheck_lib' => 'Error: The Pspell Library does not appear to be installed.',
+'no_spellcheck_lib' => 
+'Bład: Biblioteka Pspell nie występuje w zainstalowanych.',
 
-'no_valid_selections' => 'No valid selections submitted',
+'no_valid_selections' => 
+'Nie przesłano prawidłowych wyborów',
 
-'non_image' => 'Non-image',
+'non_image' => 
+'Bez grafik',
 
-'nonbr_space' => 'Non-breaking Space',
+'nonbr_space' => 
+'Non-breaking Space',
 
-'normal' => 'Normal',
+'normal' => 
+'Normalny',
 
-'open' => 'Open',
+'open' => 
+'Otwarte',
 
-'open_selected' => 'Open Selected',
+'open_selected' => 
+'Otwórz zaznaczone',
 
-'options' => 'Options',
+'options' => 
+'Opcje',
 
-'order' => 'Order',
+'order' => 
+'Kolejność',
 
-'ordered_list' => 'Ordered List',
+'ordered_list' => 
+'Lista uporządkowana',
 
-'original' => 'Original',
+'original' => 
+'Orginał',
 
-'overwrite_instructions' => 'You can either choose a new name and the file will be renamed, or you can submit this form with the same name and the file will be overwritten.',
+'overwrite_instructions' => 
+'Możesz wybrać nową nazwę, a nazwa pliku zostanie zmieniona lub możesz przesłać ten formularz o tej samej nazwie, a plik zostanie nadpisany.
+',
 
-'pages' => 'Pages',
+'pages' => 
+'Strony',
 
-'paragraph' => 'Paragraph',
+'paragraph' => 
+'Paragraf',
 
-'past_day' => 'Last 24 hours',
+'past_day' => 
+'Ostatnie 24 godziny',
 
-'past_month' => 'Last 30 days',
+'past_month' => 
+'Ostatnie 30 dni',
 
-'past_six_months' => 'Last 180 days',
+'past_six_months' => 
+'Ostatnie 180 dni',
 
-'past_week' => 'Last 7 days',
+'past_week' => 
+'Ostatnie 7 dni',
 
-'past_year' => 'Last 365 days',
+'past_year' => 
+'Ostatnie 365 dni',
 
-'percent' => 'Percent',
+'percent' => 
+'Procent',
 
-'pixels' => 'Pixels',
+'pixels' => 
+'Piksle',
 
-'place_file' => 'Place File',
+'place_file' => 
+'Wstaw plik',
 
-'place_file_close' => 'Place File and Close Window',
+'place_file_close' => 
+'Wstaw plik i zamknij okno',
 
-'place_image' => 'Place Image',
+'place_image' => 
+'Wstaw grafikę',
 
-'place_image_close' => 'Place Image and Close Window',
+'place_image_close' => 
+'Wstaw grafikę i zamknij okno',
 
-'popup_link' => 'Pop-up Image Link',
+'popup_link' => 
+'Link do wyskakującej grafiki',
 
-'popup_thumb' => 'Pop-up Thumbnail Link',
+'popup_thumb' => 
+'Link do wyskakującej miniatury',
 
-'posted_by' => 'Author:',
+'posted_by' => 
+'Autor:',
 
-'pre' => 'Pre-formatted',
+'pre' => 
+'Wstępnie sformatowany',
 
-'preview' => 'Preview',
+'preview' => 
+'Podgląd',
 
-'preview_entry' => 'Preview Entry',
+'preview_entry' => 
+'Podgląd wpisu',
 
-'preview_layout' => 'Preview Layout',
+'preview_layout' => 
+'Podgląd układu',
 
-'publish' => 'Publish',
+'publish' => 
+'Publikuj',
 
-'publish_another_entry' => 'Publish Another Entry',
+'publish_another_entry' => 
+'Publikuj następny wpis',
 
-'publish_form' => 'Publish Form',
+'publish_form' => 
+'Opublikuj formularz',
 
-'publish_layout' => 'Publish Layout',
+'publish_layout' => 
+'Opublikuj układ',
 
-'refresh_layout' => 'Refresh Layout',
+'refresh_layout' => 
+'Odświerz układ',
 
-'remove_categories' => 'Remove Categories',
+'remove_categories' => 
+'Usuń kategorie',
 
-'remove_layout' => 'Reset Layout',
+'remove_layout' => 
+'Resetuj układ',
 
-'resize_image' => 'Resize Image',
+'resize_image' => 
+'Zmień rozmiar grafiki',
 
-'resize_original' => 'Resize the original image',
+'resize_original' => 
+'Zmień rozmiar oryginalnej grafiki',
 
-'results_per_page' => 'Results Per Page',
+'results_per_page' => 
+'Wyników na stronie',
 
-'return_to_publish' => 'Return to Publish',
+'return_to_publish' => 
+'Powrót do publikowania',
 
-'revision' => 'Revision',
+'revision' => 
+'Wersja',
 
-'revision_saved' => 'Revision Saved',
+'revision_saved' => 
+'Zapisano wersję',
 
-'revision_saved_desc' => 'Revision %d of <b>%s</b> has been saved.',
+'revision_saved_desc' => 
+'Wersja %d z <b>%s</b> została zapisana.',
 
-'revision_warning' => 'You are about to load a previous revision. Any un-saved content currently in this page will be lost.',
+'revision_warning' => 
+'Zamierzasz wczytać poprzednią wersję. Bieżąca niezapisana zawartość zostanie utracona..',
 
-'save_layout' => 'Save Layout',
+'save_layout' => 
+'Zapisz układ',
 
-'save_revision' => 'Save Revision',
+'save_revision' => 
+'Zapisz wersję',
 
-'search' => 'Search',
+'search' => 
+'Szukaj',
 
-'select_action' => 'Select Your Placement Options',
+'select_action' => 
+'Wybierz własne opcje umieszczenia',
 
-'select_channel_to_edit' => 'Choose a channel to view',
+'select_channel_to_edit' => 
+'Wybierz kanał do wyświetlenia',
 
-'select_channel_to_post_in' => 'Choose a channel to post in',
+'select_channel_to_post_in' => 
+'Wybierz kanał, w którym chcesz publikować',
 
-'select_destination_dir' => 'Select a destination directory',
+'select_destination_dir' => 
+'Wybierz katalog docelowy',
 
-'selection_required' => 'At least one selection is required to submit',
+'selection_required' => 
+'Do przesłania wymagany jest co najmniej jeden wybór',
 
-'show_all' => 'Show All',
+'show_all' => 
+'Pokaż wszystko',
 
-'show_toolbar' => 'show toolbar',
+'show_toolbar' => 
+'pokaż pasek narzędzi',
 
-'spam' => 'SPAM',
+'spam' => 
+'SPAM',
 
-'spam_comments' => 'There are <b>%d comments</b> flagged as potential spam that <a href="%s">need moderation</a>.',
+'spam_comments' => 
+'Istnieje <b>%d komentarzy</b> oflagowanych jako potencjalny spam, który <a href="%s">wymagający moderacji</a>.',
 
-'spam_comments_header' => 'Spam Comments',
+'spam_comments_header' => 
+'Oznacz komentarze jako spam',
 
-'span' => 'Span',
+'span' => 
+'Span',
 
-'spell_check' => 'Spell Checker',
+'spell_check' => 
+'Sprawdzanie pisowni',
 
-'start_date' => 'Start',
+'start_date' => 
+'Start',
 
-'status' => 'Status',
+'status' => 
+'Status',
 
-'status_changed' => 'Status Changed',
+'status_changed' => 
+'Status został zmieniony',
 
-'tab_count_zero' => 'There needs to be at least one tab available to hold fields.',
+'tab_count_zero' => 
+'Aby móc trzymać pola, musi być dostępna co najmniej jedna karta.',
 
-'tab_has_req_field' => 'The tab may not be deleted while it contains the following required fields: ',
+'tab_has_req_field' => 
+'Zakładka nie może zostać usunięta, gdy zawiera następujące wymagane pola:',
 
-'tabs' => 'Tabs',
+'tabs' => 
+'Zakładki',
 
-'there_are_required_fields1' => 'There are ',
+'there_are_required_fields1' => 
+'To są',
 
-'there_are_required_fields2' => ' unfilled required fields.',
+'there_are_required_fields2' => 
+'niewypełnione wymagane pola.',
 
-'this_entry_will_appear_in' => 'This entry will appear in:',
+'this_entry_will_appear_in' => 
+'Wpisy wystąpią w :',
 
-'thumb_info' => 'If you do not wish to resize or create a thumb skip to the options below',
+'thumb_info' => 
+'Jeśli nie chcesz zmienić rozmiaru lub utworzyć kciuka, przejdź do poniższych opcji',
 
-'thumb_instructions' => 'You may optionally resize your image or create an image thumbnail.',
+'thumb_instructions' => 
+'Możesz opcjonalnie zmienić rozmiar obrazu lub utworzyć miniaturę obrazu.',
 
-'thumb_settings' => 'Image Settings',
+'thumb_settings' => 
+'Ustawienia grafiki',
 
-'thumbnail_created' => 'Thumbnail Created',
+'thumbnail_created' => 
+'Utworzono miniaturę',
 
-'title' => 'Title',
+'title' => 
+'Tytuł',
 
-'titles' => 'Titles',
+'titles' => 
+'Tytuły',
 
-'titles_and_content' => 'Titles & Content',
+'titles_and_content' => 
+'Tytuły & Zawartość',
 
-'title_not_unique' => 'An entry already exists with this title. Titles must be unique.',
+'title_not_unique' => 
+'Wpis o takim tytule już istnieje. Tytuł musi być unikalny.',
 
-'today' => 'Today',
+'today' => 
+'Dzisiaj',
 
-'unable_to_create_url_title' => 'Unable to create valid URL Title for your entry',
+'unable_to_create_url_title' => 
+'Nie można utworzyć prawidłowego tytułu adresu URL dla tego wpisu',
 
-'unauthorized_for_any_channels' => 'You are not authorized to post channel entries',
+'unauthorized_for_any_channels' => 
+'Nie masz uprawnień do publikowania wpisów w kanale',
 
-'unauthorized_for_this_channel' => 'You are not authorized to post in this channel',
+'unauthorized_for_this_channel' => 
+'Nie masz uprawnień do publikowania w tym kanale',
 
-'unauthorized_to_delete_others' => 'You are only authorized to delete channel entries that you authored',
+'unauthorized_to_delete_others' => 
+'Jesteś upoważniony tylko do usuwania wpisów kanałów, które utworzyłeś',
 
-'unauthorized_to_delete_self' => 'You are not authorized to delete your own channel entries',
+'unauthorized_to_delete_self' => 
+'Nie masz uprawnień do usuwania własnych wpisów w kanale',
 
-'unauthorized_to_edit' => 'You are not allowed to edit the entries you selected.',
+'unauthorized_to_edit' => 
+'Nie możesz edytować wybranych pozycji.',
 
-'unordered_list' => 'Unordered List',
+'unordered_list' => 
+'Lista nieuporządkowana',
 
-'unpublished' => 'unpublished',
+'unpublished' => 
+'nieopublikowane',
 
-'upload' => 'Upload',
+'upload' => 
+'Wgrywanie',
 
-'upload_dir_choose' => 'Choose an upload directory',
+'upload_dir_choose' => 
+'Wybierz katalog do przesyłania',
 
-'upload_file' => 'Upload File',
+'upload_file' => 
+'Plik wgrywania',
 
-'upload_to' => 'Upload to %s',
+'upload_to' => 
+'Wgraj do %s',
 
-'url' => 'URL',
+'url' => 
+'URL',
 
-'url_only' => 'URL Only',
+'url_only' => 
+'Tylko URL',
 
-'url_title_is_index' => 'The URL Title cannot be called \'index\'',
+'url_title_is_index' => 
+'Tytuł adresu URL nie może nazywac się \'index\'',
 
-'url_title_is_numeric' => 'Numbers cannot be used as URL Titles',
+'url_title_is_numeric' => 
+'Liczby nie można używać jako tytułu adresu URL',
 
-'url_title_not_unique' => 'This URL title is being used by <b><a href="%s" rel="external">%s</a></b>. URL titles must be unique.',
+'url_title_not_unique' => 
+'Ten tytuł adresu URL jest używany przez <b><a href="%s" rel="external">%s</a></b>. Tytuły adresu URL muszą być unikalne.',
 
-'url_title_not_unique_frontend' => 'This URL title is being used by another entry. URL titles must be unique.',
+'url_title_not_unique_frontend' => 
+'Ten tytuł adresu URL jest używany przez inny wpis. Tytuły adresu URL muszą być unikalne..',
 
-'version_preview' => 'Revision Number %s',
+'version_preview' => 
+'Numer wersji %s',
 
-'versioning_enabled' => 'Enable entry revisions?',
+'versioning_enabled' => 
+'Włączyć wersjonowanie plików?',
 
-'versioning_enabled_desc' => 'When enabled, you can store up to %d revisions of this entry.',
+'versioning_enabled_desc' => 
+'Po włączeniu, można przechowywać do %d wersji dla wpisu.',
 
-'view' => 'View',
+'view' => 
+'Pokaż',
 
-'view_comments' => 'View Comments',
+'view_comments' => 
+'Pokaż komentarze',
 
-'view_entry' => 'View Entry',
+'view_entry' => 
+'Pokaż wpisy',
 
-'view_filtered' => 'Return to Filtered Entries',
+'view_filtered' => 
+'Wróć do filtrowanych wpisów',
 
-'view_wider' => 'View Wider',
+'view_wider' => 
+'Rozszerz',
 
-'warning' => 'Warning',
+'warning' => 
+'Uwaga',
 
-'width' => 'Width',
+'width' => 
+'Szerokość',
 
-'you_have_uploaded' => 'You have uploaded the following file:',
+'you_have_uploaded' => 
+'Przesłałeś następujący plik:',
 
+'create_blockquote' => 
+'utwórz cytat',
 
-/* Textarea Buttons */
-'create_blockquote' => 'create blockquote',
+'create_hyperlink' => 
+'utwórz hiperłącze',
 
-'create_hyperlink' => 'create hyperlink',
+'create_ordered_list' => 
+'utwórz listę uporządkowaną',
 
-'create_ordered_list' => 'create ordered list',
+'create_unordered_list' => 
+'utwórz nieuporządkowaną listę',
 
-'create_unordered_list' => 'create unordered list',
+'launch_writemode' => 
+'uruchom tryb pisania',
 
-'launch_writemode' => 'launch writemode',
+'make_bold' => 
+'zrób pogrubione',
 
-'make_bold' => 'make bold',
+'make_italic' => 
+'zrób pochylone',
 
-'make_italic' => 'make italic',
+'open_emoji' => 
+'otwórz emoji',
 
-'open_emoji' => 'open emoji',
+'open_glossary' => 
+'otwórz słownik',
 
-'open_glossary' => 'open glossary',
+'open_spellcheck' => 
+'otwórz sprawdzanie pisowni',
 
-'open_spellcheck' => 'open spellcheck',
+'view_code' => 
+'pokaż źródło',
 
-'view_code' => 'view code',
+'add_new_html_button' => 
+'Dodaj nowy przycisk HTML',
 
+'add_new_row' => 
+'Dodaj nowy wiersz',
 
-/* Relationships */
-'add_new_html_button' => 'Add New HTML button',
+'collapse' => 
+'Zwiń',
 
-'add_new_row' => 'Add new row',
+'creating_new_in_rel' => 
+'Utwórz nowy wpis w <b>#to_channel#</b>, aby utworzyć relację z  <b>#from_channel#</b>',
 
-'collapse' => 'Collapse',
+'hide' => 
+'Ukryj',
 
-'creating_new_in_rel' => 'Creating new entry in <b>#to_channel#</b> for a relationship with <b>#from_channel#</b>',
+'item_to_relate_with' => 
+'Element <strong>dotyczy</strong> tego wpisu.',
 
-'hide' => 'Hide',
+'items_related_to' => 
+'Element <strong>related to</strong> this entry.',
 
-'item_to_relate_with' => 'Item to <strong>relate with</strong> this entry.',
+'items_to_relate_with' => 
+'Elementy <strong>dotyczą</strong> tego wpisu.',
 
-'items_related_to' => 'Items <strong>related to</strong> this entry.',
+'no_entries_found' => 
+'Nie znaleziono <b>wpisów</b>',
 
-'items_to_relate_with' => 'Items to <strong>relate with</strong> this entry.',
+'no_entries_related' => 
+'Brak powiązanych <b>wpisów</b>.',
 
-'no_entries_found' => 'No <b>entries</b> found',
+'no_entry_related' => 
+'Brak powiązanego <b>wpisu</b>.',
 
-'no_entries_related' => 'No <b>entries</b> related.',
+'no_rows_created' => 
+'Nie utworzono wierszy',
 
-'no_entry_related' => 'No <b>entry</b> related.',
+'remove_relationship' => 
+'Usuń relację',
 
-'no_rows_created' => 'No rows created',
+'remove_row' => 
+'usuń wiersz',
 
-'remove_relationship' => 'Remove Relationship',
+'search_available_entries' => 
+'Szukaj dostępnych wpisów',
 
-'remove_row' => 'remove row',
+'search_related_entries' => 
+'Szukaj powiązanych wpisów',
 
-'search_available_entries' => 'Search available entries',
+'show_tools' => 
+'Pokaż narzędzia',
 
-'search_related_entries' => 'Search related entries',
+'add_file' => 
+'Dodaj plik',
 
-'show_tools' => 'Show Tools',
+'comment_moved' => 
+'Przeniesiono komentarz',
 
+'comments_moved' => 
+'Przeniesiono komentarze',
 
-/* writemode */
-'add_file' => 'Add File',
+'crop' => 
+'Przytnij',
 
-'comment_moved' => 'Comment moved',
+'crop_height' => 
+'Wysokość',
 
-'comments_moved' => 'Comments moved',
+'crop_width' => 
+'Szerokość',
 
-'crop' => 'Crop',
+'crop_x' => 
+'X',
 
-'crop_height' => 'Height',
+'crop_y' => 
+'Y',
 
-'crop_width' => 'Width',
+'directory_no_access' => 
+'Nie masz dostępu do katalogu określonego dla tego pola',
 
-'crop_x' => 'X',
+'edit_image' => 
+'Edytuj grafikę',
 
-'crop_y' => 'Y',
+'edit_modes' => 
+'Edytuj tryby',
 
-'directory_no_access' => 'You do not have access to the directory specified for this field',
+'field_not_editable' => 
+'Pole nie można edytować.',
 
-'edit_image' => 'Edit Image',
+'invalid_date' => 
+'Przesłania data jest nieprawidłowa.',
 
-'edit_modes' => 'Edit Modes',
+'invalid_date_ambiguous' => 
+'Przesłana data jest niejednoznaczna, należy użyć czterocyfrowego roku lub użyć ukośników zamiast myślników.
+',
 
-'field_not_editable' => 'This field may not be edited.',
+'invalid_selection' => 
+'Nieprawidłowy wybór',
 
-'invalid_date' => 'The date you submitted is not valid.',
+'layout_failure' => 
+'Podczas zapisywania układu wystąpił problem.',
 
-'invalid_date_ambiguous' => 'The date you submitted is ambiguous, please either use a four digit year or use slashes instead of dashes.',
+'layout_failure_invalid_name' => 
+'Następujące pola mają nieprawidłowe nazwy w krótkich nazwach:',
 
-'invalid_selection' => 'Invalid Selection',
+'layout_failure_required' => 
+'Następujące pola są wymagane i mogą nie być ukryte:',
 
-'layout_failure' => 'There was a problem saving your layout.',
+'layout_preview' => 
+'Podglądasz publikowany układ dla',
 
-'layout_failure_invalid_name' => 'The following fields have invalid characters in the short names: ',
+'layout_success' => 
+'Pomyślnie zapisano układ.',
 
-'layout_failure_required' => 'The following fields are required and may not be hidden: ',
+'maintain_ratio' => 
+'Zachowaj proporcje',
 
-'layout_preview' => 'You&rsquo;re previewing the Publish Layout for ',
+'member_group' => 
+'Grupa członków',
 
-'layout_success' => 'Layout successfully saved.',
+'no_entry_to_update' => 
+'Próbowałeś zaktualizować wpis, który nie istnieje.',
 
-'maintain_ratio' => 'Maintain Aspect Ratio',
+'no_templates' => 
+'Brak szablonów',
 
-'member_group' => 'Member Group',
+'remove_file' => 
+'Usuń plik',
 
-'no_entry_to_update' => 'You have tried to update an entry that does not exist.',
+'resize' => 
+'Zmień rozmiar',
 
-'no_templates' => 'No Templates',
+'resize_height' => 
+'Wysokość',
 
-'remove_file' => 'Remove File',
+'resize_width' => 
+'Szerokość',
 
-'resize' => 'Resize',
+'rotate' => 
+'Obróć',
 
-'resize_height' => 'Height',
+'rotate_180' => 
+'180&#176',
 
-'resize_width' => 'Width',
+'rotate_90l' => 
+'90 stopni w lewo',
 
-'rotate' => 'Rotate',
+'rotate_90r' => 
+'90 stopni w prawo',
 
-'rotate_180' => '180&#176',
+'rotate_flip_hor' => 
+'Obróć poziomo',
 
-'rotate_90l' => '90 degrees, left',
+'rotate_flip_vert' => 
+'Obróć pionowo',
 
-'rotate_90r' => '90 degrees, right',
+'screen_name' => 
+'Nazwa na ekranie',
 
-'rotate_flip_hor' => 'Flip horizontally',
+'search_entries' => 
+'Szukaj wpisów',
 
-'rotate_flip_vert' => 'Flip vertically',
+'unable_to_load_tab' => 
+'Nie można załadować żądanego pliku karty publikowania: %s',
 
-'screen_name' => 'Screen Name',
+'width_needed' => 
+'Należy wybrać szerokość lub szerokość / wysokość',
 
-'search_entries' => 'Search Entries',
+'wm_discard_changes' => 
+'Odrzuć zmiany',
 
-'unable_to_load_tab' => 'Unable to load requested publish tab file: %s',
+'wm_publish_to_field' => 
+'Opublikuj w polu',
 
-'width_needed' => 'A width or width/height must be selected',
+'menu_categories' => 
+'Kategorie',
 
-'wm_discard_changes' => 'Discard Changes',
+'menu_date' => 
+'Data',
 
-'wm_publish_to_field' => 'Publish to Field',
+'menu_forum' => 
+'Fora',
 
+'menu_options' => 
+'Opcje',
 
-/* Publish Tabs */
-'menu_categories' => 'Categories',
+'menu_pages' => 
+'Strony',
 
-'menu_date' => 'Date',
+'menu_publish' => 
+'Opublikuj',
 
-'menu_forum' => 'Forums',
+'rel_ft_no_entries' => 
+'Brak wpisów',
 
-'menu_options' => 'Options',
+'add_categories_entries' => 
+'Dodaj kategorię %d wpisów',
 
-'menu_pages' => 'Pages',
+'add_editable_fields' => 
+'Dodaj pole do edycji',
 
-'menu_publish' => 'Publish',
+'add_editable_fields_desc' => 
+'Wybrane pola zostaną dodane poniżej i będą edytowalne dla <b>wszystkich</ b> wybranych pozycji.',
 
-'rel_ft_no_entries' => 'No Entries',
+'btn_save_all_and_close' => 
+'Zapisz wszystko & Zamknij',
 
-/* Bulk Edit */
+'editing_entries' => 
+'Edycja %d wpisów',
 
-'add_categories' => 'Add Categories',
+'entries_updated' => 
+'%d wpisy zostały uaktualnione.',
 
-'add_categories_entries' => 'Add categories to %d entries',
+'filter_selected_entries' => 
+'Filtruj wybrane wpisy',
 
-'add_editable_fields' => 'Add editable fields',
+'no_cat_groups_in_common' => 
+'Brak wspólnych <b>grup kategorii</b>.',
 
-'add_editable_fields_desc' => 'Chosen fields will be added below, and will be editable for <b>all</b> selected entries.',
+'bulk_edit' => 
+'Edycja zbiorcza',
 
-'btn_save_all_and_close' => 'Save All & Close',
+'bulk_edit_add_categories_notice' => 
+'Jakakolwiek zaznaczona kategoria będzie przyporządkowana do wybranych pozycji <b>dodatkowo</b> do bieżącego wyboru kategorii dla tych wpisów.',
 
-'editing_entries' => 'Editing %d entries',
+'bulk_edit_destructive' => 
+'Jest to działanie destrukcyjne i nieodwracalne.',
 
-'entries_updated' => '%d entries have been updated.',
+'bulk_edit_notice' => 
+'Wszelkie przesłane pola nadpisują zapisaną zawartość pola dla wszystkich wybranych pozycji.',
 
-'filter_selected_entries' => 'Filter selected entries',
+'bulk_edit_remove_categories_notice' => 
+'Wszystkie wybrane kategorie zostaną <b>usunięte</b> z zaznaczonych pozycji, pozostawiając pozycje inne przypisanie kategorii nienaruszone.',
 
-'no_cat_groups_in_common' => 'No <b>Category Groups</b> in common.',
+'remove_categories_entries' => 
+'Usuń kategorię z %d wpisów',
 
-'bulk_edit' => 'Bulk Edit',
+'remove_from_selection' => 
+'Usuń z zaznaczonych',
 
-'bulk_edit_add_categories_notice' => 'Any categories selected will be assigned to the selected entries <b>in addition</b> to the current category selection for those entries.',
+'save_and_next' => 
+'Zapisz & Następny',
 
-'bulk_edit_destructive' => 'This is a destructive and irreversible action.',
+'selected_entries' => 
+'Wybrane wpisy',
 
-'bulk_edit_notice' => 'Any fields submitted will overwrite that field\'s stored content for all selected entries.',
+'showing' => 
+'Seans',
 
-'bulk_edit_remove_categories_notice' => 'Any categories selected will be <b>removed</b> from the selected entries, leaving the entries\' other category assignments intact.',
+'unauthorized_entry_desc' => 
+'Nie masz uprawnień do edycji jednego z wybranych wpisów.',
 
-'remove_categories' => 'Remove Categories',
-
-'remove_categories_entries' => 'Remove categories from %d entries',
-
-'remove_from_selection' => 'Remove from selection',
-
-'save_and_next' => 'Save & Next',
-
-'selected_entries' => 'Selected Entries',
-
-'showing' => 'Showing',
-
-'unauthorized_entry_desc' => 'You do not have permission to edit one of the selected entries.'
-
+''=>''
 );
 
-// EOF
+// End of File

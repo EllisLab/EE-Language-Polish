@@ -3,7 +3,7 @@ $lang = array(
 
 
 '12_hour' => 
-'12 godzinny z AM/PM',
+'12 godzinny AM/PM',
 
 '24_hour' => 
 '24 godziny',

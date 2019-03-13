@@ -1,71 +1,106 @@
 <?php
-
 $lang = array(
 
-'em_banned_from_email' => 'The sender email address you submitted is banned.',
 
-'em_banned_recipient' => 'One or more of your recipient emails is banned.',
+'em_banned_from_email' => 
+'Przesłany adres e-mail nadawcy jest zbanowany.',
 
-'em_email_sent' => 'Your email message has been sent.',
+'em_banned_recipient' => 
+'Co najmniej jeden adres e-mail odbiorcy jest zbanowany.',
 
-'em_interval_warning' => 'You are only allowed to submit email forms every %s seconds',
+'em_email_sent' => 
+'Wiadomość e-mail została wysłana.',
 
-'em_invalid_recipient' => 'One or more of your recipient emails is invalid.',
+'em_interval_warning' => 
+'Możesz przesyłać formularze e-mail tylko co %s sekund',
 
-'em_limit_exceeded' => 'You have exceeded the number of emails allowed to be sent per day.',
+'em_invalid_recipient' => 
+'Co najmniej jeden adres e-mail odbiorcy jest nieprawidłowy.',
 
-'em_no_preview_template_specified' => 'The email tag does not contain the location of your preview template.',
+'em_limit_exceeded' => 
+'Przekroczono liczbę wiadomości e-mail dozwolonych do wysłania dziennie.',
 
-'em_no_valid_recipients' => 'Your email had no valid recipients.',
+'em_no_preview_template_specified' => 
+'Tag e-mail nie zawiera lokalizacji szablonu podglądu.',
 
-'em_sender_required' => 'A valid sender email is required',
+'em_no_valid_recipients' => 
+'Twój adres e-mail nie zawiera ważnych adresatów.',
 
-'em_unauthorized_request' => 'You are not authorized to perform this action',
+'em_sender_required' => 
+'Wymagana jest ważna wiadomość e-mail nadawcy',
 
-'email_attachment_missing' => 'Unable to locate the following email attachment: %s',
+'em_unauthorized_request' => 
+'Nie masz uprawnień do wykonania tej czynności',
 
-'email_attachment_unreadable' => 'Unable to open this attachment: %s',
+'email_attachment_missing' => 
+'Nie można znaleźć następującego załącznika do wiadomości e-mail: %s',
 
-'email_exit_status' => 'Exit status code: %s',
+'email_attachment_unreadable' => 
+'Nie można otworzyć tego załącznika: %s',
 
-'email_failed_smtp_login' => 'Failed to send AUTH LOGIN command. Error: %s',
+'email_exit_status' => 
+'Wyjdź z kodu statusu: %s',
 
-'email_invalid_address' => 'Invalid email address: %s',
+'email_failed_smtp_login' => 
+'Nie udało się wysłać polecenia AUTH LOGIN. Błąd: %s',
 
-'email_module_description' => 'User Email Module',
+'email_invalid_address' => 
+'Nieprawidłowy adres e-mail: %s',
 
-'email_module_name' => 'Email',
+'email_module_description' => 
+'Moduł e-mail użytkownika',
 
-'email_must_be_array' => 'The email validation method must be passed an array.',
+'email_module_name' => 
+'Email',
 
-'email_no_hostname' => 'You did not specify a SMTP hostname.',
+'email_must_be_array' => 
+'Metodę sprawdzania poprawności poczty e-mail należy przekazać w postaci tablicy.',
 
-'email_no_port' => 'You did not specify a SMTP port.',
+'email_no_hostname' => 
+'Nie podano nazwy hosta SMTP.',
 
-'email_no_recipients' => 'You must include recipients: To, Cc, or Bcc',
+'email_no_port' => 
+'Nie określono portu SMTP.',
 
-'email_no_smtp_unpw' => 'Error: You must assign a SMTP username and password.',
+'email_no_recipients' => 
+'Musisz uwzględnić odbiorców: Do, DW lub UDW',
 
-'email_no_socket' => 'Unable to open a socket to Sendmail. Please check settings.',
+'email_no_smtp_unpw' => 
+'Błąd: musisz przypisać nazwę użytkownika i hasło SMTP.',
 
-'email_send_failure_phpmail' => 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.',
+'email_no_socket' => 
+'Nie można otworzyć gniazda do Sendmaila. Sprawdź ustawienia.',
 
-'email_send_failure_sendmail' => 'Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.',
+'email_send_failure_phpmail' => 
+'Nie można wysłać wiadomości e-mail za pomocą PHP mail (). Twój serwer może nie być skonfigurowany do wysyłania poczty za pomocą tej metody.
+',
 
-'email_send_failure_smtp' => 'Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.',
+'email_send_failure_sendmail' => 
+'Nie można wysłać wiadomości e-mail za pomocą PHP Sendmail. Twój serwer może nie być skonfigurowany do wysyłania poczty za pomocą tej metody.',
 
-'email_sent' => 'Your message has been successfully sent using the following protocol: %s',
+'email_send_failure_smtp' => 
+'Nie można wysłać wiadomości e-mail za pomocą PHP SMTP. Twój serwer może nie być skonfigurowany do wysyłania poczty za pomocą tej metody.
+',
 
-'email_smtp_auth_pw' => 'Failed to authenticate password. Error: %s',
+'email_sent' => 
+'Twoja wiadomość została wysłana przy użyciu następującego protokołu: %s',
 
-'email_smtp_auth_un' => 'Failed to authenticate username. Error: %s',
+'email_smtp_auth_pw' => 
+'Nie udało się uwierzytelnić hasła. Błąd: %s',
 
-'email_smtp_data_failure' => 'Unable to send data: %s',
+'email_smtp_auth_un' => 
+'Nie można uwierzytelnić nazwy użytkownika. Błąd: %s',
 
-'email_smtp_error' => 'The following SMTP error was encountered: %s',
+'email_smtp_data_failure' => 
+'Nie można wysłać danych: %s',
 
-'message_required' => 'Email Message is Required',
+'email_smtp_error' => 
+'Napotkano następujący błąd SMTP: %s',
 
+'message_required' => 
+'Wiadomość e-mail jest wymagana',
+
+''=>''
 );
 
-// EOF
+// End of File

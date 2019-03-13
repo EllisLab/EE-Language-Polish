@@ -15,7 +15,7 @@ $lang = array(
 'Logi',
 
 'msm_manager' => 
-'Manager strony',
+'Manager witryn',
 
 'nav_developer' => 
 'Developer',

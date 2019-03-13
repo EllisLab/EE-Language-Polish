@@ -114,13 +114,13 @@ $lang = array(
 'Pierwsi odbiorcy',
 
 'primary_recipients_desc' => 
-'To Email(s). Separate multiple recipients with a comma.',
+'Do wiadomości e-mail. Oddziel wielu odbiorców przecinkami.',
 
 'recipient_options' => 
 'Opcje odbiorcy',
 
 'resend' => 
-'Send Email again',
+'Wyślij email jeszcze raz',
 
 'send_as' => 
 'zapisz jako',
@@ -135,529 +135,532 @@ $lang = array(
 'Twój email',
 
 'cannot_access' => 
-'cannot be accessed',
+'nie można uzyskać dostępu',
 
 'cannot_create_zip' => 
-'Cannot create a .zip file',
+'Nie można utworzyć pliku .zip',
 
 'export_download' => 
-'Export (Download)',
+'Eksport (Pobieranie)',
 
 'file_name' => 
-'File Name',
+'Nazwa pliku',
 
 'file_saved' => 
-'The translation file has been saved to <b>%s</b>',
+'Plik tłumaczenia został zapisany na <b>%s</b>',
 
 'invalid_path' => 
-'The path you submitted is not valid:',
+'Przesłana ścieżka jest niepoprawna:',
 
 'language_files' => 
-'Language Files',
+'Pliki językowe',
 
 'no_files_selected' => 
-'No files were selected for export',
+'Nie wybrano plików do eksportu',
 
 'search_files_button' => 
-'Search Files',
+'Wyszukaj pliki',
 
 'trans_file_not_writable' => 
-'Translation file is not writeable.',
+'Plik tłumaczeń nie jest zapisywalny.',
 
 'translate_btn' => 
-'Save Translations',
+'Zapisz tłumaczenia',
 
 'translate_error' => 
-'Attention: translation not saved',
+'Uwaga: tłumaczenie nie zostało zapisane',
 
 'translate_error_desc' => 
-'We were unable to save the translation, please review and fix errors below.',
+'Nie udało się zapisać tłumaczenia, sprawdź i napraw błędy poniżej.',
 
 'translations_saved' => 
-'Translations Saved',
+'Tłumaczenia zapisane',
 
 'php_info_title' => 
 '<abbr title="Preprocessor Hypertext Processor">PHP</abbr> %s Info',
 
 'all_caches' => 
-'All Caches',
+'Wszystkie pamięci podręczne',
 
 'btn_clear_caches' => 
-'Clear Caches',
+'Wyczyść pamięć podręczną',
 
 'btn_clear_caches_working' => 
-'Clearing...',
+'Czyszczenie...',
 
 'caches_cleared' => 
-'Caches cleared',
+'Bufory wyczyszczone',
 
 'caches_cleared_error' => 
-'You must select at least one cache type to clear.',
+'Musisz wybrać przynajmniej jeden typ pamięci podręcznej, aby usunąć.',
 
 'caches_to_clear' => 
-'Caches to clear',
+'Skrytki do wyczyszczenia',
 
 'caches_to_clear_desc' => 
-'All caches selected will be cleared.',
+'Wszystkie wybrane pamięci podręczne zostaną wyczyszczone.',
 
 'database' => 
-'Database',
+'Baza danych',
 
 'tags' => 
-'Tags',
+'Tagi',
 
 'templates' => 
-'Templates',
+'Szablony',
 
 'btn_sandr' => 
-'Search and Replace',
+'Szukaj i zamień',
 
 'btn_sandr_working' => 
-'Replacing...',
+'Trwa zamiana...',
 
 'channel_entry_title' => 
-'Channel Entry Titles',
+'Tytuły wprowadzania kanałów',
 
 'channel_fields' => 
-'Channel Fields',
+'Pola kanału',
 
 'choose_below' => 
-'(Choose from the following)',
+'(Wybierz jedną z następujących opcji)',
 
 'current_password' => 
-'Current password',
+'Bieżące hasło',
 
 'no_tables_match' => 
-'No tables match the search criteria',
+'Żadne tabele nie pasują do kryteriów wyszukiwania',
 
 'replace_in_templates' => 
-'In ALL Templates',
+'We WSZYSTKICH szablonach',
 
 'rows_replaced' => 
-'Number of database records in which a replacement occurred: %s',
+'Liczba rekordów bazy danych, w których wystąpił zamiennik: %s',
 
 'sandr' => 
-'Data Search and Replace',
+'Wyszukiwanie danych i zamiana',
 
 'sandr_error' => 
-'Attention: Search and replace not run',
+'Uwaga: Wyszukaj i zamień, nie uruchamiaj',
 
 'sandr_error_desc' => 
-'We were unable to run your search and replace, please review and fix errors below.',
+'Nie udało nam się uruchomić wyszukiwania i zamienić, sprawdź i napraw błędy poniżej.',
 
 'sandr_in' => 
-'Search and replace in',
+'Wyszukaj i zamień w',
 
 'sandr_in_desc' => 
-'Select the field you want to run this search and replace on.',
+'Wybierz pole, w którym chcesz uruchomić to wyszukiwanie i zastąp je.',
 
 'sandr_password_desc' => 
-'You <b>must</b> enter your password to search and replace.',
+'<B>Musisz</b> podać hasło, aby wyszukać i wymienić.',
 
 'sandr_replace_text' => 
-'Replace with this text',
+'Zastąp ten tekst',
 
 'sandr_search_text' => 
-'Search for this text',
+'Wyszukaj ten tekst',
 
 'sandr_warning' => 
-'<p><b>Warning</b>: <b class="no">Advanced users only.</b> Please be very careful with using this feature.</p><p>Depending on the syntax used, this function can produce undesired results. Consult the user guide and backup your database.</p>',
+'<p> <b>Ostrzeżenie</b>: <b class = "no"> Tylko zaawansowani użytkownicy. </b> Zachowaj ostrożność podczas korzystania z tej funkcji. </p> <p> W zależności od użytej składni, ta funkcja może powodować niepożądane rezultaty. Zapoznaj się z podręcznikiem użytkownika i wykonaj kopię zapasową bazy danych. </p>',
 
 'site_preferences' => 
-'Site Preferences',
+'Preferencje witryny',
 
 'template_groups' => 
-'Template Groups',
+'Grupy szablonów',
 
 'assign_fields' => 
-'Assign Fields',
+'Przydziel pola',
 
 'btn_assign_fields' => 
-'Assign Fields',
+'Przydziel pola',
 
 'btn_copy_to_clipboard' => 
-'Copy to Clipboard',
+'Skopiuj do schowka',
 
 'btn_create_file' => 
-'Create [file]',
+'Utwórz [plik]',
 
 'btn_create_file_working' => 
-'Creating...',
+'Trwa tworzenie...',
 
 'btn_download_file' => 
-'Download File',
+'Pobierz plik',
 
 'comma_delimit' => 
-'Comma',
+'Przecinek',
 
 'confirm_assignments' => 
-'Confirm Assignments',
+'Potwierdź przypisania',
 
 'delimiting_char' => 
-'Delimiting character',
+'Ograniczanie znaku',
 
 'delimiting_char_desc' => 
-'Character used to delimit the above file.',
+'Znak używany do ograniczania powyższego pliku.',
 
 'duplicate_field_assignment' => 
-'Duplicate field assignment: %x',
+'Zduplikowane przypisanie pola: %x',
 
 'duplicate_member_id' => 
-'Duplicate Member ID: "%x"<br />It is recommended that you do not use a &lt;member_id&gt; tag and allow ExpressionEngine to auto-increment member_id',
+'Zduplikowany identyfikator członka: "%x" <br /> Zaleca się, aby nie używać opcji &lt; member_id &gt; zapisz i pozwól ExpressionEngine na automatyczne zwiększenie wartości member_id',
 
 'duplicate_username' => 
-'Duplicate username: ',
+'Powiel nazwę użytkownika: ',
 
 'enclosing_char' => 
-'Enclosing character',
+'Objęcie charakteru',
 
 'enclosing_char_desc' => 
-'Character that encloses your data.',
+'Postać, która otacza twoje dane.',
 
 'encrypted_passwords' => 
-'Passwords are encrypted.',
+'Hasła są szyfrowane.',
 
 'file_not_converted' => 
-'Attention: File not converted',
+'Uwaga: plik nie został przekonwertowany',
 
 'file_not_converted_desc' => 
-'We were unable to convert this file, please review and fix errors below.',
+'Nie udało się przekonwertować tego pliku. Sprawdź i napraw błędy poniżej.',
 
 'import_cache_file_not_writable' => 
-'Cache folder not writable',
+'Pamięć podręczna nie jest zapisywalna',
 
 'import_cache_file_instructions' => 
-'To upload the file, the cache folder must be writable.',
+'Aby przesłać plik, folder pamięci podręcznej musi być zapisywalny.',
 
 'import_convert_btn' => 
-'Convert File',
+'Konwertuj plik',
 
 'import_convert_btn_saving' => 
-'Converting...',
+'Trwa konwersja...',
 
 'import_converter' => 
-'Import File Converter',
+'Importuj konwerter plików',
 
 'import_password_warning' => 
-'<b>Warning</b>: If you don\'t map one of your data points to "Password", a random encrypted password will be assigned to each imported user. These users will need to reset their password via the "Forgot Password" link.',
+'<b> Ostrzeżenie </b>: jeśli nie zamapujesz jednego z punktów danych na "Hasło", każdemu zaimportowanemu użytkownikowi zostanie przypisane losowe zaszyfrowane hasło. Ci użytkownicy będą musieli zresetować swoje hasło za pomocą linku "Nie pamiętam hasła".
+',
 
 'member_file' => 
-'Member file',
+'Plik członka',
 
 'member_file_desc' => 
-'Delimited file containing member data',
+'Rozdzielany plik zawierający dane członków',
 
 'member_id_warning' => 
-'WARNING: If you have &lt;member_id&gt; tags in your XML, existing members with the same member_id will be OVERWRITTEN! Proceed with caution!',
+'OSTRZEŻENIE: jeśli masz wartość &lt; member_id &gt; tagi w twoim XML, istniejący członkowie z tym samym member_id będą NADPISANE! Zachowaj ostrożność!',
 
 'missing_email_field' => 
-'You must assign a field to "email"',
+'Musisz przypisać pole do "email"',
 
 'missing_screen_name_field' => 
-'You must assign a field to "screen_name"',
+'Musisz przypisać pole do "screen_name"',
 
 'missing_username_field' => 
-'You must assign a field to "username"',
+'Musisz przypisać pole do "nazwy użytkownika"',
 
 'not_enough_fields' => 
-'Not enough fields',
+'Zbyt mało pól',
 
 'not_enough_fields_desc' => 
-'You must have at least 3 fields: username, screen_name, and email address',
+'Musisz mieć co najmniej 3 pola: nazwa użytkownika, nazwa_pliku i adres e-mail',
 
 'other_delimit' => 
-'Other <i>Type character below</i>',
+'Inne <i>Napisz znak poniżej</i>',
 
 'pipe_delimit' => 
-'Pipe',
+'Rura',
 
 'plain_text_passwords' => 
-'Plain text passwords?',
+'Czy zwykłe hasła tekstowe?',
 
 'plain_text_passwords_desc' => 
-'When enabled, passwords will be imported in plain text.',
+'Po włączeniu hasła zostaną zaimportowane w postaci zwykłego tekstu.',
 
 'plaintext_passwords' => 
-'Passwords are plain text.',
+'Hasła to zwykły tekst.',
 
 'select' => 
-'Select field',
+'Wybierz pole',
 
 'tab_delimit' => 
-'Tab',
+'Zakładka',
 
 'xml_code' => 
-'XML Code',
+'Kod XML',
 
 'btn_add_fields' => 
-'Add Fields',
+'Dodaj pola',
 
 'btn_add_fields_working' => 
-'Adding...',
+'Trwa dodawanie...',
 
 'btn_confirm_import_working' => 
-'Importing...',
+'Trwa importowanie...',
 
 'confirm_import' => 
-'Confirm Import',
+'Potwierdź import',
 
 'confirm_import_warning' => 
-'<p class="txt-caution"><span class="icon--caution" title="exercise caution"></span> <b>Caution</b>: If your <abbr title="Extensible Markup Language">XML</abbr> file contains a tag named "<b>member_id</b>", stop.</p><p>Members in your database with matching <abbr title="Identifier">ID</abbr>s will be <b>overwritten</b> if you confirm this import.</p>',
+'<p class = "txt-caution"> <span class = "icon - caution" title = "exercise attention"> </span> <b> Uwaga</b>: If your <abbr title = "Extensible Markup Language Plik "> XML </ abbr> zawiera znacznik o nazwie" <b> member_id </ b> ", stop. </p> <p> Członkowie w twojej bazie danych z dopasowaniem <abbr title ="Identifier"> ID </abbr > s zostanie nadpisane <b> </ b> po potwierdzeniu tego importu. </p>
+',
 
 'custom_fields' => 
-'Custom Fields',
+'Pola niestandardowe',
 
 'field_label' => 
-'Field Label',
+'Etykieta pola',
 
 'field_name' => 
-'Field Name',
+'Nazwa pola',
 
 'field_public' => 
-'Public?',
+'Publiczny?',
 
 'field_registration' => 
-'Registration?',
+'Rejestracja?',
 
 'field_required' => 
-'Required?',
+'Wymagane?',
 
 'file_read_error' => 
-'Unable to read file',
+'Nie można odczytać pliku',
 
 'file_read_error_desc' => 
-'The XML file was not able to be read, check that the file exists and has proper read permissions.',
+'Nie można odczytać pliku XML, sprawdzić, czy plik istnieje i ma odpowiednie uprawnienia do odczytu.',
 
 'import_success' => 
-'Import was successful',
+'Importowanie się powiodło',
 
 'map_custom_fields' => 
-'Map Custom Fields',
+'Mapuj własne pola',
 
 'map_custom_fields_desc' => 
-'Your <abbr title="Extensible Markup Language">XML</abbr> file has fields that don\'t map directly to our importer, please review and assign custom fields as needed.',
+'Twój plik <abbr title = "Extensible Markup Language"> XML </abbr> zawiera pola, które nie są mapowane bezpośrednio do naszego importera. W razie potrzeby przejrzyj i przypisz niestandardowe pola.
+',
 
 'mbr_create_custom_fields' => 
-'Create custom fields?',
+'Utworzyć niestandardowe pola?',
 
 'mbr_create_custom_fields_desc' => 
-'When enabled, import will automatically create custom member fields for any data that does not match a default member field.',
+'Po włączeniu import automatycznie utworzy niestandardowe pola dla wszystkich danych, które nie są zgodne z domyślnym polem członka.',
 
 'mbr_datetime_fmt' => 
-'Date &amp; time format',
+'Data &amp; format czasu',
 
 'mbr_import_btn' => 
-'Import Members',
+'Import członków',
 
 'mbr_import_btn_saving' => 
-'Importing...',
+'Trwa importowanie...',
 
 'mbr_import_default_options' => 
-'Default Options',
+'Domyślne opcje',
 
 'mbr_language' => 
-'Language',
+'Język',
 
 'mbr_xml_file' => 
-'<abbr title="Extensible Markup Language">XML</abbr> file location',
+'Położenie pliku <abbr title="Extensible Markup Language">XML</abbr>',
 
 'member_group' => 
-'Member group',
+'Grupa użytkowników',
 
 'member_import_error' => 
-'Attention: Import not completed',
+'Uwaga: Import nie został zakończony',
 
 'member_import_error_desc' => 
-'We were unable to complete the import, please review and fix errors below.',
+'Nie udało nam się dokończyć importowania, sprawdź i napraw błędy poniżej.',
 
 'member_import_no_custom_fields_selected' => 
-'No custom fields were selected for import. Please click the checkboxes next to the fields you which to create.',
+'Nie wybrano żadnych niestandardowych pól do importu. Kliknij pola wyboru obok pól, które chcesz utworzyć.',
 
 'member_xml_file' => 
-'Member XML file',
+'Plik XML członka',
 
 'member_xml_file_desc' => 
-'XML file containing member data',
+'Plik XML zawierający dane członków',
 
 'new_fields_success' => 
-'The following custom member fields were successfully added:',
+'Następujące niestandardowe pola członków zostały pomyślnie dodane:',
 
 'option' => 
-'Option',
+'Opcja',
 
 'value' => 
-'Value',
+'Wartość',
 
 'xml_parse_error' => 
-'Unable to parse XML',
+'Nie można przeanalizować kodu XML',
 
 'xml_parse_error_desc' => 
-'Check the XML file for any incorrect syntax.',
+'Sprawdź plik XML pod kątem nieprawidłowej składni.',
 
 'backing_up' => 
-'Backing up...',
+'Trwa backupowanie...',
 
 'backup_database' => 
-'Backup Database',
+'Backup bazy danych',
 
 'backup_error' => 
-'Cannot Make Backup',
+'Nie można utworzyć kopii zapasowej',
 
 'backup_success' => 
-'Backup Succeeded',
+'Kopia zapasowa powiodła się',
 
 'backup_success_desc' => 
-'Your backup has been stored in your system folder at: <b>%s</b>',
+'Kopia zapasowa została zapisana w folderze systemowym: <b>%s</b>',
 
 'backup_tables' => 
-'Backup tables',
+'Backupowanie tabel',
 
 'cache_path_not_writable' => 
-'Your cache path is not writable. This folder must be writable to write your backup.',
+'Twoja ścieżka do pamięci podręcznej nie jest zapisywalna. Ten folder musi być zapisywalny, aby zapisać kopię zapasową.',
 
 'not_enough_free_disk_space' => 
-'There is not enough free disk space to write your backup. %s needed.',
+'Brak wolnego miejsca na dysku do zapisania kopii zapasowej. Wymagane %s.',
 
 'table_count' => 
-'<b>%s</b> tables',
+'tabele <b>%s</b>',
 
 'affected_rows' => 
-'Affected Rows',
+'Zmienione rzędy',
 
 'common_queries' => 
-'Common queries',
+'Typowe zapytania',
 
 'common_queries_desc' => 
-'Some common queries you can run, to learn more about your database content.',
+'Niektóre typowe zapytania, które można uruchomić, aby dowiedzieć się więcej o zawartości bazy danych.',
 
 'query_btn' => 
-'Run Query',
+'Uruchom zapytanie',
 
 'query_btn_saving' => 
-'Running...',
+'Trwa...',
 
 'query_form_error' => 
-'Attention: Query not run',
+'Uwaga: zapytanie nie działa',
 
 'query_form_error_desc' => 
-'We were unable to run your query, please review and fix errors below.',
+'Nie udało się uruchomić Twojego zapytania. Sprawdź i napraw błędy poniżej.',
 
 'query_results' => 
-'Query Results',
+'Wyniki zapytania',
 
 'search_table' => 
-'search table',
+'przeszukaj tabelę',
 
 'sql_not_allowed' => 
-'Query type not allowed',
+'Typ zapytania nie jest dozwolony',
 
 'sql_not_allowed_desc' => 
-'You cannot run FLUSH, REPLACE, GRANT, REVOKE, LOCK or UNLOCK queries.',
+'Nie można uruchamiać zapytań FLUSH, REPLACE, GRANT, REVOKE, LOCK lub UNLOCK.',
 
 'sql_password_desc' => 
-'You <b>must</b> enter your password to run queries.',
+'<B>Musisz</b> podać hasło, aby uruchamiać zapytania.',
 
 'sql_query_abbr' => 
-'<abbr title="Structured Query Language">SQL</abbr> Query',
+'Zapytanie <abbr title="Structured Query Language">SQL</abbr>',
 
 'sql_query_form' => 
-'SQL Query Form',
+'Formularz zapytania SQL',
 
 'sql_query_form_abbr' => 
-'<abbr title="Structured Query Language">SQL</abbr> Query Form',
+'Formularz zapytania <abbr title="Structured Query Language">SQL</abbr>',
 
 'sql_query_to_run' => 
-'Query to run',
+'Zapytanie do uruchomienia',
 
 'sql_warning' => 
-'<p><b>Warning</b>: <b class="no">Advanced users only.</b> Please be very careful with using this feature.</p><p>Depending on the syntax used, this function can produce undesired results. Consult the user guide and backup your database.</p>',
+'<p> <b>Ostrzeżenie</b>: <b class = "no"> Tylko zaawansowani użytkownicy. </b> Zachowaj ostrożność podczas korzystania z tej funkcji. </p> <p> W zależności od użytej składni, ta funkcja może powodować niepożądane rezultaty. Zapoznaj się z podręcznikiem użytkownika i wykonaj kopię zapasową bazy danych. </p>',
 
 'total_results' => 
-'Total Results',
+'Wszystkich wyników',
 
 'type_phrase' => 
-'type phrase...',
+'wpisz frazę...',
 
 'channel_titles' => 
-'Channel Entries',
+'Wpisy kanałów',
 
 'forum_topics' => 
-'Forum Topics',
+'Tematy na forum',
 
 'forums' => 
-'Forums',
+'Fora',
 
 'manage_stats' => 
-'Manage Statistics',
+'Zarządzanie statystykami',
 
 'members' => 
-'Members',
+'Członkowie',
 
 'record_count' => 
-'Record Count',
+'Liczenie rekordów',
 
 'sites' => 
-'Sites',
+'Witryny',
 
 'source' => 
-'Source',
+'Źródło',
 
 'sync' => 
 'Sync',
 
 'sync_completed' => 
-'Synchronization Completed',
+'Zakończono synchronizację',
 
 'database_tables' => 
-'Database Tables',
+'Tabele bazy danych',
 
 'manage' => 
-'Manage',
+'Zarządzaj',
 
 'message' => 
-'Message',
+'Wiadomość',
 
 'mysql' => 
 'My<abbr title="Structured Query Language">SQL</abbr>',
 
 'no_action_selected' => 
-'You must select an action to perform on the selected tables.',
+'Musisz wybrać akcję do wykonania na wybranych tabelach.',
 
 'no_tables_selected' => 
-'You must select the tables in which to perform this action.',
+'Musisz wybrać tabele, w których chcesz wykonać tę akcję.',
 
 'optimize' => 
-'Optimize',
+'Optymalizuj',
 
 'optimize_tables_results' => 
-'Optimized Table Results',
+'Zoptymalizowane wyniki tabeli',
 
 'records' => 
-'Records',
+'Rekordy',
 
 'repair' => 
-'Repair',
+'Napraw',
 
 'repair_tables_results' => 
-'Repair Table Results',
+'Napraw wyniki tabeli',
 
 'search_tables' => 
-'search tables',
+'tabele wyszukiwania',
 
 'size' => 
-'Size',
+'Wielkość',
 
 'status' => 
 'Status',
 
 'table' => 
-'Table',
+'Tabela',
 
 'table_name' => 
-'Table Name',
+'Nazwa tabeli',
 
 'total_records' => 
-'Total Records',
+'Wszystkich rekordów',
 
 'uptime' => 
 'Uptime',
@@ -666,34 +669,35 @@ $lang = array(
 'Mass Notification Export',
 
 'export_email_addresses_title' => 
-'Export a <abbr title="Comma Separated Values">CSV</abbr> File',
+'Eksport pliku <abbr title="Comma Separated Values">CSV</abbr>',
 
 'export_email_addresses_desc' => 
-'Export names and email addresses of your %s members.',
+'Eksport nazw i adresów emaili członków %s .',
 
 'export_warning_desc' => 
-'This action should only be done by authorized users. The resulting <abbr title="Comma Separated Values">CSV</abbr> file should be handled in harmony with your privacy policy.',
+'Ta czynność powinna być wykonywana tylko przez autoryzowanych użytkowników. Wynikowy plik <abbr title = "Wartości oddzielone przecinkami"> CSV </abbr> należy traktować zgodnie z polityką prywatności.
+',
 
 'download_valid_email_addresses' => 
-'Download Valid Emails',
+'Pobierz prawidłowe wiadomości e-mail',
 
 'download_invalid_email_addresses' => 
-'Download Invalid Emails',
+'Pobierz nieprawidłowe wiadomości e-mail',
 
 'exported_valid_email_addresses' => 
-'Valid member email addresses were exported',
+'Poprawne adresy e-mail członków zostały wyeksportowane',
 
 'exported_invalid_email_addresses' => 
-'Invalid member email addresses were exported',
+'Nieprawidłowe adresy e-mail członków zostały wyeksportowane',
 
 'validate_addresses' => 
-'Validate email addresses?',
+'Sprawdź poprawność adresów e-mail?',
 
 'validate_addresses_desc' => 
-'Check the email for corret format and check that the domain exists.',
+'Sprawdź pocztę e-mail pod kątem formatu corret i sprawdź, czy domena istnieje.',
 
 'export_email_addresses_fail' => 
-'Export Failed',
+'Eksport nie powiódł się',
 
 ''=>''
 );

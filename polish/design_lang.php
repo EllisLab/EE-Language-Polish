@@ -444,7 +444,7 @@ $lang = array(
 'Wiadomości użytkownika',
 
 'message_template_warning' => 
-'<b> Ostrzeżenie </b>: nie usuwaj żadnej z pięciu wymaganych zmiennych: {title} {meta_refresh} {heading} {content} {link}',
+'<b> Ostrzeżenie </ b>: nie usuwaj żadnej z pięciu wymaganych zmiennych: {title} {meta_refresh} {heading} {content} {link}',
 
 'offline_template' => 
 'Witryna Offline',
@@ -684,7 +684,8 @@ $lang = array(
 'Nazwa pliku',
 
 'folder_exists_warning' => 
-'A text file folder exists for this group. The folder and all contents will be automatically deleted as part of this action.',
+'Dla tej grupy istnieje folder plików tekstowych. Folder i cała zawartość zostaną automatycznie usunięte w ramach tej akcji.
+',
 
 'form_is_empty' => 
 'Wysłano pusty formularz',
@@ -729,7 +730,7 @@ $lang = array(
 'Wejść',
 
 'http_auth_protected' => 
-'HTTP Auth Protected',
+'Chroniona autoryzacja HTTP',
 
 'index_delete_disallowed' => 
 'Grupy szablonów muszą mieć szablon index',

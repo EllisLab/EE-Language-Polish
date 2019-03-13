@@ -18,10 +18,10 @@ $lang = array(
 'Zapisz istę',
 
 'btn_download_blacklist' => 
-'Ściągnik czarną listę EE',
+'Pobierz czarną listę EE',
 
 'btn_download_whitelist' => 
-'Ściągnik białą listę EE',
+'Pobierz białą listę EE',
 
 'btn_save_settings' => 
 'Zapisz ustawienia',

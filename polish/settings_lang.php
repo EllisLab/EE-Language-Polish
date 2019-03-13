@@ -27,7 +27,7 @@ $lang = array(
 'Ustawienia główne',
 
 'hit_tracking' => 
-'Hit Tracking',
+'Śledzenie trafień',
 
 'html_buttons' => 
 'Przyciski <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -421,13 +421,13 @@ $lang = array(
 'Czy włączyć nowy relikt RUM JavaScript?',
 
 'use_newrelic_desc' => 
-'Po włączeniu Nowy Relikt doda <a href = "https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring" rel = "zewnętrzny"> Monitorowanie rzeczywistego użytkownika JavaScript </a> na wszystkich swoich stronach internetowych.',
+'Po włączeniu, Nowy Relikt doda <a href = "https://docs.newrelic.com/docs/browser/new-relic-browser/page-load-timing-resources/instrumentation-browser-monitoring" rel="external"> Monitorowanie rzeczywistego użytkownika JavaScript </a> na wszystkich swoich stronach internetowych.',
 
 'auto_assign_cat_parents' => 
 'Przypisać rodziców kategorii?',
 
 'auto_assign_cat_parents_desc' => 
-'When enabled, ExpressionEngine will automatically set the parent category when choosing a child category.',
+'Po włączeniu, ExpressionEngine automatycznie ustawi kategorię nadrzędną przy wyborze kategorii podrzędnej.',
 
 'categories_section' => 
 'Kategorie',
@@ -553,184 +553,185 @@ $lang = array(
 'Szablon będzie używany jako strona dla błędu 404.',
 
 'strict_urls' => 
-'Enable strict <abbr title="Uniform Resource Location">URL</abbr>s?',
+'Włącz strict <abbr title="Uniform Resource Location">URL</abbr>s?',
 
 'strict_urls_desc' => 
-'When enabled, ExpressioneEngine will apply stricter rules to <abbr title="Uniform Resource Location">URL</abbr> handling.',
+'Po włączeniu, ExpressioneEngine zastosuje bardziej rygorystyczne reguły do obsługi <abbr title = "Uniform Resource Location">URL</ abbr>.',
 
 'template_manager' => 
-'Template Manager',
+'Menadżer szablonów',
 
 'dynamic_tracking_disabling' => 
-'Suspend threshold?',
+'Zawiesić próg?',
 
 'dynamic_tracking_disabling_desc' => 
-'All tracking will be suspended when the number of online visitors exceeds this number.</em> <em>Online user tracking must be enabled to use this feature. <a href="%s" ref="external">Learn more</a>',
+'Całe śledzenie zostanie zawieszone, gdy liczba użytkowników online przekroczy tę liczbę. </ Em> <em> Aby korzystać z tej funkcji, należy włączyć śledzenie użytkowników online. <a href="%s" ref="external"> Dowiedz się więcej </a>
+',
 
 'enable_entry_view_tracking' => 
-'Enable entry view tracking?',
+'Włączyć śledzenie wyświetlania wpisu ?',
 
 'enable_entry_view_tracking_desc' => 
-'When enabled, ExpressionEngine will count how many times a channel entry is viewed.',
+'Po włączeniu, ExpressionEngine będzie liczył jak wiele razy wpisy na kanale zostały wyświetlone .',
 
 'enable_hit_tracking' => 
-'Enable template hit tracking?',
+'Włączyć śledzenie trafień szablonu?',
 
 'enable_hit_tracking_desc' => 
-'When enabled, ExpressionEngine will count how many times a template is viewed.',
+'Po włączeniu, ExpressionEngine będzie liczył ile razy szablon został wyświetlony.',
 
 'enable_online_user_tracking' => 
-'Enable online user tracking?',
+'Włączyć śledzenie zalogownych użytkowników?',
 
 'enable_online_user_tracking_desc' => 
-'When enabled, ExpressionEngine will track logged in users.',
+'Po włączeniu, ExpressionEngine będzie śledził zalogowanych użytkowników.',
 
 'log_referrers' => 
-'Enable referrer tracking?',
+'Włączyć śledzenie strony odsyłającej?',
 
 'log_referrers_desc' => 
-'When enabled, ExpressionEngine will track all incoming links.',
+'Po włączeniu, ExpressionEngine będzie śledził wszystkie linki przychodzące.',
 
 'max_referrers' => 
-'Maximum recent referrers to save',
+'Maksymalna liczba ostatnich odesłań do zapisania',
 
 'censor_replacement' => 
-'Replacement characters',
+'Zamienne znaki',
 
 'censor_replacement_desc' => 
-'Words that match any word in the words to censor list will be replaced with these characters.',
+'Słowa pasujące do dowolnego wyrazu w słowach na liście cenzorów zostaną zastąpione tymi znakami.',
 
 'censored_words' => 
-'Words to censor',
+'Cenzurowane słowa',
 
 'censored_words_desc' => 
-'One word per line. All words listed will be replaced with the above specified characters.',
+'Jedno słowo w linii. Wszystkie wpisane słowa będą zastąpione powyższymi znakami.',
 
 'enable_censoring' => 
-'Enable censorship?',
+'Włączyć cenzurowanie?',
 
 'enable_censoring_desc' => 
-'When enabled, words listed will be replaced with the specified replacement characters.',
+'Po włączeniu, słowa wpisane słowa będą zastąpione powyższymi znakami.',
 
 'allow_member_localization' => 
-'Allow members to set time preferences?',
+'Zezwalać członkom na ustawianie preferencji czasowych?',
 
 'allow_member_localization_desc' => 
-'When enabled, members will be able to set a specific time and date localization for their account.',
+'Po włączeniu, członkowie będą mogli ustawić konkretny czas i datę dla swojego konta.',
 
 'allow_member_registration' => 
 'Czy pozwolić na rejestracje?',
 
 'allow_member_registration_desc' => 
-'When enabled, users will be able to register member accounts.',
+'Po włączeniu, użytkownicy będą mogli rejestrować konta członków.',
 
 'approved_member_notification' => 
-'Notify members when approved?',
+'Czy powiadamiać członków po zatwierdzeniu?',
 
 'approved_member_notification_desc' => 
-'When enabled, members will receive an email notification when their member registration is approved.',
+'Po włączeniu, członkowie będą otrzymywać email informujący o zatwierdzeniu członkostwa.',
 
 'declined_member_notification' => 
-'Notify members when declined?',
+'Czy informować człlonków o odrzuceniu?',
 
 'declined_member_notification_desc' => 
-'When enabled, members will receive an email notification when their member registration is declined.',
+'Po włączeniu, członkowie będą otrzymywać email informujący o odrzuceniu zatwierdzenia członkostwa.',
 
 'default_member_group' => 
-'Default member group',
+'Domyślna grupa członkowska',
 
 'mbr_notification_emails' => 
-'Notification recipients',
+'Adresaci powiadomień',
 
 'mbr_notification_emails_desc' => 
-'Separate multiple Emails with a comma.',
+'Oddziel wiele emaili przecinkami.',
 
 'member_listing_settings' => 
-'Member Listing Settings',
+'Ustawienia listy użytkowników',
 
 'member_settings' => 
-'Member Settings',
+'Ustawienia użytkownika',
 
 'member_theme' => 
-'Member profile theme',
+'Motyw profilu użytkownika',
 
 'member_theme_desc' => 
-'Default theme used for member profiles.',
+'Domyślny motyw używany dla profili członków.',
 
 'memberlist_order_by' => 
-'Sort by',
+'Sortuj wg',
 
 'memberlist_order_by_desc' => 
-'Sorting type for the member listing.',
+'Typ sortowania dla listy członków.',
 
 'memberlist_order_by_opt_entries' => 
-'Total entries',
+'Wszystkich wpisów',
 
 'memberlist_row_limit' => 
-'Total results',
+'Wszystkich wyników',
 
 'memberlist_row_limit_desc' => 
-'Total returned results per page for the member listing.',
+'Łącznie zwrócone wyniki na stronę dla listy członków.',
 
 'memberlist_sort_order' => 
 'Sortuj wg',
 
 'memberlist_sort_order_desc' => 
-'Sorting order for the member listing.',
+'Kolejność sortowania listy członków.',
 
 'memberlist_sort_order_opt_asc' => 
-'Ascending (A-Z/Oldest-Newest)',
+'Rosnąco (A-Z/najstarsze-najnowsze)',
 
 'memberlist_sort_order_opt_desc' => 
-'Descending (Z-A/Newest-Oldest)',
+'Malejąco (Z-A/najnowsze-najstarsze)',
 
 'new_member_notification' => 
-'Enable new member notifications?',
+'Włączyć powiadamianie nowych członków?',
 
 'new_member_notification_desc' => 
-'When enabled, the following Email addresses will be notified anytime a new registration occurs.',
+'Po włączeniu, następujące adresy email zostaną poinformowane za każdym razem gdy wystąpi nowa rejestracja.',
 
 'registration_notify_settings' => 
-'Registration Notification Settings',
+'Ustawienia powiadamiania o rejestracji',
 
 'req_mbr_activation' => 
-'Account activation type',
+'Sposób aktywacji konta',
 
 'req_mbr_activation_desc' => 
-'Choose how you want users to activate their registrations.',
+'Wybierz, w jaki sposób użytkownicy mają aktywować swoje rejestracje.',
 
 'req_mbr_activation_opt_email' => 
-'Send activation Email',
+'Wyślij email aktywacji',
 
 'req_mbr_activation_opt_manual' => 
-'Manually moderated by administrator',
+'Ręcznie moderowane przez administratora',
 
 'req_mbr_activation_opt_none' => 
-'No activation required',
+'Aktywacja nie jest wymagana',
 
 'require_terms_of_service' => 
-'Require terms of service?',
+'Wymagać warunków korzystania z usługi?',
 
 'require_terms_of_service_desc' => 
-'When enabled, users must agree to terms of service during registration.',
+'Po włączeniu, użytkownicy muszą zgodzić się na warunki serwisu podczas rejestracji.',
 
 'add_menu_item' => 
-'Add Menu Item',
+'Dodaj element menu',
 
 'assigned_to' => 
-'assigned to',
+'przypisz do',
 
 'create_menu_item' => 
-'Create Menu Item',
+'Utwórz elemet menu',
 
 'create_menu_set' => 
-'Create Menu Set',
+'Utwórz zestaw menu',
 
 'edit_menu_item' => 
-'Edit Menu Item',
+'Edytuj element menu',
 
 'edit_menu_set' => 
-'Edit Menu Set',
+'Edytuj zestaw menu',
 
 'menu_addon' => 
 'Dodatek',
@@ -868,7 +869,7 @@ $lang = array(
 'Katalog wgrywania',
 
 'prv_msg_upload_url_desc' => 
-'<abbr title = "Uniform Resource Location"> URL </abbr> lokalizacja twojego katalogu <mark> załączników </mark>.
+'<abbr title="Uniform Resource Location">URL</abbr> lokalizacja twojego katalogu <mark>załączników</mark>.
 ',
 
 'allow_avatar_uploads' => 
@@ -893,7 +894,7 @@ $lang = array(
 'Ścieżka Avatara',
 
 'avatar_path_desc' => 
-'Pełna ścieżka do katalogu <mark> awatara </mark>.',
+'Pełna ścieżka do katalogu <mark>awatara</mark>.',
 
 'avatar_settings' => 
 'Ustawienia Avatara',
@@ -902,7 +903,7 @@ $lang = array(
 'Katalog Avatara',
 
 'avatar_url_desc' => 
-'<abbr title ="Uniform Resource Location"> URL </abbr> lokalizacja twojego katalogu <mark>avatara</mark>.',
+'<abbr title="Uniform Resource Location">URL</abbr> lokalizacja twojego katalogu <mark>avatara</mark>.',
 
 'enable_avatars' => 
 'Czy pozwolić na avatary?',
@@ -914,11 +915,11 @@ $lang = array(
 'Czy używać czcionek TrueType?',
 
 'captcha_font_desc' => 
-'Po włączeniu, <abbr title = "Całkowicie zautomatyzowany test Public Turinga dla komputerów typu Computers and Humans Apart"> CAPTCHA </ abbr> użyje czcionki TrueType do wyświetlenia.
+'Po włączeniu, <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> użyje czcionki TrueType do wyświetlenia.
 ',
 
 'captcha_path' => 
-'Ścieżka <abbr title = "Completely Automated Public Turing test to tell Computers and Humans Apart" "CAPTCHA </abbr>',
+'Ścieżka <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>',
 
 'captcha_path_desc' => 
 'Pełna ścieżka twojego <mark> <abbr title ="Completely Automated Public Turing test to tell Computers and Humans Apart"> CAPTCHA </abbr> </mark> katalogu.
@@ -928,13 +929,13 @@ $lang = array(
 'Czy dodać losową liczbę?',
 
 'captcha_rand_desc' => 
-'Po włączeniu, <abbr title = "Completely Automated Public Turing test to tell Computers and Humans Apart"> CAPTCHA </ abbr> spowoduje losowe generowanie liczb oraz liter.',
+'Po włączeniu, <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> spowoduje losowe generowanie liczb oraz liter.',
 
 'captcha_require_members' => 
-'Wymagaj <abbr title = "Completely Automated Public Turing test to tell Computers and Humans Apart"> CAPTCHA </ abbr> po zalogowaniu?',
+'Wymagaj <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> po zalogowaniu?',
 
 'captcha_require_members_desc' => 
-'Po wyłączeniu zalogowani członkowie nie będą musieli wypełniać <abbr title = "Completely Automated Public Turing test to tell Computers and Humans Apart"> CAPTCHA </abbr>.
+'Po wyłączeniu zalogowani członkowie nie będą musieli wypełniać <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>.
 ',
 
 'captcha_settings' => 
@@ -959,7 +960,7 @@ $lang = array(
 'Czy zezwolić na hasła słownikowe?',
 
 'allow_dictionary_pw_desc' => 
-'Po włączeniu członkowie będą mogli używać popularnych słów słownika w swoim haśle. <mark> wymaga zainstalowania pliku słownika, aby go wymusić. </mark>
+'Po włączeniu, członkowie będą mogli używać popularnych słów słownika w swoim haśle. <mark>Wymaga zainstalowania pliku słownika, aby go wymusić. </mark>
 ',
 
 'allow_multi_logins' => 
@@ -1022,7 +1023,7 @@ $lang = array(
 'Czy zabronić powielaniu danych?',
 
 'deny_duplicate_data_desc' => 
-'Po włączeniu formularze nie uwzględniają żadnych zgłoszeń, które stanowią dokładny duplikat istniejących danych.',
+'Po włączeniu, formularze nie uwzględniają żadnych zgłoszeń, które stanowią dokładny duplikat istniejących danych.',
 
 'enable_rank_denial' => 
 'Włącz odmowę rankingu do przesłanych linków?',
@@ -1068,112 +1069,114 @@ $lang = array(
 'Minimum number of characters required for new members\' passwords.',
 
 'require_cookie_consent' => 
-'Require user consent to set cookies?',
+'Wymagaj zgody użytkownika na korzystanie z plików cookie?',
 
 'require_cookie_consent_desc' => 
-'When enabled, cookies will not be set for the visitor (except those <b>strictly necessary</b> for the web site to function) until they have consented to your site\'s cookie policy. See the <a href="https://docs.expressionengine.com/v5/add-ons/consent/">Consent Module documentation</a> for more details.',
+'Po włączeniu, pliki cookie nie zostaną ustawione dla odwiedzającego (z wyjątkiem tych <b>ściśle niezbędnych</b>, aby strona internetowa działała), dopóki nie zgodzą się na politykę plików cookie Twojej witryny. Zobacz <a href="https://docs.expressionengine.com/v5/add-ons/consent/">dokumentację modułu zgody</a>, aby uzyskać więcej informacji.
+',
 
 'require_ip_for_login' => 
-'Require user agent and <abbr title="Internet Protocol">IP</abbr> for login?',
+'Wymagać agenta i adresu <abbr title="Internet Protocol">IP</abbr>, aby zalogować?',
 
 'require_ip_for_login_desc' => 
-'When enabled, members will be unable to login without a valid user agent and <abbr title="Internet Protocol">IP</abbr> address.',
+'Po włączeniu, członkowie nie będą mogli się logować bez prawidłowego agenta użytkownika oraz adresu <abbr title="Internet Protocol">IP</abbr>.',
 
 'require_ip_for_posting' => 
-'Require user agent and <abbr title="Internet Protocol">IP</abbr> for posting?',
+'Wymagać agenta i adresu <abbr title="Internet Protocol">IP</abbr> do zamieszczania?',
 
 'require_ip_for_posting_desc' => 
-'When enabled, members will be unable to post without a valid user agent and <abbr title="Internet Protocol">IP</abbr> address.',
+'Po włączeniu, członkowie nie będą mogli zamieszczać wpisów bez prawidłowego agenta użytkownika oraz adresu <abbr title="Internet Protocol">IP</abbr>.',
 
 'require_secure_passwords' => 
-'Require secure passwords?',
+'Wymagać bezpiecznego hasła?',
 
 'require_secure_passwords_desc' => 
-'When enabled, members will be required to choose passwords containing at least one uppercase, one lowercase, and one numeric character.',
+'Po włączeniu, członkowie będą przymuszani do wybierania hasła zawierającego co najmniej jedną dużą i małą literę oraz cyfrę.',
 
 's_session' => 
-'Session ID only',
+'Tylko ID sesji',
 
 'security_tip' => 
-'<b>Tip</b>: Site security is important.',
+'<b>Wskazówka</b>: Bezpieczeństwo witryny jest ważne.',
 
 'security_tip_desc' => 
-'Any setting marked with <span class="icon--caution" title="security enhancement"></span> will further enhance and improve site security.',
+'Każde ustawienie oznaczone ikoną <span class="icon--caution" title="security enhancement"></span> jeszcze bardziej zwiększy i poprawi bezpieczeństwo witryny.',
 
 'share_analytics' => 
-'Share analytics with the ExpressionEngine Development Team?',
+'Udostępniać analitykę zespołowi rozwijającemu ExpressionEngine? ',
 
 'share_analytics_desc' => 
-'EllisLab asks users to help improve ExpressionEngine by occasionally <a href="%s">providing analytics, diagnostic, and usage information</a>.',
+'EllisLab prosi użytkowników o pomoc w ulepszaniu ExpressionEngine poprzez okazjonalne <a href="%s">dostarczanie informacji analitycznych, diagnostycznych i informacji o użytkowaniu</a>.
+',
 
 'un_min_len' => 
-'Minimum username length',
+'Minimalna długośc nazwy użytkownika',
 
 'un_min_len_desc' => 
-'Minimum number of characters required for new members\' usernames.',
+'Minimalna liczba znaków wymagana dla nazw użytkowników nowych członków.',
 
 'website_session_type' => 
-'Website Session type',
+'Typ sesji strony internetowej',
 
 'xss_clean_uploads' => 
-'Apply <abbr title="Cross Site Scripting">XSS</abbr> filtering?',
+'Dodać filtrowanie <abbr title="Cross Site Scripting">XSS</abbr> ?',
 
 'xss_clean_uploads_desc' => 
-'When enabled, forms will apply <abbr title="Cross Site Scripting">XSS</abbr> filtering to submissions.',
+'Po włączeniu, w formularzach będzie stosowane filtrowanie <abbr title="Cross Site Scripting">XSS</abbr> podczas wysyłania danych.',
 
 'banish_404' => 
-'Send to 404',
+'Wyślij do 404',
 
 'banish_masked_ips' => 
-'Require <abbr title="Internet Protocol">IP</abbr>?',
+'Wymagane <abbr title="Internet Protocol">IP</abbr>?',
 
 'banish_masked_ips_desc' => 
-'When enabled, members will be denied access if they do not have a valid <abbr title="Internet Protocol">IP</abbr> address.',
+'Po włączeniu, członkowie otrzymają odmowę dostępu, jeśli nie mają poprawnego adresu <abbr title = "Internet Protocol"> IP </abbr>.',
 
 'banish_message' => 
-'Display message',
+'Wyświetl wiadomość',
 
 'banish_redirect' => 
-'Redirect to URL',
+'Przekieruj na adres URL',
 
 'banishment_message' => 
-'Message',
+'Wiadomość',
 
 'banishment_type' => 
-'Lock out action',
+'Zablokuj operację',
 
 'banishment_url' => 
-'Redirect',
+'Przekieruj',
 
 'banishment_url_desc' => 
-'<abbr title="Uniform Resource Location">URL</abbr> location for locked out members.',
+'Lokalizacja <abbr title="Uniform Resource Location">URL</abbr> dla zablokowanych członków.',
 
 'enable_throttling' => 
-'Enable throttling?',
+'Czy włączyć throttling?',
 
 'enable_throttling_desc' => 
-'When enabled, members will be locked out of the system when they meet the lock out requirement.',
+'Po włączeniu, członkowie będą zablokowani w systemie, gdy spełnią wymóg blokady.',
 
 'lockout_time' => 
-'Lockout time',
+'Czas blokady',
 
 'lockout_time_desc' => 
-'The number of seconds a user should be locked out of your site if they exceed the limits.',
+'Ilość sekund, przez jakie użytkownik powinien być blokowany przez witrynę jeśłi przekroczy limity.',
 
 'max_page_loads' => 
-'Maximum page loads',
+'Maksymalne obciążenie strony',
 
 'max_page_loads_desc' => 
 'Łączna liczba razy, kiedy użytkownik może wczytać dowolną ze stron internetowych (w przedziale czasowym poniżej) przed zablokowaniem.',
 
 'throttling_limit_settings' => 
-'Ustawienia ograniczenia dławienia',
+'Ustawienia ograniczenia dławienia (Throttling)',
 
 'time_interval' => 
 'Przedział czasowy',
 
 'time_interval_desc' => 
-'The number of seconds during which the above number of page loads are allowed.',
+'Liczba sekund, przez które dozwolona jest powyższa liczba stron.',
 
 'create_html_buttons_error' => 
 'Nie można utworzyć przycisku <abbr title="Hyper-Text Markup Language">HTML</abbr>',

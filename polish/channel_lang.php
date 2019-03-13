@@ -84,7 +84,7 @@ $lang = array(
 'Nieprawidłowy zestaw kanałów. Brakujący plik channel_set.json.',
 
 'channel_set_incompatible' => 
-'Niezgodny zestaw kanałów. Ten zestaw kanałów wymaga ExpressionEngine% d.0.0 lub nowszego.',
+'Niezgodny zestaw kanałów. Ten zestaw kanałów wymaga ExpressionEngine w wersji %d.0.0 lub nowszej.',
 
 'channels' => 
 'Kanały',
@@ -372,52 +372,53 @@ $lang = array(
 'Autor',
 
 'channel_form_default_author_desc' => 
-'Default author for guest entries posted via Channel Form.',
+'Domyślny autor dla wpisów gości opublikowanych za pośrednictwem formularza kanału.',
 
 'channel_form_default_status_empty' => 
-'-- Use Channel Default --',
+'-- Użyj ustawień domyślnych kanału --',
 
 'channel_form_status_desc' => 
-'Default status for forms in this channel.',
+'Domyślny status formularzy w tym kanale.',
 
 'channel_url_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location of this channel.',
+'Adres <abbr title="Unified Resource Locator">URL</abbr> tego kanału.',
 
 'clear_versioning_data' => 
-'Delete all existing revision data in this channel?',
+'Czy usunąć wszystkie istniejące dane wersji w tym kanale?',
 
 'closed' => 
-'Closed',
+'Zamknięte',
 
 'comment_convert_image_urls_desc' => 
-'When enabled, <abbr title="Unified Resource Locator">URL</abbr>s to image resources will be automagically rendered as images in this channel\'s comments.',
+'Po włączeniu <abbr title = "Ujednolicony lokalizator zasobów"> URLi</ abbr> do zasobów obrazu zostanie automatycznie renderowany jako obrazy w komentarzach do tego kanału.',
 
 'comment_convert_urls_emails_to_links_desc' => 
-'When enabled, <abbr title="Unified Resource Locator">URL</abbr>s and Email address will be rendered as links in this channel\'s comments.',
+'Po włączeniu, <abbr title = "Unified Resource Locator">URLi</ abbr> oraz adres e-mail będą renderowane jako odnośniki w komentarzach tego kanału.',
 
 'comment_expiration' => 
-'Comment expiration',
+'Wygaśnięcie komentarza',
 
 'comment_expiration_desc' => 
-'Number of days after an entry is published, before comments are no longer accepted.</em><br /><em>Leave blank for no expiration.',
+'Liczba dni po opublikowaniu wpisu, zanim komentarze nie będą już akceptowane. </ Em> <br /> <em> Pozostaw puste dla braku ważności.
+',
 
 'comment_form' => 
-'Comment form',
+'Formularz komentarza',
 
 'comment_form_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location of comment form for this channel.',
+'<abbr title="Unified Resource Locator">URL</abbr> lokalizacji formularza komentarza dla tego kanału.',
 
 'comment_time_limit' => 
-'Comment time limit',
+'Limit czasu komentarza',
 
 'comment_time_limit_desc' => 
-'Number of seconds that must pass before a member can submit another comment.</em><br /><em>Enter 0 for no time limit.',
+'Liczba sekund, które muszą upłynąć, zanim członek może przesłać inny komentarz. </Em> <br /> <em> Wpisz 0, aby nie było limitu.',
 
 'commenting' => 
-'Commenting',
+'Komentowanie',
 
 'convert_image_urls' => 
-'Allow image <abbr title="Unified Resource Locator">URL</abbr>s?',
+'Zezwolić <abbr title="Unified Resource Locator">URL</abbr> do grafiki?',
 
 'convert_image_urls_desc' => 
 'Po włączeniu <abbr title = "Ujednolicony lokalizator zasobów"> URL </ abbr> s do zasobów obrazu zostanie automatycznie wygenerowany jako obrazy w pozycjach tego kanału.',
@@ -426,7 +427,7 @@ $lang = array(
 'Konwertuj na elementy HTML',
 
 'convert_urls_emails_to_links' => 
-'Render <abbr title="Unified Resource Locator">URL</abbr>s and Email addresses as links?',
+'Wykonaj <abbr title="Unified Resource Locator">URL</abbr> oraz adres email adres jako linki?',
 
 'convert_urls_emails_to_links_desc' => 
 'Po włączeniu <abbr title = "Ujednolicony lokalizator zasobów"> URL </ abbr> s i adres e-mail zostaną wyświetlone jako łącza w pozycjach tego kanału.',
@@ -447,241 +448,242 @@ $lang = array(
 'Wygenerowany tytuł',
 
 'default_title_desc' => 
-'Title assigned to all <b>new</b> entries in this channel.',
+'Tytuł przyporządkowany do wszystkich <b>nowych</b> wpisów w tym kanale.',
 
 'enable_author_notification' => 
-'Enable author notification?',
+'Włącz powiadamianie autora?',
 
 'enable_author_notification_desc' => 
-'When enabled, the author of an entry will be notified when someone comments on their entry.',
+'Gdy włączone, autor wpisu będzie powiadamiany, gdy ktoś skomentuje jego wpis.',
 
 'enable_channel_entry_notification' => 
-'Enable channel entry notification?',
+'Włączyć powiadamianie o wpisie na kanale?',
 
 'enable_channel_entry_notification_desc' => 
-'When enabled, all recipients listed will receive Email notification when a new entry is published to this channel.</em><br /><em>Separate multiple Emails with a <mark>comma (,)</mark>.',
+'Gdy włączone, wszyscy wymienieni odbiorcy otrzymają powiadomienie na Email, gdy nowy wpis na kanale zostanie opublikowany.</em><br /><em>Wiele adresów email rozdziela się za pomocą <mark>przecinka (,)</mark>.',
 
 'enable_comment_notification' => 
-'Enable comment notification?',
+'Włączyć powiadamianie o komentarzu?',
 
 'enable_comment_notification_desc' => 
-'When enabled, all recipients listed will receive Email notification when a new comment is submitted to this channel.</em><br /><em>Separate multiple Emails with a <mark>comma (,)</mark>.',
+'Gdy włączone, wszyscy wymienieni odbiorcy otrzymają powiadomienie na Email, gdy nowy komentarz na kanale zostanie opublikowany.</em><br /><em>Wiele adresów email rozdziela się za pomocą <mark>przecinka (,)</mark>.',
 
 'enable_versioning' => 
-'Enable entry versioning?',
+'Włączyć wersjonowanie wpisów?',
 
 'enable_versioning_desc' => 
-'When enabled, ExpressionEngine will save revisions of each entry for this channel.',
+'Gdy włączone, ExpressionEngine będzie zapisywał wersje każdego wpisu dla tego kanału.',
 
 'extra_publish_controls' => 
-'Show extra publish controls?',
+'Czy pokazać dodatkowe kontrolki publikacji?',
 
 'extra_publish_controls_desc' => 
-'When enabled, a second set of publish controls will appear at the top of the publish form for this channel.',
+'Gdy włączone, na górze formularza publikacji pojawi się drugi zestaw kontrolek dla tego kanału.',
 
 'html_formatting' => 
-'<abbr title="Hyper-Text Markup Language">HTML</abbr> formatting',
+'Formatowanie <abbr title="Hyper-Text Markup Language">HTML</abbr>',
 
 'invalid_url_title_prefix' => 
-'This field cannot contain spaces.',
+'Pole nie może zawierać spacji.',
 
 'preview_url' => 
-'Preview <abbr title="Unified Resource Locator">URL</abbr>',
+'Podgląd <abbr title="Unified Resource Locator">URL</abbr>',
 
 'preview_url_desc' => 
-'Template path or route to use for previewing. Use <code>{url_title}</code> or <code>{entry_id}</code> for single-entry templates. i.e. <b><code>blog/entry/{url_title}</code></b>',
+'Ścieżka do szablonu lub do podglądu. Użyj <code> {url_title} </code> lub <code> {entry_id} </ code> dla szablonów pojedynczego wpisu. tj. <b> <code> blog/entry/{url_title} </code> </b>',
 
 'max_characters' => 
-'Maximum characters allowed?',
+'Czy ograniczać liczbę znaków?',
 
 'max_characters_desc' => 
-'Total number of characters allowed for submitted comments.',
+'Łączna liczba znaków dozwolonych dla przesłanych komentarzy.',
 
 'max_versions' => 
-'Maximum versions per entry',
+'Maksymalna ilość wersji dla wpisu',
 
 'max_versions_desc' => 
-'Maximum number of revisions to be saved per entry.',
+'Maksymalna ilość wersji zapisywanych dla wpisu.',
 
 'moderate_comments' => 
-'Moderate comments?',
+'Moderować komentarze?',
 
 'moderate_comments_desc' => 
-'When enabled, submitted comments will be put into a moderation queue, and must be approved by a Super Admin or other member group with moderation permissions.',
+'Gdy włączone, przesłane komentarze zostaną umieszczone w kolejce moderacji i muszą zostać zatwierdzone przez superadministratora lub inną grupę członków z uprawnieniami moderacji.
+',
 
 'notifications' => 
-'Notifications',
+'Powiadomienia',
 
 'open' => 
-'Open',
+'Otwórz',
 
 'publishing' => 
-'Publishing',
+'Publikowanie',
 
 'require_email' => 
-'Require Email?',
+'Czy wymagany jest Email?',
 
 'require_email_desc' => 
-'When enabled, a member must provide a valid Email address to submit comments to this channel\'s entries.',
+'Gdy włączone, członek musi wprowadzić prawidłowy adres Email, aby wysyłać komentarze do wpisów na tych kanałach.',
 
 'require_membership' => 
-'Require membership?',
+'Czy wymagane jest członkowstwo?',
 
 'require_membership_desc' => 
-'When enabled, only registered members can submit comments to this channel\'s entries.',
+'Gdy włączone, tylko zarejestrowani członkowie mogą wysyłać komentarze do wpisów na tym kanale.',
 
 'rss_feed' => 
 '<abbr title="Really Simple Syndication">RSS</abbr> feed',
 
 'rss_feed_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location of <abbr title="Really Simple Syndication">RSS</abbr> for this channel.',
+'<abbr title="Unified Resource Locator">URL</abbr> położenie <abbr title="Really Simple Syndication">RSS</abbr> dla tego kanału.',
 
 'search_excerpt' => 
-'Search excerpt',
+'Wyjątki wyszukiwania',
 
 'search_excerpt_desc' => 
-'Field used for all search result excerpts for this channel.',
+'Pole wykorzystywane przez wszystkie szczątki wyników wyszukiwania dla tego kanału.',
 
 'search_results' => 
-'Search results',
+'Wyniki wyszukiwania',
 
 'search_results_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location of search results for this channel.',
+'<abbr title="Unified Resource Locator">URL</abbr> położenie wyników wyszukiwania dla tego kanału.',
 
 'text_formatting' => 
-'Text formatting',
+'Formatowanie tekstu',
 
 'text_formatting_desc' => 
-'Type of formatting for comment text.',
+'Typ formatowania dla pola tekstu komentarza.',
 
 'title_field_label' => 
-'Title field label',
+'Etykieta pola tytuł',
 
 'title_field_label_desc' => 
-'Changes the title field label in the Publish form for this channel.',
+'Zmienia etykietę pola tytułu w formularzu Publikuj dla tego kanału.',
 
 'url_path_settings' => 
-'<abbr title="Unified Resource Locator">URL</abbr> and Path Settings',
+'<abbr title="Unified Resource Locator">URL</abbr> oraz ustawienia ścieżki',
 
 'url_title_prefix' => 
-'<abbr title="Unified Resource Locator">URL</abbr> title prefix',
+'Przedrostek tytułu <abbr title="Unified Resource Locator">URL</abbr>',
 
 'url_title_prefix_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> title prefix assigned to all <b>new</b> entries in this channel.',
+'Przedrostek tytułu <abbr title="Unified Resource Locator">URL</abbr> przypisanego do wszystkich <b>nowych</b> wpisów w tym kanale.',
 
 'versioning' => 
-'Versioning',
+'Wersjonowanie',
 
 'xml_language' => 
-'<abbr title="Extensible Markup Language">XML</abbr> language',
+'Język <abbr title="Extensible Markup Language">XML</abbr>',
 
 'xml_language_desc' => 
-'Default language for <abbr title="Extensible Markup Language">XML</abbr> files, generated by this channel.',
+'Domyślny język dla plików <abbr title="Extensible Markup Language">XML</abbr>, generowanych przez ten kanał.',
 
 'cat_field_ajax_reorder_fail' => 
-'Attention: Failed to save category field order',
+'Uwaga: Nie udało się zapisać kolejności pól kategorii',
 
 'cat_field_ajax_reorder_fail_desc' => 
-'We failed to save your new category fields order. Refresh the page and make sure you\'re logged in.',
+'Nie udało się zapisać zamówienia w nowym polu kategorii. Odśwież stronę i upewnij się, że jesteś zalogowany.',
 
 'cat_group_no_member_groups_found' => 
-'No <b>member groups</b> with permissions exist.',
+'Brak <b>grup członków</b> z uprawnieniami.',
 
 'cat_image_choose' => 
-'Choose from directory',
+'Wybierz z katalogu',
 
 'cat_image_none' => 
-'None <i>&mdash; no image</i>',
+'Żaden <i>&mdash; brak grafiki</i>',
 
 'cat_require_field_desc' => 
-'When enabled, this field will be required to submit the publish form.',
+'Gdy włączone, to pole będzie wymagane, aby wysłać formularz.',
 
 'categories' => 
-'Categories',
+'Kategorie',
 
 'categories_not_found' => 
-'No <b>Categories</b> found.',
+'Nie znaleziono <b>kategorii</b>.',
 
 'categories_removed' => 
-'Categories removed',
+'Kategorie usunięte',
 
 'categories_removed_desc' => 
-'%d categories were removed.',
+'%d kategorie zostały usunięte.',
 
 'category' => 
-'Category',
+'Kategoria',
 
 'category_ajax_reorder_fail' => 
-'Attention: Failed to save category order',
+'Uwaga: Nie udało się zapisać kolejności kategorii',
 
 'category_ajax_reorder_fail_desc' => 
-'We failed to save your new categories order. Refresh the page and make sure you\'re logged in.',
+'Nie udało się zapisać porządku w nowych kategoriach. Odświerz stronę i upewnij się, że jesteś zalogowany.',
 
 'category_created' => 
-'Category Created',
+'Utworzono kategorię',
 
 'category_created_desc' => 
-'The category <b>%s</b> has been created.',
+'Kategoria <b>%s</b> została utworzona.',
 
 'category_field' => 
-'Category Field',
+'Pole kategorii',
 
 'category_field_created' => 
-'Category Field Created',
+'Utworzono pole kategorii',
 
 'category_field_created_desc' => 
-'The category field <b>%s</b> has been created.',
+'Pole kategorii <b>%s</b> zostało utworzone.',
 
 'category_field_not_created' => 
-'Cannot Create Category Field',
+'Nie można utworzyć pola kategorii',
 
 'category_field_not_created_desc' => 
-'We were unable to create this category field, please review and fix errors below.',
+'Nie można utworzyć pola kategorii, proszę przejrzeć i usunąć poniższe błędy.',
 
 'category_field_not_updated' => 
-'Cannot Update Category Field',
+'Nie można uaktualnić pola kategorii',
 
 'category_field_not_updated_desc' => 
-'We were unable to update this category field, please review and fix errors below.',
+'Nie można uaktualnić pola kategorii, proszę przejrzeć i usunąć poniższe błędy.',
 
 'category_field_updated' => 
-'Category Field Updated',
+'Uaktualniono pole kategorii',
 
 'category_field_updated_desc' => 
-'The category field <b>%s</b> has been updated.',
+'Pole kategorii <b>%s</b> zostało uaktualnione.',
 
 'category_fields' => 
-'Category Fields',
+'Pola kategorii',
 
 'category_fields_desc' => 
-'Assign fields to this group.',
+'Przypisz pola do tej grupy.',
 
 'category_fields_removed' => 
-'Category fields removed',
+'Usunięto pola kategorii',
 
 'category_fields_removed_desc' => 
-'%d category fields were removed.',
+'%d pola kategorii zostały usunięte.',
 
 'category_group' => 
 'Grupa kategorii',
 
 'category_group_created' => 
-'Category Group Created',
+'Utworzono kategorię grup',
 
 'category_group_created_desc' => 
-'The category group <b>%s</b> has been created.',
+'Grupa kategorii <b>%s</b> została utworzona.',
 
 'category_group_not_created' => 
-'Cannot Create Category Group',
+'Nie można utworzyć grupy kategorii',
 
 'category_group_not_created_desc' => 
-'We were unable to create this category group, please review and fix errors below.',
+'Nie można utworzyć grupy kategorii, proszę przejrzeć i usunąc poniższe błędy.',
 
 'category_group_not_updated' => 
-'Cannot Update Category Group',
+'Nie można uaktualnić grupy kategorii',
 
 'category_group_not_updated_desc' => 
-'Nie udało się zaktualizować tej kategorii kategorii. Sprawdź i napraw błędy poniżej.',
+'Nie udało się zaktualizować tej grupy kategorii. Sprawdź i napraw poniższe błędy.',
 
 'category_group_updated' => 
 'Zaktualizowano grupę kategorii',

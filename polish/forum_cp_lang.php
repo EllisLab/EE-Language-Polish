@@ -57,211 +57,212 @@ $lang = array(
 'Alias <abbr title="Unified Resource Locator">URL</abbr>',
 
 'alias_url_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location to the alias.',
+'Lokalizacja adresu <abbr title="Unified Resource Locator">URL</abbr> do aliasu.',
 
 'alias_url_segment' => 
 'Alias <abbr title="Unified Resource Locator">URL</abbr> segment',
 
 'alias_url_segment_desc' => 
-'Word that triggers alias display. <b>Cannot</b> be the same as a template or template group.',
+'Słowo, które wyzwala wyświetlanie aliasu <b>nie może</b> być takie same jak nazwa szablonu lub grupy szablonów.',
 
 'btn_save_alias' => 
-'Zapisz Alias',
+'Zapisz alias',
 
 'create_forum_alias' => 
-'Utwórz Alias dla forum',
+'Utwórz alias dla forum',
 
 'create_forum_alias_error' => 
-'Cannot Create Forum Alias',
+'Nie można utworzyć aliasu dla forum',
 
 'create_forum_alias_error_desc' => 
-'We were unable to create this forum alias, please review and fix errors below.',
+'Nie mogliśmy utworzyć tego aliasu dla forum. Proszę przejrzeć i usunąć poniższe błędy.',
 
 'create_forum_alias_success' => 
-'Forum Alias Created',
+'Utworzono alias dla forum',
 
 'create_forum_alias_success_desc' => 
-'The forum alias <b>%s</b> has been created.',
+'Alias dla forum <b>%s</b> został utworzony.',
 
 'edit_forum_alias_error' => 
-'Cannot Update Forum Alias',
+'Nie można zaktualizować aliasu forum',
 
 'edit_forum_alias_error_desc' => 
-'We were unable to update this forum alias, please review and fix errors below.',
+'Nie możemy zaktualizować tego aliasu forum, sprawdź i napraw błędy poniżej.',
 
 'edit_forum_alias_success' => 
-'Forum Alias Updated',
+'Uaktualniono alias dla forum',
 
 'edit_forum_alias_success_desc' => 
-'The forum alias <b>%s</b> has been updated.',
+'Alias dla forum <b>%s</b> został zaktualizowany.',
 
 'enable_alias' => 
 'Włącz alias',
 
 'forum_alias_removed' => 
-'Forum Alias Removed',
+'Usunięto alias dla forum',
 
 'forum_alias_removed_desc' => 
-'The forum alias <b>%s</b> was removed.',
+'Alias forum <b>%s</b> został usunięty.',
 
 'forum_board_desc' => 
-'Choose which forum board you want to create an alias for.',
+'Wybierz forum, na którym chcesz utworzyć alias.',
 
 'all_files' => 
-'All file types',
+'Wszystkie typy plików',
 
 'allow_image_hotlinking' => 
-'Allow image hot-linking?',
+'Czy zezwolić na łączenie z grafiką?',
 
 'allow_image_hotlinking_desc' => 
-'When enabled, users will be allowed to hot-link an image in a forum post.',
+'Po włączeniu, użytkownicy będą mogli szybko połączyć obraz w poście na forum.',
 
 'allow_php' => 
-'Allow PHP?',
+'Zezwolić na PHP?',
 
 'allow_php_desc' => 
-'Allows the use of standard PHP within forum templates.',
+'Pozwala na użycie standardowego PHP w szablonach forum.',
 
 'allowed_characters' => 
-'Allowed characters',
+'Dozwolone znaki',
 
 'allowed_characters_desc' => 
-'Maximum number of characters allowed within a single post.',
+'Maksymalna liczba znaków dozwolona w jednym poście.',
 
 'allowed_file_types' => 
-'Allowed file types?',
+'Dozwolone typy plików?',
 
 'attachment_settings' => 
-'Attachment Settings',
+'Ustawienia załącznika',
 
 'attachments_per_post' => 
-'Attachments per post',
+'Załączniki na jeden post',
 
 'attachments_per_post_desc' => 
-'Maximum attachments allowed per post.',
+'Maksymalne załączniki dozwolone na pocztę.',
 
 'autolink_urls' => 
-'Render <abbr title="Unified Resource Locator">URL</abbr>s and e-mail addresses as links?',
+'Renderować adresy <abbr title="Unified Resource Locator">URL</abbr> i adresy e-mail na odnośniki?',
 
 'autolink_urls_desc' => 
-'When enabled, <abbr title="Unified Resource Locator">URL</abbr>s and e-mail address will be rendered as links in this forum\'s posts.',
+'Po włączeniu, adresy <abbr title="Unified Resource Locator">URL</abbr> i adres e-mail będzie renderowany jako odnośnik w postach tego forum.',
 
 'board' => 
-'Board',
+'Tablica',
 
 'btn_save_board' => 
-'Save Board',
+'Zapisz tablice',
 
 'create_forum_board' => 
-'Create Forum Board',
+'Utwórz tablicę forum',
 
 'create_forum_board_error' => 
-'Cannot Create Forum Board',
+'Nie można utworzyć tablicy forum',
 
 'create_forum_board_error_desc' => 
-'We were unable to create this forum board, please review and fix errors below.',
+'Nie było możliwe utworznie tablicy forum, proszę przejrzeć i usunąć poniższe błędy.',
 
 'create_forum_board_success' => 
-'Forum Board Created',
+'Tablica forum utworzona',
 
 'create_forum_board_success_desc' => 
-'The forum board <b>%s</b> has been created.',
+'Tablica forum <b>%s</b> została utworzona.',
 
 'default_theme' => 
-'Default theme',
+'Domyślny temat',
 
 'disable' => 
-'Disable',
+'Wyłącz',
 
 'edit_forum_board' => 
-'Edit %s',
+'Edytuj %s',
 
 'edit_forum_board_error' => 
-'Cannot Update Forum Board',
+'Nie można uaktualnić tablicy forum',
 
 'edit_forum_board_error_desc' => 
-'We were unable to update this forum board, please review and fix errors below.',
+'Nie udało się zaktualizować tego forum, proszę sprawdzić i naprawić poniższe błędy.',
 
 'edit_forum_board_success' => 
-'Forum Board Updated',
+'Uaktualniono tablicę forum',
 
 'edit_forum_board_success_desc' => 
-'The forum board <b>%s</b> has been updated.',
+'Tablica forum <b>%s</b> została uaktualniona.',
 
 'enable' => 
-'Enable',
+'Włącz',
 
 'enable_board' => 
-'Enable board',
+'Włącz tablicę',
 
 'enable_board_desc' => 
-'When enabled, this forum board will be accessible to member groups with proper permissions.',
+'Po włączeniu, ta tablica forum będzie dostępna dla grup członków z odpowiednimi uprawnieniami.',
 
 'enable_default_permissions' => 
-'Enable Default Permissions?',
+'Włączyć domyślne uprawnienia?',
 
 'enable_default_permissions_desc' => 
-'When enabled, these permissions will be the default permissions for all created forums.',
+'Po włączeniu, te uprawnienia będą domyślnymi uprawnieniami dla wszystkich utworzonych forów.',
 
 'enable_http_auth_for_rss' => 
-'Enable <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> authentication for <abbr title="Really Simple Syndication">RSS</abbr>?',
+'Włączyć autentykację <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> dla <abbr title="Really Simple Syndication">RSS</abbr>?',
 
 'enable_http_auth_for_rss_desc' => 
-'When enabled, users will need to enter authentication to access <abbr title="Really Simple Syndication">RSS</abbr> for forums.',
+'Po włączeniu użytkownicy będą musieli wprowadzić uwierzytelnianie, aby uzyskać dostęp do <abbr title ="Really Simple Syndication">RSS</ abbr> dla for dyskusyjnych.',
 
 'enable_rss' => 
-'Enable <abbr title="Really Simple Syndication">RSS</abbr>?',
+'Włączyć <abbr title="Really Simple Syndication">RSS</abbr>?',
 
 'enable_rss_desc' => 
-'When enabled, <abbr title="Really Simple Syndication">RSS</abbr> will be available for forums.',
+'Po włączeniu, <abbr title="Really Simple Syndication">RSS</abbr> będzie dostępny dla forum.',
 
 'enable_thumbnail_creation' => 
-'Enable thumbnail creation?',
+'Włączyć tworzenie miniatur grafik?',
 
 'enable_thumbnail_creation_desc' => 
-'When enabled, clickable thumbnails will be shown in posts.',
+'Po włączeniu, klikalne miniatury grafik będą wyświetlane w postach.',
 
 'file_size' => 
-'File size',
+'Wielkość pliku',
 
 'file_size_desc' => 
-'Maximum file size in kilobytes.',
+'Maksymalna wielkość pliku w  kilobajtach.',
 
 'forum_directory' => 
-'Forum directory',
+'Katalog forum',
 
 'forum_directory_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> location to the forum.',
+'Adres <abbr title="Unified Resource Locator">URL</abbr> dla forum.',
 
 'forum_trigger_unavailable' => 
-'The forum trigger you submitted is currently being used as the name of a template group or template so it is not available',
+'Zgłoszony wyzwalacz forum jest obecnie używany jako nazwa szablonu grupy lub szablonu, więc nie jest dostępny
+',
 
 'forum_url_segment' => 
-'Forum <abbr title="Unified Resource Locator">URL</abbr> segment',
+'Segment adresu <abbr title="Unified Resource Locator">URL</abbr> dla forum',
 
 'forum_url_segment_desc' => 
-'Word that triggers forum display. <b>Cannot</b> be the same as a template or template group.',
+'Słowo, które uruchamia wyświetlanie forum. <b>nie może</b> być takie samo jak szablon lub grupa szablonów.',
 
 'forums' => 
-'Forums',
+'Fora',
 
 'hot_topics' => 
-'Hot topics',
+'Gorące tematy',
 
 'hot_topics_desc' => 
-'Number of posts required to mark a topic as hot.',
+'Liczba postów wymaganych do oznaczenia tematu jako gorącego.',
 
 'html_all' => 
-'Allow all HTML',
+'Zezwolić na pełny HTML',
 
 'html_formatting' => 
 '<abbr title="Hyper-Text Markup Language">HTML</abbr> formatting',
 
 'html_none' => 
-'Convert to HTML entities',
+'Konwertuj na elementy HTML',
 
 'html_safe' => 
-'Allow only safe HTML',
+'Zezwól tylko na bezpieczny HTML',
 
 'image_height' => 
 'Wysokość obrazka',
@@ -321,226 +322,227 @@ $lang = array(
 '<b>Ostrzeżenie</b>: Prosze być bardzo ostrożnym przy przyznawaniu uprawnień.',
 
 'php_in_templates_warning' => 
-'<b>Warning</b>: Allowing PHP in templates has security implications.',
+'<b>Ostrzeżenie</b>: Umożliwienie PHP w szablonach ma wpływ na bezpieczeństwo.',
 
 'php_in_templates_warning2' => 
-'Any setting marked with %s should be used with caution.',
+'Każde ustawienie oznaczone% s powinno być używane z ostrożnością.',
 
 'php_parsing' => 
-'<abbr title="PHP: Hypertext Preprocessor">PHP</abbr> Parsing',
+'Parsowanie <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>',
 
 'php_parsing_stage' => 
-'PHP parsing stage',
+'Etap parsowania PHP',
 
 'php_parsing_stage_desc' => 
-'When set to <b>output</b>, PHP will be parsed after the template.',
+'Gdy ustawione na <b>wyjście</b>, PHP zostanie parsowany po szablonie.',
 
 'post_ordering' => 
-'Post ordering',
+'Kierunek porządkowania postów',
 
 'post_ordering_desc' => 
-'Order of posts in topic listing.',
+'Porządek postów w liście tematów.',
 
 'posting_throttle' => 
-'Posting throttle',
+'Dłąwienie postów (throttle)',
 
 'posting_throttle_desc' => 
-'Number of seconds that must pass before a member can post a new post or topic.',
+'Liczba sekund, które muszą upłynąć, zanim członek może opublikować nowy post lub temat.',
 
 'posts_per_page' => 
-'Posts per page',
+'Postów na stronie',
 
 'posts_per_page_desc' => 
-'Maximum number of posts that will be shown per page.',
+'Maksymalna liczba postów, która będzie pokazana na stronie.',
 
 'reply_notification' => 
-'Reply notifications',
+'Powiadomienia o odpowiedzi',
 
 'reply_notification_desc' => 
-'All recipients listed will receive e-mail notification when a <b>new</b> reply is made.</em><em>Separate multiple e-mails with a <mark>comma (,)</mark>.',
+'Wszyscy wymienieni odbiorcy otrzymają powiadomienie e-mailem po otrzymaniu <b>nowej</b> odpowiedzi. </em> <em> Oddziel wiele e-maili za pomocą <mark>przecinka (,)</mark>.',
 
 'reply_to_topics' => 
-'Reply to topics',
+'Odpowiedz na tematy',
 
 'reply_to_topics_desc' => 
-'Allow the following member groups to reply to topics.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na odpowiedzi na tematy. </em> <em>Superużytkownicy mają uprawnienia <b>zawsze</b>.',
 
 'report' => 
-'Report',
+'Raportuj',
 
 'report_desc' => 
-'Allow the following member groups to use the report feature.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na korzystanie z funkcji raportu.</em> <em> Superużytkownicy mają uprawnienia <b>zawsze</b>.',
 
 'rss_settings' => 
-'<abbr title="Really Simple Syndication">RSS</abbr> Settings',
+'Ustawienia <abbr title="Really Simple Syndication">RSS</abbr>',
 
 'search' => 
-'Search',
+'Szukaj',
 
 'search_desc' => 
-'Allow the following member groups to use the search feature.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na korzystanie z funkcji wyszukiwania. </em> <em>Superużytkownicy mają uprawnienia <b>zawsze</b>.',
 
 'short_name' => 
-'Short name',
+'Nazwa krótka',
 
 'short_name_desc' => 
-'Short name for this board.<br><i>No spaces. Underscores and dashes are allowed.</i>',
+'Krótka nazwa dla tej tablicy.<br><i>Bez odstępów. Podkreślenia i łączniki są dozwolone.</i>',
 
 'show_editing_dates' => 
-'Show editing dates?',
+'Pokaż daty edycji?',
 
 'show_editing_dates_desc' => 
-'When enabled, the date and time a post was edited will be shown in the post.',
+'Po włączeniu, data i czas edycji posta będą widoczne w poście.',
 
 'site' => 
-'Site',
+'Witryna',
 
 'start_topics' => 
-'Start topics',
+'Zacznij tematy',
 
 'start_topics_desc' => 
-'Allow the following member groups to start new topics.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na nowe tematy.</em> <em>Superużytkownicy mają uprawnienia <b>zawsze</b>.',
 
 'text_and_html_formatting' => 
-'Text and HTML Formatting',
+'Formatowanie tekstu i HTML',
 
 'text_formatting' => 
-'Text formatting',
+'Formatowanie tekstu',
 
 'text_formatting_desc' => 
-'Type of formatting for comment text.',
+'Typ formatowania dla tekstu komentarza.',
 
 'thumbnail_height' => 
-'Thumbnail height',
+'Wysokość miniatury grafiki',
 
 'thumbnail_height_desc' => 
-'Maximum thumbnail height in pixels.',
+'Maksymalna wysokość miniaturek w pikselach.',
 
 'thumbnail_width' => 
-'Thumbnail width',
+'Szerokość miniatury grafiki',
 
 'thumbnail_width_desc' => 
-'Maximum thumbnail width in pixels.',
+'Maksymalna szerokość miniaturek w pikselach.',
 
 'topic_notification' => 
-'Topic notifications',
+'Powiadomienia tematyczne',
 
 'topic_notification_desc' => 
-'All recipients listed will receive e-mail notification when a <b>new</b> topic is posted.</em><em>Separate multiple e-mails with a <mark>comma (,)</mark>.',
+'Wszyscy wymienieni odbiorcy otrzymają powiadomienie e-mailem, gdy zostanie opublikowany temat <b>nowy</b>. </em> <em>Oddziel wiele e-maili za pomocą <mark>przecinka (,)</mark>.',
 
 'topic_ordering' => 
-'Topic ordering',
+'Porządek tematów',
 
 'topic_ordering_desc' => 
-'Order of topics in forum listing.',
+'Kolejność tematów na liście forum.',
 
 'topics_per_page' => 
-'Topics per page',
+'Tematów na stronie',
 
 'topics_per_page_desc' => 
-'Maximum number of topics that will be shown per page.',
+'Maksymalna liczba tematów wyświetlanych na stronie.',
 
 'unwritable_upload_path' => 
-'Your image upload folder is not writable. Please make sure the file permissions are set to 777.',
+'Twój folder przesyłania zdjęć nie jest zapisywalny. Upewnij się, że uprawnienia do plików są ustawione na 777.',
 
 'upload' => 
-'Upload',
+'Wgraj',
 
 'upload_desc' => 
-'Allow the following member groups to use the upload feature.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na korzystanie z funkcji przesyłania. </em> <em>Superużytkownicy mają uprawnienia <b>zawsze</b>.',
 
 'upload_directory' => 
-'Upload directory',
+'Katalog wgrywania',
 
 'upload_directory_desc' => 
-'Full path location of this <mark>upload</mark> directory.',
+'Pełna ścieżka do katalogu <mark>wgrywania</mark>.',
 
 'view_forums' => 
-'View forums',
+'Pokaż fora',
 
 'view_forums_desc' => 
-'Allow the following member groups to view forums.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na przeglądanie forów.</em> <em>Superużytkownicy mają uprawnienia <b>zawsze</ b>.',
 
 'view_hidden_forums' => 
-'View hidden forums',
+'Pokaż ukryte fora',
 
 'view_hidden_forums_desc' => 
-'Allow the following member groups to view hidden forums.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na wyświetlanie ukrytych forów.</em> <em>Superużytkownicy mają uprawnienia <b>zawsze</b>.
+',
 
 'view_posts' => 
-'View posts',
+'Pokaż posty',
 
 'view_posts_desc' => 
-'Allow the following member groups to view posts.</em><em>Super Administrators are <b>always</b> allowed.',
+'Zezwalaj następującym grupom członków na wyświetlanie postów. </em> <em>Superużytkownicy mają uprawnienia <b>zawsze </b>.',
 
 'btn_save_category' => 
-'Save Category',
+'Zapisz kategorię',
 
 'create_category' => 
-'Create Category',
+'Utwórz kategorię',
 
 'create_category_error' => 
-'Cannot Create Category',
+'Nie można utworzyć kategorii',
 
 'create_category_error_desc' => 
-'We were unable to create this category, please review and fix errors below.',
+'Nie udało się utworzyć tej kategorii. Sprawdź i napraw błędy poniżej.',
 
 'create_category_success' => 
-'Category Created',
+'Utworzono kategorię',
 
 'create_category_success_desc' => 
-'The category <b>%s</b> has been created.',
+'Kategoria <b>%s</b> zostala utworzona.',
 
 'description_desc' => 
-'Brief description of this category.',
+'Krótki opis tej kategorii.',
 
 'edit_category' => 
-'Edit Category',
+'Edytuj kategorię',
 
 'edit_category_error' => 
-'Cannot Update Category',
+'Nie można zaktualizować kategorii',
 
 'edit_category_error_desc' => 
-'We were unable to update this category, please review and fix errors below.',
+'Nie można zaktualizować tej kategorii. Sprawdź i napraw błędy poniżej.',
 
 'edit_category_success' => 
-'Category Updated',
+'Zaktualizowano kategorię',
 
 'edit_category_success_desc' => 
-'The category <b>%s</b> has been updated.',
+'Kategoria <b>%s</b> została zaktualizowana.',
 
 'hidden' => 
-'Hidden',
+'Ukryte',
 
 'live' => 
-'Live',
+'Na żywo',
 
 'read_only' => 
-'Read Only',
+'Tylko do odczytu',
 
 'status_desc' => 
-'Status assigned to this category.',
+'Status przypisany do tej kategorii.',
 
 'btn_save_forum' => 
-'Save forum',
+'Zapisz forum',
 
 'create_forum' => 
-'Create Forum',
+'Utwórz forum',
 
 'create_forum_error' => 
-'Cannot Create Forum',
+'Nie można utworzyć forum',
 
 'create_forum_error_desc' => 
-'We were unable to create this forum, please review and fix errors below.',
+'Nie udało się utworzyć tego forum. Sprawdź i napraw błędy poniżej.',
 
 'create_forum_success' => 
-'Forum Created',
+'Utworzono forum',
 
 'create_forum_success_desc' => 
-'The forum <b>%s</b> has been created.',
+'Forum <b>%s</b> został utworzony.',
 
 'edit_forum' => 
-'Edit Forum',
+'Edycja forum',
 
 'edit_forum_error' => 
 'Cannot Update Forum',
@@ -723,7 +725,7 @@ $lang = array(
 'Forum Administrators',
 
 'group' => 
-'group',
+'grupa',
 
 'individual' => 
 'individual',

@@ -3,217 +3,217 @@ $lang = array(
 
 
 'all_email_sent_message' => 
-'All emails have been sent',
+'Wszystkie emaile zostały wysłane',
 
 'attachment' => 
-'Attachment',
+'Załącznik',
 
 'attachment_problem' => 
-'There was a problem attaching your file.',
+'Wystąpił problem podczas dołączania pliku.',
 
 'attachment_unavailable' => 
-'For attachments to be sent, an upload location needs to be defined.',
+'Dla wysyłanych załączników, powinna być określona lokalizacja wgrywania plików.',
 
 'attachment_warning' => 
-'Attachments are <strong>not saved</strong> by ExpressionEngine, and must be saved locally.',
+'Załączniki <strong>nie są zapisywane</strong> przez ExpressionEngine i muszą być zapisane lokalnie.',
 
 'batchmode_disabled' => 
-'Batch Mode is disabled',
+'Tryb wsadowy jest wyłączony',
 
 'batchmode_ready_to_begin' => 
-'The email sending routine will begin in five seconds',
+'Procedura wysyłania emaili rozpocznie się w ciągu 5 sekund',
 
 'batchmode_warning' => 
-'Do not touch your browser until the process is completely finished!',
+'Nie dotykaj przeglądarki dopóki proces całkowicie się nie zakończy!',
 
 'batch_size_is_zero' => 
-'Batch mode enabled, but batch size is not set properly. Check your <a href="https://docs.expressionengine.com/v5//general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> in your config file.',
+'Tryb wsadowy jest włączony, ale wielkość skryptu nie jest ustawiona prawidłowo. Sprawdź <a href="https://docs.expressionengine.com/v5//general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> w pliku konfiguracyjnym.',
 
 'bcc' => 
-'BCC',
+'UDW',
 
 'cache_data_missing' => 
-'The email cache data was not located.',
+'Dane z pamięci podręcznej wiadomości e-mail nie zostały znalezione.',
 
 'cc' => 
-'CC',
+'DW',
 
 'chars' => 
-'characters',
+'znaki',
 
 'complete' => 
-'Complete',
+'Ukończony',
 
 'currently_sending_batch' => 
-'Now sending emails %x through %y',
+'Trwa wysyłanie emaili %x poprzez %y',
 
 'delete_confirm' => 
-'Delete Email Confirmation',
+'Usuń potwierdzenie email',
 
 'delete_emails' => 
-'Delete Email',
+'Usuń email',
 
 'delete_question' => 
 'Are you sure you want to delete the specified email(s)?',
 
 'dummy_location' => 
-'The email was output to: %s',
+'E-mail został wyprowadzony do: %s',
 
 'email_date' => 
-'Date Sent',
+'Data wysłania',
 
 'email_deleted' => 
-'Email has been deleted',
+'Email został usunięty',
 
 'email_error' => 
-'Email error',
+'Błąd email',
 
 'email_sent_message' => 
 'Your email has been sent',
 
 'email_success' => 
-'Email Sent',
+'Email wysłany',
 
 'email_title' => 
-'Email Title',
+'Tytuł emaila',
 
 'emails' => 
-'Emails',
+'Emaile',
 
 'emails_remaining' => 
-'Emails Remaining:',
+'Pozostałe emaile:',
 
 'empty_form_fields' => 
-'You left some fields empty.',
+'Pozostało kilka pustych pól.',
 
 'finish_sending' => 
-'Finish Sending',
+'Zakończ wysyłanie',
 
 'high' => 
-'High',
+'Wysoki',
 
 'highest' => 
-'Highest',
+'Najwyższy',
 
 'honor_email_pref' => 
-'Send only to members who have chosen to accept email',
+'Wyślij tylko do członków, którzy zaakceptowali odbieranie emaili',
 
 'html' => 
 'HTML',
 
 'incomplete' => 
-'Incomplete',
+'Niekompletny',
 
 'low' => 
-'Low',
+'Niski',
 
 'lowest' => 
-'Lowest',
+'Najniższy',
 
 'mail_format' => 
-'Email Formatting',
+'Formatowanie poczty',
 
 'manual_recipients_ignored' => 
-'The recipient field above will be ignored',
+'Powyższe pole odbiorcy będzie ignorowane',
 
 'markdown' => 
 'Markdown',
 
 'message' => 
-'Message',
+'Wiadomość',
 
 'no_cached_email' => 
-'No <b>cached emails</b> found.',
+'Nie znaleziono <b>buforowanych emaili</b>.',
 
 'no_email_matching_criteria' => 
-'There were no email addresses matching the criteria you selected',
+'Nie było adresów e-mail pasujących do wybranych kryteriów',
 
 'normal' => 
-'Normal',
+'Normalny',
 
 'not_allowed_to_email_cache' => 
-'You are not allowed to view the email cache.',
+'Nie masz dostępu do pamięci podręcznej e-mail.',
 
 'not_allowed_to_email_member_groups' => 
-'You are not allowed to email Member Groups',
+'Nie możesz wysyłać wiadomości e-maili do grup członkowskich',
 
 'not_allowed_to_email_members' => 
-'You are not allowed to email members',
+'Nie możesz wysyłać wiadomości e-mail do członków',
 
 'off' => 
-'Off',
+'Wyłączony',
 
 'on' => 
-'On',
+'Włączony',
 
 'plain_text' => 
-'Plain Text',
+'Zwykły tekst',
 
 'plaintext_alt' => 
-'Alternate content for your <abbr title="Hyper-Text Markup Language">HTML</abbr> Email, will be delivered in Plain Text, when an Email application cannot render <abbr title="Hyper-Text Markup Language">HTML</abbr>.',
+'Alternatywna treść <abbr title="Hyper-Text Markup Language">HTML</abbr> Emaila, będzie dostarczona jako zwykły tekst, gdy aplikacja pocztowa nie poradzi sobie z <abbr title="Hyper-Text Markup Language">HTML</abbr>.',
 
 'plaintext_body' => 
-'Plain text body',
+'Zwykły tekst',
 
 'previous_email' => 
-'Previously Sent Email',
+'Email wysłany wcześniej',
 
 'priority' => 
-'Priority',
+'Priorytet',
 
 'problem_with_id' => 
-'A problem was encountered with the ID number needed to send emails',
+'Wystąpił problem z numerem ID potrzebnym do wysłania emaili',
 
 'recipient' => 
-'Recipient',
+'Odbiorca',
 
 'recipient_group' => 
-'Send to Member Groups',
+'Wyślij do grup odbiorców',
 
 'remove' => 
-'Remove',
+'Usuń',
 
 'resend' => 
-'Re-send',
+'Wyślij jeszcze raz',
 
 'search_emails_button' => 
-'Search Emails',
+'Szukaj emaili',
 
 'send_an_email' => 
-'Send an Email',
+'Wyślij email',
 
 'send_it' => 
-'Send it',
+'Wyślij to',
 
 'sending_email' => 
-'Sending Email',
+'Wysyłanie emaila',
 
 'separate_emails_with_comma' => 
-'Separate multiple addresses with a comma',
+'Wiele adresów oddzielamy przecinkiem',
 
 'subject' => 
-'Subject',
+'Temat',
 
 'text_formatting' => 
-'Text Formatting',
+'Formatowanie tekstu',
 
 'total_emails_sent' => 
-'Total number of emails sent:',
+'Całkowita liczba wysłanych emaili:',
 
 'total_recipients' => 
-'Total Recipients',
+'Wszyscy odbiorcy',
 
 'total_sent' => 
-'Total Sent',
+'Wszystkich wysłanych',
 
 'view' => 
-'View',
+'Pokaż',
 
 'view_email_cache' => 
-'Sent Emails',
+'Wyślij emaile',
 
 'wordwrap' => 
-'Word Wrapping',
+'Zawijanie wierszy',
 
 'your_email' => 
 'Twój email',

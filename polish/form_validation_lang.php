@@ -1,83 +1,117 @@
 <?php
-
 $lang = array(
 
-'alpha' => 'This field may only contain alphabetical characters.',
 
-'alpha_dash' => 'This field may only contain alpha-numeric characters, underscores, and dashes.',
+'alpha' => 
+'To pole może zawierać tylko znaki alfabetyczne.',
 
-'alpha_dash_period' => 'This field may only contain alpha-numeric characters, underscores, dashes, periods, and emojis.',
+'alpha_dash' => 
+'To pole może zawierać tylko znaki alfanumeryczne, podkreślenia i myślniki.',
 
-'alpha_dash_space' => 'This field may only contain alpha-numeric characters, underscores, dashes, and spaces.',
+'alpha_dash_period' => 
+'To pole może zawierać tylko znaki alfanumeryczne, podkreślenia, kreski, kropki i emotikony.',
 
-'alpha_numeric' => 'This field may only contain alpha-numeric characters.',
+'alpha_dash_space' => 
+'To pole może zawierać tylko znaki alfanumeryczne, podkreślenia, myślniki i spacje.',
 
-'boolean' => 'This field must be a boolean value.',
+'alpha_numeric' => 
+'To pole może zawierać tylko znaki alfanumeryczne.',
 
-'enum' => 'This field must be one of: %s.',
+'boolean' => 
+'To pole musi być wartością logiczną.',
 
-'exact_length' => 'This field must be exactly %s characters in length.',
+'enum' => 
+'To pole musi być jednym z : %s.',
 
-'greater_than' => 'This field must be greater than: %s',
+'exact_length' => 
+'To pole musi dokładnie %s znaków długość.',
 
-'hex_color' => 'This field must contain a valid hex color code.',
+'greater_than' => 
+'To pole musi być większe niż: %s',
 
-'integer' => 'This field must contain an integer.',
+'hex_color' => 
+'To pole musi zawierać poprawny kod kolorów w formacie szesnastkowym.',
 
-'invalid_path' => 'This path is either invalid or not writable.',
+'integer' => 
+'To pole musi zawierać liczbę całkowitą.',
 
-'invalid_xss_check' => 'The data you submitted did not pass our security check. If you did not intend to submit this form, please <a href="%s">click here</a> and no settings will be changed.',
+'invalid_path' => 
+'Ta ścieżka jest niepoprawna lub nie można jej zapisać.',
 
-'is_natural' => 'This field must contain only positive numbers.',
+'invalid_xss_check' => 
+'Przesłane dane nie przeszły naszej kontroli bezpieczeństwa. Jeśli nie masz zamiaru przesłać tego formularza, <a href="%s"> kliknij tutaj </a> i żadne ustawienia nie zostaną zmienione.
+',
 
-'is_natural_no_zero' => 'This field must contain a number greater than zero.',
+'is_natural' => 
+'To pole musi zawierać tylko liczby dodatnie.',
 
-'is_numeric' => 'This field must contain only numeric characters.',
+'is_natural_no_zero' => 
+'To pole musi zawierać liczbę większą niż zero.',
 
-'less_than' => 'This field must be less than: %s',
+'is_numeric' => 
+'To pole musi zawierać tylko znaki numeryczne.',
 
-'limithtml' => 'This field can only contain the following HTML tags: %s. If you want to use angle brackets < in your text, but not HTML please try &amp;lt; to replace < and &amp;gt; to replace >.',
+'less_than' => 
+'To pole musi być mniejsze niż: %s',
 
-'matches' => 'This field does not match the %s field.',
+'limithtml' => 
+'To pole może zawierać tylko następujące tagi HTML: %s. Jeśli chcesz użyć nawiasów trójkątnych <w tekście, ale nie HTML, spróbuj &lt; lt; zastąpić <i &gt; zastąpić>.',
 
-'max_length' => 'This field cannot exceed %s characters in length.',
+'matches' => 
+'To pole nie pasuje do pola %s.',
 
-'min_length' => 'This field must be at least %s characters in length.',
+'max_length' => 
+'To pole nie może przekraczać %s znaków.',
 
-'no_html' => 'This field cannot contain HTML.',
+'min_length' => 
+'To pole musi mieć conajmniej %s znaków długości.',
 
-'numeric' => 'This field must contain only numbers.',
+'no_html' => 
+'To pole nie może zawierać HTML.',
 
-'regex' => 'This field must match the regular expression `%s`.',
+'numeric' => 
+'To pole może zawierać tylko liczby',
 
-'required' => 'This field is required.',
+'regex' => 
+'To pole musi być zgodne z wyrażeniem regularnym `%s`.',
 
-'unique' => 'This field must be unique.',
+'required' => 
+'To pole jest wymagane.',
 
-'unique_email' => 'This field must contain a unique email address.',
+'unique' => 
+'To pole musi być unikalne.',
 
-'valid_base64' => 'This field may only contain characters in the base64 character set (alpha-numeric, slash, plus, and equals).',
+'unique_email' => 
+'To pole musi zawierać unikalny adres e-mail.',
 
-'valid_email' => 'This field must contain a valid email address.',
+'valid_base64' => 
+'To pole może zawierać tylko znaki z zestawu znaków base64 (alfanumeryczne, slash, plus i równe).',
 
-'valid_emails' => 'This field must contain all valid email addresses.',
+'valid_email' => 
+'To pole musi zawierać prawidłowy adres e-mail.',
 
-'valid_ip' => 'This field must contain a valid IP.',
+'valid_emails' => 
+'To pole musi zawierać wszystkie prawidłowe adresy e-mail.',
 
-'valid_url' => 'This field must contain a valid URL.',
+'valid_ip' => 
+'To pole musi zawierać prawidłowy adres IP.',
 
+'valid_url' => 
+'To pole musi zawierać prawidłowy adres URL.',
 
-/* Legacy form validation lib */
-'file_exists' => 'This path is either invalid or not writable.',
+'file_exists' => 
+'Ta ścieżka jest niepoprawna lub nie można jej zapisać.',
 
-'writable' => 'This path is either invalid or not writable.',
+'writable' => 
+'Ta ścieżka jest niepoprawna lub nie można jej zapisać.',
 
+'auth_password' => 
+'Wprowadzone hasło jest nieprawidłowe.',
 
-/* special and legacy things */
-'auth_password' => 'The password entered is incorrect.',
+'isset' => 
+'Pole %s musi mieć wartość.',
 
-'isset' => 'The %s field must have a value.',
-
+''=>''
 );
 
-// EOF
+// End of File

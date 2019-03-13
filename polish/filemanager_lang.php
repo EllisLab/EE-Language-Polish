@@ -39,7 +39,7 @@ $lang = array(
 'Edycja "%s" meta danych',
 
 'edit_file_metadata_error' => 
-'Nie można uaktualnić pliku Meta danych',
+'Nie można uaktualnić pliku meta danych',
 
 'edit_file_metadata_error_desc' => 
 'Nie można uaktualnić meta danych, proszę przejrzeć i usunąć poniższe błędy.',
@@ -90,10 +90,10 @@ $lang = array(
 'Wskazano niewłaściwy katalog',
 
 'invalid_filename' => 
-'The image file name may only contain alpha-numeric characters, dashes and underscores.',
+'Nazwa pliku obrazu może zawierać tylko znaki alfanumeryczne, myślniki i podkreślenia.',
 
 'invalid_mime' => 
-'Invalid mime type, file could not be processed',
+'Nieprawidłowy typ MIME, nie można przetworzyć pliku',
 
 'invalid_short_name' => 
 'Skrócona nazwa manipulacji obrazem może zawierać wyłącznie znaki alfanumeryczne, myślniki i podkreślenia, i nie można jej nazwać "thumbs".',
@@ -355,16 +355,16 @@ $lang = array(
 'oś y',
 
 'zero_upload_directories_found' => 
-'No <b>upload directories</b> found.',
+'Nie znaleziono <b>katalogów wgrywania</b>.',
 
 'add_manipulation' => 
-'Add New Manipulation',
+'Dodaj nowe przekształcenia',
 
 'all_upload_dirs' => 
-'All Upload Directories',
+'Wszystkie katalogi wgrywania',
 
 'apply_manipulations' => 
-'Apply manipulations',
+'Zapisz przekształcenia',
 
 'apply_manipulations_desc' => 
 'Stosuje wybrane manipulacje obrazem do plików w tym katalogu podczas operacji synchronizacji. Zwiększa czas synchronizacji.

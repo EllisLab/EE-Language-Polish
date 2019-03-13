@@ -21,7 +21,7 @@ $lang = array(
 'Wstaw ścieżki URLs',
 
 'fb_non_images' => 
-'* Wskazuje że to nie jest obraz. Tylko obrazy mogą być ogloądane.',
+'* Wskazuje, że to nie jest grafika. Tylko grafiki mogą być przeglądane.',
 
 'fb_select_field' => 
 'Wybierz pole',
