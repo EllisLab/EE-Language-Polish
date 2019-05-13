@@ -1,159 +1,216 @@
 <?php
-
 $lang = array(
 
-'system_logs' => 'System Logs',
 
+'system_logs' => 
+'Logi systemowe',
 
-/* Sidebar */
-'all_consent_logs' => 'All %d Consent Audit Logs',
+'all_consent_logs' => 
+'Wszystkie %d zgodne dzienniki inspekcji',
 
-'all_cp_logs' => 'All %d Control Panel Logs',
+'all_cp_logs' => 
+'Wszystkie %d logi panelu sterowania',
 
-'all_developer_logs' => 'All %d Developer Logs',
+'all_developer_logs' => 
+'Wszystkie %d logi programisty',
 
-'all_email_logs' => 'All %d Email Logs',
+'all_email_logs' => 
+'Wszystkie %d logi emaili',
 
-'all_search_logs' => 'All %d Search Logs',
+'all_search_logs' => 
+'Wszystkie %d logi wyszukiwania',
 
-'all_throttle_logs' => 'All %d Throttling Logs',
+'all_throttle_logs' => 
+'Wszystkie %d logi Throttlingu (dławienia)',
 
-'clear_cp_logs' => 'Remove all CP Access Logs',
+'clear_cp_logs' => 
+'Usuń wszystkie dzienniki dostępu do CP',
 
-'consent_log' => 'Consent',
+'consent_log' => 
+'Zgoda',
 
-'cp_log' => 'Control Panel',
+'cp_log' => 
+'Panel kontrolny',
 
-'date_logged' => 'Date logged',
+'date_logged' => 
+'Data rejestracji',
 
-'developer_log' => 'Developer',
+'developer_log' => 
+'Developer',
 
-'email_log' => 'Email',
+'email_log' => 
+'Email',
 
-'logs_deleted' => 'Logs Deleted',
+'logs_deleted' => 
+'Logi usunięte',
 
-'logs_deleted_desc' => '<b>%d</b> log(s) deleted from <b>%s</b> logs',
+'logs_deleted_desc' => 
+'<b>%d</b> llogi usunięte z <b>%s</b> logów',
 
-'no_consent_logs_found' => 'No <b>Consent audit logs</b> found.',
+'no_consent_logs_found' => 
+'Nie znaleziono <b>dzienników kontroli zgody</b>.',
 
-'no_control_panel_logs_found' => 'No <b>Control panel logs</b> found.',
+'no_control_panel_logs_found' => 
+'Nie znaleziono <b>logów panelu sterowania</b>.',
 
-'search_log' => 'Search',
+'search_log' => 
+'Szukaj',
 
-'search_logs_button' => 'search logs',
+'search_logs_button' => 
+'szukaj logów',
 
-'search_results' => 'Search Results',
+'search_results' => 
+'Wyniki wyszukiwania',
 
-'search_terms' => 'Search Terms',
+'search_terms' => 
+'Warunki wyszukiwania',
 
-'searched_in' => 'Searched In',
+'searched_in' => 
+'Wyszukiwano w',
 
-'site_search' => 'Site',
+'site_search' => 
+'Portal',
 
-'throttle_log' => 'Throttling',
+'throttle_log' => 
+'Throttling (dławienie)',
 
-'view_consent_log' => 'Consent Audit Logs',
+'view_consent_log' => 
+'Dzienniki kontroli zgody',
 
-'view_cp_log' => 'Control Panel Access Logs',
+'view_cp_log' => 
+'Logi dostępu do panelu sterowania',
 
-'view_developer_log' => 'Developer Logs',
+'view_developer_log' => 
+'Logi programisty',
 
-'view_email_logs' => 'Email Logs',
+'view_email_logs' => 
+'Logi Email',
 
-'view_search_log' => 'Search Logs',
+'view_search_log' => 
+'Logi wyszukiwania',
 
-'view_throttle_log' => 'Access Throttling Logs',
+'view_throttle_log' => 
+'Logi dostępu do dławienia',
 
+'clear_developer_logs' => 
+'Usuń wszystkie dzienniki programisty',
 
-/* Developer Log */
-'clear_developer_logs' => 'Remove all Developer Logs',
+'deprecated_function' => 
+'Nieaktualna funkcja %s została wywołana',
 
-'deprecated_function' => 'Deprecated function %s called',
+'deprecated_hook' => 
+'Nieaktualny uchwyt rozszerzenia wywoływany przez następujące rozszerzenia (Class :: method) <ul>%s </ul>',
 
-'deprecated_hook' => 'Deprecated extension hook called by the following extensions (Class::method) <ul>%s</ul>',
-
-'deprecated_meaning' => '<p>One of two things has happened:</p>
+'deprecated_meaning' => 
+'<p>Wydarzyła się jedna z dwóch rzeczy:</p>
 <ol>
- <li>The system has detected native code or an add-on that is using outdated code that may stop working or cause issues with the system. This means an add-on in your installation is accessing a part of ExpressionEngine\'s core code which EllisLab plans to remove in the future in order to improve the quality of the product.</li>
- <li>A warning or message was raised by native code or an add-on for the Super Admin to view.</li>
+ <li>System wykrył kod natywny lub dodatek, który używa przestarzałego kodu, który może przestać działać lub powodować problemy z systemem. Oznacza to, że dodatek w instalacji uzyskuje dostęp do części podstawowego kodu ExpressionEngine, który EllisLab planuje usunąć w przyszłości w celu poprawy jakości produktu.
+</li>
+ <li>Ostrzeżenie lub wiadomość została podniesiona przez kod natywny lub dodatek do Super Admina do wyświetlenia.
+</li>
 </ol>
-<p>To remedy this notice, you may need to do any of the following:</p>
+<p>Aby rozwiązać ten problem, może być konieczne wykonanie jednej z następujących czynności:</p>
 <ul>
- <li>Contact the developer who manages your ExpressionEngine installation for help</li>
- <li>Make sure you have the latest version of all your installed add-ons</li>
- <li>Contact the developer of the offending add-on to make sure they\'re aware of the problem and plans to issue an update</li>
+ <li>Aby uzyskać pomoc, skontaktuj się z programistą, który zarządza instalacją ExpressionEngine</li>
+ <li>Upewnij się, że masz najnowszą wersję wszystkich zainstalowanych dodatków
+</li>
+ <li>Skontaktuj się z deweloperem naruszającego dodatek, aby upewnić się, że znają problem i planują wydanie aktualizacji</li>
 </ul>',
 
-'deprecated_on_line' => 'in %s on line %d.',
+'deprecated_on_line' => 
+'w %s w linii %d.',
 
-'deprecated_since' => 'Deprecated since %s.',
+'deprecated_since' => 
+'Przestarzałe od %s.',
 
-'deprecated_snippets' => 'This tag may have been parsed from one of these snippets: %s',
+'deprecated_snippets' => 
+'Ten tag mógł zostać przeanalizowany z jednego z tych fragmentów: %s',
 
-'deprecated_template' => 'From template tag %s in %s.',
+'deprecated_template' => 
+'Z tagu szablonu %s w %s.',
 
-'deprecated_use_instead' => 'Use %s instead.',
+'deprecated_use_instead' => 
+'Wzamian użyj %s.',
 
-'deprecation_detected' => 'This is a log for developers to bring notices or warnings to the attention of the Super Admins.',
+'deprecation_detected' => 
+'Jest to dziennik, w którym programiści mogą zwracać uwagę Super Adminom na ostrzeżenia lub ostrzeżenia.',
 
-'dev_log_help' => 'What does this mean?',
+'dev_log_help' => 
+'Co to znaczy?',
 
-'dev_log_view_report' => 'View report',
+'dev_log_view_report' => 
+'Pokaż raport',
 
-'log_id' => 'Log ID',
+'log_id' => 
+'Log ID',
 
-'log_message' => 'Message',
+'log_message' => 
+'Wiadomość',
 
-'no_developer_logs_found' => 'No <b>Developer logs</b> found.',
+'no_developer_logs_found' => 
+'Nie znaleziono <b>logów programisty</b>.',
 
+'clear_email_logs' => 
+'Usuń wszystkie logi Email',
 
-/* Email Log */
-'clear_email_logs' => 'Remove all Email Logs',
+'no_email_logs_found' => 
+'Nie znaleziono <b>logów Email</b>.',
 
-'no_email_logs_found' => 'No <b>Email logs</b> found.',
+'sent_to' => 
+'Wyślij Email do',
 
-'sent_to' => 'Sent Email to',
+'subject' => 
+'Temat',
 
-'subject' => 'Subject',
+'clear_search_logs' => 
+'Usuń wszystkie logi wyszukiwania',
 
+'no_search_logs_found' => 
+'Nie znaleziono <b>logów wyszukiwania</b>.',
 
-/* Search Log */
-'clear_search_logs' => 'Remove all Search Logs',
+'searched_for' => 
+'Wyszukiwany',
 
-'no_search_logs_found' => 'No <b>Search logs</b> found.',
+'blacklist_all_ips' => 
+'Blacklista wszystkie adresy IP',
 
-'searched_for' => 'Searched for',
+'clear_throttle_logs' => 
+'Usuń wszystkie logi Throttlingu (dławienia)',
 
+'enable_throttling' => 
+'Turn Throttling On',
 
-/* Throttle Log */
-'blacklist_all_ips' => 'Blacklist All IPs',
+'front_end_requests' => 
+'Żądania front end',
 
-'clear_throttle_logs' => 'Remove all Throttling Logs',
+'last_activity' => 
+'Ostatnia aktywność',
 
-'enable_throttling' => 'Turn Throttling On',
+'no_throttle_logs' => 
+'System nie blokuje obecnie adresów IP.',
 
-'front_end_requests' => 'Front End Requests',
+'no_throttling_logs_found' => 
+'Nie znaleziono <b>logów Throttlingu (dławienia)</b>.',
 
-'last_activity' => 'Last Activity',
+'throttling_disabled' => 
+'<b>Throttling</b> wyłączony',
 
-'no_throttle_logs' => 'No IPs are currently being throttled by the system.',
+'custom_date' => 
+'niestandardowa data',
 
-'no_throttling_logs_found' => 'No <b>Throttling logs</b> found.',
+'custom_limit' => 
+'niestandardowy limit',
 
-'throttling_disabled' => '<b>Throttling</b> Disabled',
+'date' => 
+'data',
 
+'filter_by_site' => 
+'filtruj witryny',
 
-/* Filters */
-'custom_date' => 'custom date',
+'filter_by_username' => 
+'filtruj nazwę użytkownika',
 
-'custom_limit' => 'custom limit',
-
-'date' => 'date',
-
-'filter_by_site' => 'filter sites',
-
-'filter_by_username' => 'filter username',
-
+''=>''
 );
 
-// EOF
+// End of File
