@@ -621,7 +621,7 @@ $lang = array(
 'Wiadomość',
 
 'mysql' => 
-'My<abbr title="Structured Query Language">SQL</abbr>',
+'Mój<abbr title="Structured Query Language">SQL</abbr>',
 
 'no_action_selected' => 
 'Musisz wybrać akcję do wykonania na wybranych tabelach.',
@@ -663,10 +663,10 @@ $lang = array(
 'Wszystkich rekordów',
 
 'uptime' => 
-'Uptime',
+'Czas działania',
 
 'mass_notification_export' => 
-'Mass Notification Export',
+'Eksport powiadomień masowych',
 
 'export_email_addresses_title' => 
 'Eksport pliku <abbr title="Comma Separated Values">CSV</abbr>',
