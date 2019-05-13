@@ -949,7 +949,7 @@ $lang = array(
 'Administracja komentarza',
 
 'cp_email_privs' => 
-'Control Panel Email Privileges',
+'Uprawnienia do poczty elektronicznej w panelu sterowania',
 
 'cp_module_access_privs' => 
 'Uprawnienia dostępu do modułu',
