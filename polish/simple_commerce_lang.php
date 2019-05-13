@@ -1,391 +1,584 @@
 <?php
-
 $lang = array(
 
-'add_email' => 'Add Email Template',
 
-'add_email_instructions' => 'When the purchase of an item is confirmed, an email can be sent out to one or many email addresses for that item. These emails can contain certain variables sent back from PayPal, which are as follows: ',
+'add_email' => 
+'Dodaj szablon email',
 
-'add_emails' => 'Add Email Templates',
+'add_email_instructions' => 
+'Po potwierdzeniu zakupu przedmiotu można wysłać wiadomość e-mail na jeden lub wiele adresów e-mail dla tego przedmiotu. Te wiadomości e-mail mogą zawierać pewne zmienne wysyłane z systemu PayPal, które są następujące:',
 
-'add_item' => 'Add item',
+'add_emails' => 
+'Dodaj szablony email',
 
-'admin_email_address' => 'Admin email address',
+'add_item' => 
+'Dodaj przedmiot',
 
-'admin_email_address_desc' => 'Email address to notify when a sale is made.',
+'admin_email_address' => 
+'Adres e-mail administratora',
 
-'admin_email_template' => 'Admin email template',
+'admin_email_address_desc' => 
+'Adres e-mail, aby powiadomić o dokonaniu sprzedaży.',
 
-'admin_email_template_desc' => 'Template to use for notifying an admin of a sale.',
+'admin_email_template' => 
+'Szablon email administratora',
 
-'admin_email_template_unsubscribe' => 'Admin <mark>cancel</mark> email template',
+'admin_email_template_desc' => 
+'Szablon do wykorzystania w celu powiadomienia administratora o sprzedaży.',
 
-'admin_email_template_unsubscribe_desc' => 'Template to use for notifying an admin of a cancellation.',
+'admin_email_template_unsubscribe' => 
+'Admin <mark>anuluj</mark> szablon email',
 
-'all_items' => 'All Items',
+'admin_email_template_unsubscribe_desc' => 
+'Szablon do wykorzystania w celu powiadomienia administratora o anulowaniu.',
 
-'all_purchases' => 'All Purchases',
+'all_items' => 
+'Wszystkie przedmioty',
 
-'certificate_id' => 'ID given to public certificate by PayPal',
+'all_purchases' => 
+'Wszystkie zakupy',
 
-'choose_entry_for_item' => 'Choose Entry for Store Item',
+'certificate_id' => 
+'Identyfikator ID nadany certyfikatowi publicznemu przez PayPal',
 
-'choose_item' => 'Choose Item',
+'choose_entry_for_item' => 
+'Wybierz pozycję dla przedmiotu w sklepie',
 
-'commerce_cert_path' => 'Public certificate path',
+'choose_item' => 
+'Wybierz przedmiot',
 
-'commerce_cert_path_desc' => 'Full path to public certificate.',
+'commerce_cert_path' => 
+'Ścieżka do certyfikatu publicznego',
 
-'commerce_encrypt_paypal' => 'Encrypt PayPal buttons and links?',
+'commerce_cert_path_desc' => 
+'Pełna ścieżka do publicznego certyfikatu.',
 
-'commerce_encrypt_paypal_desc' => 'When enabled, PayPal buttons and links will be JavaScript encrypted.',
+'commerce_encrypt_paypal' => 
+'Czy szyfrować przyciski i linki PayPal?',
 
-'commerce_ipn_notice' => 'Instant Payment Notification is a PayPal service that allows the processing of transactions on their site and then notifying ExpressionEngine when the transaction is complete and accepted. This allows purchases to not be stored and recorded in the Simple Commerce module until the transaction is finalized. ExpressionEngine\'s Simple Commerce module automates all of this behind the scenes so all you have to do is activate Instant Payment Notification on the PayPal site and provide them with the URL below. <a href="%s" rel="external">Learn More</a>',
+'commerce_encrypt_paypal_desc' => 
+'Po włączeniu przyciski i linki PayPal będą szyfrowane w JavaScript.',
 
-'commerce_ipn_url' => '<abbr title="Instant Payment Notification">IPN</abbr> <abbr title="Unified Resource Locator">URL</abbr>',
+'commerce_ipn_notice' => 
+'Błyskawiczne powiadamianie o płatności to usługa PayPal, która umożliwia przetwarzanie transakcji na ich stronie, a następnie powiadamianie ExpressionEngine, gdy transakcja jest kompletna i zaakceptowana. Dzięki temu zakupy nie będą przechowywane i rejestrowane w module Simple Commerce, dopóki transakcja nie zostanie sfinalizowana. Moduł Simple Commerce ExpressionEngine automatyzuje to wszystko za kulisami, więc wystarczy aktywować natychmiastowe powiadomienie o płatności w witrynie PayPal i podać im poniższy adres URL. <a href="%s" rel="external"> Więcej informacji </a>',
 
-'commerce_ipn_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr> for PayPal to notify on transaction completion.',
+'commerce_ipn_url' => 
+'<abbr title="Instant Payment Notification">IPN</abbr> <abbr title="Unified Resource Locator">URL</abbr>',
 
-'commerce_items' => 'Commerce Items',
+'commerce_ipn_url_desc' => 
+'<abbr title="Unified Resource Locator">URL</abbr> dla PayPal aby poinformować o zakończeniu transakcji.',
 
-'commerce_key_path' => 'Private key path',
+'commerce_items' => 
+'Przedmioty handlowe',
 
-'commerce_key_path_desc' => 'Full path to private key.',
+'commerce_key_path' => 
+'Ścieżka do klucza prywatnego',
 
-'commerce_paypal_cert_id' => 'Public certification <abbr title="Identifier">ID</abbr>',
+'commerce_key_path_desc' => 
+'Pełna ścieżka do klucza prywatnego.',
 
-'commerce_paypal_cert_id_desc' => '<abbr title="Identifier">ID</abbr> given to public certificate by PayPal.',
+'commerce_paypal_cert_id' => 
+' Identyfikator <abbr title="Identifier">ID</abbr> certyfikatu publicznego',
 
-'commerce_paypal_cert_path' => 'PayPal certificate path',
+'commerce_paypal_cert_id_desc' => 
+'<abbr title="Identifier">ID</abbr> nadane dla publicznego certyfikatu przez PayPal.',
 
-'commerce_paypal_cert_path_desc' => 'Full path to PayPal certificate.',
+'commerce_paypal_cert_path' => 
+'Ścieżka certyfikatu PayPal',
 
-'commerce_paypal_email' => 'PayPal account Email',
+'commerce_paypal_cert_path_desc' => 
+'Pełna ścieżka do certyfikatu PayPal.',
 
-'commerce_paypal_email_desc' => 'Email address associated with your PayPal business account.',
+'commerce_paypal_email' => 
+'Email do konta PayPall',
 
-'commerce_purchases' => 'Commerce Purchases',
+'commerce_paypal_email_desc' => 
+'Adres email przyporządkowany do twojego biznesowego konta PayPal.',
 
-'commerce_settings' => 'Commerce Settings',
+'commerce_purchases' => 
+'Zakupy handlowe',
 
-'commerce_temp_path' => 'Temporary encrypted file path',
+'commerce_settings' => 
+'Ustawienia handlowe',
 
-'commerce_temp_path_desc' => 'Full path to temporary encrypted files.',
+'commerce_temp_path' => 
+'Tymczasowa zaszyfrowana ścieżka pliku',
 
-'cost' => 'Cost',
+'commerce_temp_path_desc' => 
+'Pełna ścieżka do tymczasowych zaszyfrowanych plików.',
 
-'create_email_template' => 'Create Email Template',
+'cost' => 
+'Koszt',
 
-'create_new_item' => 'Create New Item',
+'create_email_template' => 
+'Utwórz szablon email',
 
-'create_new_item_step' => 'Create Item: Step %d',
+'create_new_item' => 
+'Utwórz nowy przedmiot',
 
-'create_new_item_step_desc' => 'Please choose the channel entries you\'d like to add as purchasable items.',
+'create_new_item_step' => 
+'Tworzenie przedmiotu: Krok %d',
 
-'create_purchase' => 'Create Purchase',
+'create_new_item_step_desc' => 
+'Wybierz pozycje kanałów, które chcesz dodać jako przedmioty do kupienia.',
 
-'create_template' => 'Create Template',
+'create_purchase' => 
+'Utwórz zakup',
 
-'customer_email_subscribe' => 'Customer Email Subscribe Template',
+'create_template' => 
+'Utwórz szablon',
 
-'customer_email_template' => 'Customer email template',
+'customer_email_subscribe' => 
+'Szablon subskrypcji e-mail klienta',
 
-'customer_email_template_desc' => 'Template to use when sending sale confirmation email to purchaser.',
+'customer_email_template' => 
+'Szablon email klienta',
 
-'customer_email_unsubscribe' => 'Customer <mark>cancel</mark> email template',
+'customer_email_template_desc' => 
+'Szablon do wykorzystania podczas wysyłania e-maila z potwierdzeniem sprzedaży do nabywcy.',
 
-'customer_email_unsubscribe_desc' => 'Template to use when sending cancel confirmation email to canceler.',
+'customer_email_unsubscribe' => 
+'Klient <mark>anuluj</mark> szablon e-mail',
 
-'date_of_purchase' => 'Date of Purchase',
+'customer_email_unsubscribe_desc' => 
+'Szablon do wykorzystania podczas wysyłania anulowanego e-maila z potwierdzeniem do anulującego.',
 
-'date_purchased' => 'Date Purchased',
+'date_of_purchase' => 
+'Data zakupu',
 
-'day' => 'Day',
+'date_purchased' => 
+'Data zakupu',
 
-'days' => 'Days',
+'day' => 
+'Dzień',
 
-'delete_emails_confirm' => 'Delete Emails Confirmation',
+'days' => 
+'Dni',
 
-'delete_items_confirm' => 'Delete Items Confirmation',
+'delete_emails_confirm' => 
+'Usuń potwierdzenie wiadomości e-mail',
 
-'delete_purchases_confirm' => 'Delete Purchases Confirmation',
+'delete_items_confirm' => 
+'Usuń potwierdzenie pozycji',
 
-'delete_selected' => 'Delete Selected',
+'delete_purchases_confirm' => 
+'Usuń potwierdzenie zakupu',
 
-'edit_email_template' => 'Edit Email Template',
+'delete_selected' => 
+'Usuń zaznaczone',
 
-'edit_item' => 'Edit Item',
+'edit_email_template' => 
+'Edycja szablou email',
 
-'edit_purchase' => 'Edit Purchase',
+'edit_item' => 
+'Edytuj przedmiot',
 
-'edit_selected' => 'Edit Selected',
+'edit_purchase' => 
+'Edytuj zakup',
 
-'email_body' => 'Email body',
+'edit_selected' => 
+'Edytuj zaznaczenie',
 
-'email_instructions' => 'Email Instructions',
+'email_body' => 
+'Treść emaila',
 
-'email_name' => 'Email Template Name',
+'email_instructions' => 
+'Instrukcje email',
 
-'email_options' => 'Email Options',
+'email_name' => 
+'Nazwa szablonu email',
 
-'email_subject' => 'Email subject',
+'email_options' => 
+'Opcje emaila',
 
-'email_template' => 'Email Template',
+'email_subject' => 
+'Temat emaila',
 
-'email_template_created' => 'Email Template Created',
+'email_template' => 
+'Szablon e-mail',
 
-'email_template_created_desc' => 'The email template has been created.',
+'email_template_created' => 
+'Utworzono szablon e-mail',
 
-'email_template_name_desc' => 'Name of this email template.',
+'email_template_created_desc' => 
+'Szablon e-mail został utworzony.',
 
-'email_template_not_created' => 'Cannot Create Email Template',
+'email_template_name_desc' => 
+'Nazwa tego szablonu wiadomości e-mail.',
 
-'email_template_not_created_desc' => 'We were unable to create this email template, please review and fix errors below.',
+'email_template_not_created' => 
+'Nie można utworzyć szablonu e-mail',
 
-'email_template_not_updated' => 'Cannot Update Email Template',
+'email_template_not_created_desc' => 
+'Nie udało się utworzyć tego szablonu e-mail, sprawdź i napraw błędy poniżej.',
 
-'email_template_not_updated_desc' => 'We were unable to update this email template, please review and fix errors below.',
+'email_template_not_updated' => 
+'Nie można zaktualizować szablonu wiadomości e-mail',
 
-'email_template_updated' => 'Email Template Updated',
+'email_template_not_updated_desc' => 
+'Nie możemy zaktualizować tego szablonu wiadomości e-mail, sprawdź i napraw błędy poniżej.',
 
-'email_template_updated_desc' => 'The email template <b>%s</b> has been updated.',
+'email_template_updated' => 
+'Uaktualniono szablon Email',
 
-'email_templates' => 'Email Templates',
+'email_template_updated_desc' => 
+'Szablon Email <b>%s</b> został zaktualizowany.',
 
-'email_templates_removed' => 'Email templates removed',
+'email_templates' => 
+'Szablony Email',
 
-'email_templates_removed_desc' => '%d email templates were removed.',
+'email_templates_removed' => 
+'Usunięto szablony Email',
 
-'emails_deleted' => 'Email Templates Deleted!',
+'email_templates_removed_desc' => 
+'%d szablonów wiadomości zostało usuniętych.',
 
-'enable_item' => 'Enable item?',
+'emails_deleted' => 
+'Usunięto szablony wiadomości e-mail!',
 
-'enable_item_desc' => 'When enabled, this item will be purchasable.',
+'enable_item' => 
+'Włączyć przedmiot?',
 
-'encrypt_buttons_links' => 'Encrypt PayPal buttons and links?',
+'enable_item_desc' => 
+'Po włączeniu ten przedmiot będzie można kupić.',
 
-'encryption' => 'Encryption',
+'encrypt_buttons_links' => 
+'Szyfrować przyciski i linki PayPal?',
 
-'entry_title' => 'Entry Title',
+'encryption' => 
+'Szyfrowanie',
 
-'export_items' => 'Export All Items',
+'entry_title' => 
+'Tytuł wpisu',
 
-'export_purchases' => 'Export All Purchases',
+'export_items' => 
+'Eksportuj wszystkie elementy',
 
-'fields_left_blank' => 'You Left Some Required Fields Blank',
+'export_purchases' => 
+'Eksportuj wszystkie zakupy',
 
-'file_does_not_exist' => 'File Does Not Exist for \'%pref%\'. Make sure to use a full server path.',
+'fields_left_blank' => 
+'Pozostawiłeś puste pola wymagane',
 
-'frequency' => 'Frequency',
+'file_does_not_exist' => 
+'Plik nie istnieje dla „%pref%”. Upewnij się, że używasz pełnej ścieżki serwera.',
 
-'invalid_amount' => 'Invalid Monetary Amount',
+'frequency' => 
+'Częstotliwość',
 
-'invalid_date_formatting' => 'Invalid Date Formatting',
+'invalid_amount' => 
+'Nieprawidłowa kwota pieniężna',
 
-'invalid_emails' => 'No Valid Emails',
+'invalid_date_formatting' => 
+'Nieprawidłowe formatowanie daty',
 
-'invalid_entries' => 'No Valid Entries',
+'invalid_emails' => 
+'Brak ważnych wiadomości e-mail',
 
-'invalid_purchases' => 'No Valid Purchases',
+'invalid_entries' => 
+'Brak ważnych wpisów',
 
-'invalid_subscription_frequency' => 'Invalid Subscription Frequency',
+'invalid_purchases' => 
+'Brak ważnych zakupów',
 
-'item' => 'Item',
+'invalid_subscription_frequency' => 
+'Nieprawidłowa częstotliwość subskrypcji',
 
-'item_added' => 'Items Added',
+'item' => 
+'Przedmiot',
 
-'item_cost' => 'Item Cost',
+'item_added' => 
+'Przedmiot dodany',
 
-'item_cost_form' => 'Item cost',
+'item_cost' => 
+'Koszt przedmiotu',
 
-'item_created' => 'Item Created',
+'item_cost_form' => 
+'Koszt przedmiotu',
 
-'item_created_desc' => 'The items have been created.',
+'item_created' => 
+'Utworzono przedmiot',
 
-'item_not_created' => 'Cannot Create Item',
+'item_created_desc' => 
+'Elementy zostały utworzone.',
 
-'item_not_created_desc' => 'We were unable to create this item, please review and fix errors below.',
+'item_not_created' => 
+'Nie można utworzyć przedmiotu',
 
-'item_not_updated' => 'Cannot Update Item',
+'item_not_created_desc' => 
+'Nie udało się utworzyć tego elementu, sprawdź i napraw błędy poniżej.',
 
-'item_not_updated_desc' => 'We were unable to update this item, please review and fix errors below.',
+'item_not_updated' => 
+'Nie można zaktualizować przedmiotu',
 
-'item_purchased' => 'Item purchased.',
+'item_not_updated_desc' => 
+'Nie możemy zaktualizować tego elementu, sprawdź i napraw błędy poniżej.',
 
-'item_purchases' => 'Purchases',
+'item_purchased' => 
+'Przedmiot został kupiony.',
 
-'item_updated' => 'Item Updated',
+'item_purchases' => 
+'Zakupy',
 
-'item_updated_desc' => 'The item <b>%s</b> has been updated.',
+'item_updated' => 
+'Element zaktualizowany',
 
-'items' => 'Items',
+'item_updated_desc' => 
+'Element <b>%s </b> został zaktualizowany.',
 
-'items_deleted' => 'Items Deleted',
+'items' => 
+'Elementy',
 
-'items_removed' => 'Items removed',
+'items_deleted' => 
+'Elementy usunięte',
 
-'items_removed_desc' => '%d items were removed.',
+'items_removed' => 
+'Elementy usunięte',
 
-'member_group_subscribe' => 'Subscribe Member Group',
+'items_removed_desc' => 
+'%d elementów zostało usuniętych.',
 
-'member_group_unsubscribe_desc' => 'Upon canceling, canceler\'s member group will be changed to the chosen group.',
+'member_group_subscribe' => 
+'Subskrybuj grupę członków',
 
-'member_not_found' => 'Member not found.',
+'member_group_unsubscribe_desc' => 
+'Po anulowaniu grupa członków anulującego zostanie zmieniona na wybraną grupę.',
 
-'month' => 'Month',
+'member_not_found' => 
+'Nie znaleziono członka.',
 
-'months' => 'Months',
+'month' => 
+'Miesiąc',
 
-'new_member_group' => 'New member group',
+'months' => 
+'Miesięcy',
 
-'new_member_group_desc' => 'Upon purchase, purchaser\'s member group will be changed to the chosen group.',
+'new_member_group' => 
+'Nowa grupa członków',
 
-'no_change' => 'No change',
+'new_member_group_desc' => 
+'Po zakupie grupa członkowska nabywcy zostanie zmieniona na wybraną grupę.',
 
-'no_email_templates' => 'Email templates',
+'no_change' => 
+'Bez zmian',
 
-'no_entries' => 'Entries',
+'no_email_templates' => 
+'Szablony Email',
 
-'no_items' => 'No Items',
+'no_entries' => 
+'Wpisy',
 
-'no_store_items' => 'No Store Items',
+'no_items' => 
+'Brak przedmiotów',
 
-'paypal_account' => 'PayPal account',
+'no_store_items' => 
+'Brak sklepowych przedmiotów',
 
-'paypal_certificate' => 'PayPal certificate path',
+'paypal_account' => 
+'Konto PayPal',
 
-'paypal_variables' => 'PayPal variables',
+'paypal_certificate' => 
+'Ścieżka certyfikatu PayPal',
 
-'paypal_variables_desc' => 'When a purchase is confirmed, an email will be sent for that item. These variables are sent back from PayPal.',
+'paypal_variables' => 
+'Zmienne PayPal',
 
-'perform_item_actions' => 'Perform Actions for Item?',
+'paypal_variables_desc' => 
+'Po potwierdzeniu zakupu zostanie wysłana wiadomość e-mail dla tego przedmiotu. Te zmienne są wysyłane z systemu PayPal.',
 
-'price' => 'Price',
+'perform_item_actions' => 
+'Wykonaj akcje dla przedmiotu?',
 
-'price_desc' => 'Item price for this transaction.',
+'price' => 
+'Cena',
 
-'price_sale' => 'Price / Sale',
+'price_desc' => 
+'Cena przedmiotu dla tej transakcji.',
 
-'private_key' => 'Private key path',
+'price_sale' => 
+'Cena / Sprzedaż',
 
-'public_certificate' => 'Public certificate path',
+'private_key' => 
+'Ścieżka klucza prywatnego',
 
-'purchase' => 'Purchase',
+'public_certificate' => 
+'Ścieżka certyfikatu publicznego',
 
-'purchase_create_warn' => '<b>Warning</b>: Recurring purchases must be set up through PayPal for full functionality.',
+'purchase' => 
+'Zakup',
 
-'purchase_created' => 'Purchase Created',
+'purchase_create_warn' => 
+'<b> Ostrzeżenie</b>: Aby zapewnić pełną funkcjonalność, zakupy cykliczne należy skonfigurować za pośrednictwem systemu PayPal.',
 
-'purchase_created_desc' => 'The purchase for item <b>%s</b> has been created.',
+'purchase_created' => 
+'Zakup utworzony',
 
-'purchase_date' => 'Date of purchase',
+'purchase_created_desc' => 
+'Zakup elementu <b>%s</b> został utworzony.',
 
-'purchase_not_created' => 'Cannot Create Purchase',
+'purchase_date' => 
+'Data zakupu',
 
-'purchase_not_created_desc' => 'We were unable to create this purchase, please review and fix errors below.',
+'purchase_not_created' => 
+'Nie można utworzyć zakupu',
 
-'purchase_not_updated' => 'Cannot Update Purchase',
+'purchase_not_created_desc' => 
+'Nie udało się utworzyć tego zakupu, sprawdź i napraw błędy poniżej.',
 
-'purchase_not_updated_desc' => 'We were unable to update this purchase, please review and fix errors below.',
+'purchase_not_updated' => 
+'Nie można zaktualizować zakupu',
 
-'purchase_updated' => 'Purchase Updated',
+'purchase_not_updated_desc' => 
+'Nie mogliśmy zaktualizować tego zakupu, sprawdź i napraw błędy poniżej.',
 
-'purchase_updated_desc' => 'The purchase for item <b>%s</b> has been updated.',
+'purchase_updated' => 
+'Zakup zaktualizowany',
 
-'purchaser' => 'Purchaser',
+'purchase_updated_desc' => 
+'Zakup elementu <b>%s</b> został zaktualizowany.',
 
-'purchaser_screen_name' => 'Purchaser\'s Screen Name',
+'purchaser' => 
+'Kupujący',
 
-'purchases' => 'Purchases',
+'purchaser_screen_name' => 
+'Nazwa użytkownika kupującego',
 
-'purchases_deleted' => 'Purchases Deleted',
+'purchases' => 
+'Zakupy',
 
-'purchases_removed' => 'Purchases removed',
+'purchases_deleted' => 
+'Zakupy usunięte',
 
-'purchases_removed_desc' => '%d purchases were removed.',
+'purchases_removed' => 
+'Zakupy usunięte',
 
-'recurring' => 'Recurring subscription?',
+'purchases_removed_desc' => 
+'%d zakupów zostało usuniętych.',
 
-'recurring_desc' => 'When enabled, member will be charged until they cancel.',
+'recurring' => 
+'Subskrypcja cykliczna?',
 
-'recurring_purchase_warning' => "Recurring purchases must be set up through PayPal for full functionality.",
+'recurring_desc' => 
+'Po włączeniu członek zostanie obciążony do czasu anulowania.',
 
-'recurs_every' => 'Recurs every',
+'recurring_purchase_warning' => 
+'Powtarzające się zakupy muszą zostać skonfigurowane za pośrednictwem systemu PayPal w celu uzyskania pełnej funkcjonalności.',
 
-'regular_price' => 'Regular price',
+'recurs_every' => 
+'Powtarza się co',
 
-'sale_price' => 'Sale price',
+'regular_price' => 
+'Normalna cena',
 
-'sales_information' => 'Sales Information',
+'sale_price' => 
+'Cena sprzedaży',
 
-'screen_name' => 'Screen name',
+'sales_information' => 
+'Informacje o sprzedaży',
 
-'screen_name_desc' => 'Screen name of purchaser.',
+'screen_name' => 
+'Nazwa na ekranie',
 
-'search_commerce' => 'Search Commerce',
+'screen_name_desc' => 
+'Nazwa kupującego na ekranie.',
 
-'select_admin_template' => 'Must Select Admin Email Template if Email Address is Filled Out',
+'search_commerce' => 
+'Szukaj w handlu',
 
-'send_no_email' => 'Do not send email',
+'select_admin_template' => 
+'Należy wybrać szablon e-mail administratora, jeśli adres e-mail jest wypełniony',
 
-'settings' => 'Settings',
+'send_no_email' => 
+'Nie wysyłaj wiadomości e-mail',
 
-'settings_updated' => 'Settings Updated',
+'settings' => 
+'Ustawienia',
 
-'simple_commerce_home' => 'Control Panel',
+'settings_updated' => 
+'Zaktualizowano ustawienia',
 
-'simple_commerce_manager' => 'Simple Commerce Manager',
+'simple_commerce_home' => 
+'Panel Kontrolny',
 
-'simple_commerce_module_name' => 'Simple Commerce',
+'simple_commerce_manager' => 
+'Manager Prostego handlu',
 
-'store_items' => 'Store Items',
+'simple_commerce_module_name' => 
+'Prosty handel',
 
-'sub_end_date' => 'End Date',
+'store_items' => 
+'Przechowuj przedmioty',
 
-'subscribers' => 'Subscribers',
+'sub_end_date' => 
+'Data zakończenia',
 
-'subscription_end_date' => 'Subscription End Date',
+'subscribers' => 
+'Subskrybenci',
 
-'subscription_end_date_subtext' => 'Enter \'0\' for no subscription end',
+'subscription_end_date' => 
+'Data zakończenia subskrypcji',
 
-'subscription_frequency' => 'Frequency of subscription',
+'subscription_end_date_subtext' => 
+'Wpisz „0”, aby nie kończyć subskrypcji',
 
-'subscription_frequency_desc' => 'How often will the member be charged for their subscription of this item.',
+'subscription_frequency' => 
+'Częstotliwość subskrypcji',
 
-'subscription_frequency_unit' => 'Subscription Frequency Unit',
+'subscription_frequency_desc' => 
+'Jak często członek zostanie obciążony za subskrypcję tego przedmiotu.',
 
-'subscription_options' => 'Subscription Options',
+'subscription_frequency_unit' => 
+'Jednostka częstotliwości subskrypcji',
 
-'temp_path' => 'Temporary encrypted files path',
+'subscription_options' => 
+'Opcje subskrypcji',
 
-'template' => 'Template',
+'temp_path' => 
+'Ścieżka tymczasowych zaszyfrowanych plików',
 
-'temporary_directory_unwritable' => 'The Directory specified for writing the temporary files is not writable.',
+'template' => 
+'Szablon',
 
-'txn_id' => 'PIN (TXN ID)',
+'temporary_directory_unwritable' => 
+'Katalog określony do zapisu plików tymczasowych nie jest zapisywalny.',
 
-'txn_id_desc' => 'A unique ID for this purchase',
+'txn_id' => 
+'PIN (TXN ID)',
 
-'update_email' => 'Update Email Template',
+'txn_id_desc' => 
+'Unikalny identyfikator tego zakupu',
 
-'update_emails' => 'Update Email Templates',
+'update_email' => 
+'Zaktualizuj szablon e-mail',
 
-'update_purchase' => 'Update Purchase',
+'update_emails' => 
+'Aktualizuj szablony wiadomości e-mail',
 
-'update_purchases' => 'Update Purchases',
+'update_purchase' => 
+'Zaktualizuj zakup',
 
-'updated' => 'Updated',
+'update_purchases' => 
+'Aktualizuj zakupy',
 
-'use_sale_price' => 'Use sale price?',
+'updated' => 
+'Zaktualizowano',
 
-'week' => 'Week',
+'use_sale_price' => 
+'Użyj ceny sprzedaży?',
 
-'weeks' => 'Weeks',
+'week' => 
+'tydzień',
 
-'year' => 'Year',
+'weeks' => 
+'Tygodni',
 
-'years' => 'Years',
+'year' => 
+'Rok',
 
+'years' => 
+'Lat',
+
+''=>''
 );
 
-// EOF
+// End of File
