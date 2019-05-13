@@ -113,7 +113,7 @@ $lang = array(
 'Lokalizacja pliku musi się odnosić do folderu panelu sterowania witryny. Przykład: ../members.txt, jeśli jest umieszczony w katalogu głównym witryny.',
 
 'group_id' => 
-'Domyślan grupa członka',
+'Domyślna grupa członka',
 
 'import' => 
 'Import!',
@@ -183,7 +183,7 @@ $lang = array(
 'To narzędzie umożliwia importowanie elementów z innych systemów do ExpressionEngine',
 
 'missing_birthday_child' => 
-'Missing child element(s) of &lt;birthday&gt;: &lt;day&gt; &lt;month&gt; &lt;year&gt; expected',
+'Brakujące elementy potomne w &lt;urodziny&gt;: &lt;dzień&gt; &lt;miesiąc&gt; &lt;rok&gt; spodziewany',
 
 'missing_email_field' => 
 'Musisz przyporządkować pole do "emaila"',
