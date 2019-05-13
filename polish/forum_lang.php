@@ -1,731 +1,1094 @@
 <?php
-
 $lang = array(
 
-'action_can_not_be_undone' => 'This action cannot be undone',
 
-'activate_thread' => 'Activate Thread',
+'action_can_not_be_undone' => 
+'Ta operacja nie może być cofnięta',
 
-'active_members' => 'Active Members:',
+'activate_thread' => 
+'Aktywny wątek',
 
-'active_thread' => 'Active Thread',
+'active_members' => 
+'Aktywni członkowie:',
 
-'add_a_poll' => 'Add a poll to this topic',
+'active_thread' => 
+'Akty wątek',
 
-'add_another_row' => 'Add Another Row',
+'add_a_poll' => 
+'Dodaj ankietę do tego tematu',
 
-'add_attachment' => 'Add Attachment',
+'add_another_row' => 
+'Dodaj kolejny wiersz',
 
-'administrator' => 'Administrator',
+'add_attachment' => 
+'Dodać załącznik',
 
-'admins_can_not_be_banned' => 'Admins can only be banned by a Super Admin',
+'administrator' => 
+'Administrator',
 
-'advanced_search' => 'Advanced Search',
+'admins_can_not_be_banned' => 
+'Administratorzy mogą zostać zbanowani tylko przez administratora',
 
-'ago' => '%x ago',
+'advanced_search' => 
+'Wyszukiwanie zaawansowane',
 
-'allowed_mimes' => 'Allowed Filetypes:',
+'ago' => 
+'%x temu',
 
-'already_ignored' => 'Member is already being ignored',
+'allowed_mimes' => 
+'Dozwolone typy plików:',
 
-'already_subscribed' => 'You are already subscribed to this thread',
+'already_ignored' => 
+'Członek jest już ignorowany',
 
-'announcement' => 'Announcement',
+'already_subscribed' => 
+'Subskrybujesz już ten wątek',
 
-'announcements' => 'Announcements',
+'announcement' => 
+'Ogłoszenie',
 
-'any_date' => 'Any date',
+'announcements' => 
+'Ogłoszenia',
 
-'ascending' => 'Ascending',
+'any_date' => 
+'Dowolna data',
 
-'atom_feed' => 'Atom Feed',
+'ascending' => 
+'Rosnąco',
 
-'attachments' => 'Attachments',
+'atom_feed' => 
+'Atom Feed',
 
-'author' => 'Author',
+'attachments' => 
+'Załączniki',
 
-'auto_login' => 'Auto-login on future visits?',
+'author' => 
+'Autor',
 
-'avatar' => 'Avatar',
+'auto_login' => 
+'Czy automatycznie logować przy następnych wizytach?',
 
-'ban_ip_addresses' => 'Ban all IP addresses associated with this account?',
+'avatar' => 
+'Avatar',
 
-'ban_member' => 'Ban Member',
+'ban_ip_addresses' => 
+'Zablokować wszystkie adresy IP powiązane z tym kontem?',
 
-'ban_warning' => 'This option is permanent and cannot be undone!',
+'ban_member' => 
+'Banowanie członka',
 
-'blue' => 'Blue',
+'ban_warning' => 
+'Ta opcja jest trwała i nie można jej cofnąć!',
 
-'body' => 'Message',
+'blue' => 
+'Niebieski',
 
-'brown' => 'Brown',
+'body' => 
+'Wiadomość',
 
-'bulletin_board' => 'Bulletin Board',
+'brown' => 
+'Brązowy',
 
-'can_not_ban_super_admins' => 'Super Admins cannot be banned',
+'bulletin_board' => 
+'Tablica ogłoszeń',
 
-'can_not_ban_yourself' => 'You cannot ban your own account',
+'can_not_ban_super_admins' => 
+'Super Administratorzy nie mogą zostać zbanowani',
 
-'can_not_ignore_yourself' => 'You cannot ignore yourself',
+'can_not_ban_yourself' => 
+'Nie możesz zakazać własnego konta',
 
-'can_not_post_in_forum' => 'You are not authorized to post in this forum',
+'can_not_ignore_yourself' => 
+'Nie możesz się zignorować',
 
-'can_not_split' => 'You are not allowed to split threads in the forum you specified.',
+'can_not_post_in_forum' => 
+'Nie masz uprawnień do publikowania na tym forum',
 
-'can_not_view_forum' => 'You are not authorized to view this forum',
+'can_not_split' => 
+'Nie możesz dzielić wątków na podanym forum.',
 
-'can_not_view_posts' => 'You are not authorized to view posts in this forum.',
+'can_not_view_forum' => 
+'Nie masz uprawnień do przeglądania tego forum',
 
-'cannot_report_self' => 'You cannot report your own post',
+'can_not_view_posts' => 
+'Nie masz uprawnień do wyświetlania postów na tym forum.',
 
-'cant_quote_an' => 'Announcements can\'t be replied to',
+'cannot_report_self' => 
+'Nie możesz zgłosić własnego postu',
 
-'cast_vote' => 'Cast Your Vote',
+'cant_quote_an' => 
+'Nie można odpowiedzieć na ogłoszenia',
 
-'choose_destination_forum' => 'Choose the forum where you would like the thread moved',
+'cast_vote' => 
+'Oddaj swój głos',
 
-'choose_forum_board' => 'Choose Forum Board',
+'choose_destination_forum' => 
+'Wybierz forum, do którego chcesz przenieść wątek',
 
-'click_for_fullsize' => 'Click thumbnail to see full-size image',
+'choose_forum_board' => 
+'Wybierz tablicy forum',
 
-'click_preview_to_attach' => 'To attach more than one item click preview after choosing a file',
+'click_for_fullsize' => 
+'Kliknij miniaturę, aby zobaczyć obraz w pełnym rozmiarze',
 
-'close_post' => 'Set post status to closed',
+'click_preview_to_attach' => 
+'Aby dołączyć więcej niż jeden podgląd kliknięcia elementu po wybraniu pliku',
 
-'close_tags' => 'Close Tags',
+'close_post' => 
+'Ustaw status postu na zamknięty',
 
-'close_thread' => 'Close Thread',
+'close_tags' => 
+'Zamknij Tagi',
 
-'closed' => 'Closed:',
+'close_thread' => 
+'Zamknij wątek',
 
-'closed_thread' => 'Closed Thread',
+'closed' => 
+'Zamknięte:',
 
-'collapse' => 'Collapse',
+'closed_thread' => 
+'Zamknięty wątek',
 
-'color' => 'Color',
+'collapse' => 
+'Zwiń',
 
-'confirm_subscription_removal' => 'Confirm Subscription Removal',
+'color' => 
+'Kolor',
 
-'content' => 'Content',
+'confirm_subscription_removal' => 
+'Potwierdź usunięcie subskrypcji',
 
-'current_attachments' => 'Current Attachments',
+'content' => 
+'Zawartość',
 
-'date' => 'Date',
+'current_attachments' => 
+'Aktualne załączniki',
 
-'delete' => 'Delete',
+'date' => 
+'Data',
 
-'delete_account' => 'Delete member account and remove all posts.',
+'delete' => 
+'usuń',
 
-'delete_confirm' => 'Delete Confirmation',
+'delete_account' => 
+'Usuń konto członkowskie i usuń wszystkie posty.',
 
-'delete_reply' => 'Delete Post',
+'delete_confirm' => 
+'Usuń potwierdzenie',
 
-'delete_thread' => 'Delete Thread',
+'delete_reply' => 
+'Usuń post',
 
-'descending' => 'Descending',
+'delete_thread' => 
+'Usuń wątek',
 
-'dimensions_too_big' => 'Images must not exceed a width of %x pixels by %y pixels',
+'descending' => 
+'Malejąco',
 
-'display_avatars' => 'Display member avatars in forum threads',
+'dimensions_too_big' => 
+'Obrazy nie mogą przekraczać szerokości %x pikseli o %y pikseli',
 
-'display_signatures' => 'Display member signatures in forum threads',
+'display_avatars' => 
+'Wyświetl awatary członków w wątkach forum',
 
-'downloads' => 'Downloads:',
+'display_signatures' => 
+'Wyświetl podpisy członków w wątkach forum',
 
-'duplicate_data_warning' => 'Unable to receive your submission at this time',
+'downloads' => 
+'Pobrania:',
 
-'edit' => 'Edit',
+'duplicate_data_warning' => 
+'W tej chwili nie można odebrać twojego zgłoszenia',
 
-'edit_poll' => 'Edit Poll',
+'edit' => 
+'Edycja',
 
-'edit_preferences' => 'Edit Preferences',
+'edit_poll' => 
+'Edytuj sondę',
 
-'edit_reply' => 'Edit a Reply',
+'edit_preferences' => 
+'Edycja preferencji',
 
-'edit_topic' => 'Edit Topic',
+'edit_reply' => 
+'Edytuj odpowiedź',
 
-'edited' => 'Edited',
+'edit_topic' => 
+'Edytuj temat',
 
-'ee_discussion_forum' => 'ExpressionEngine Discussion Forum',
+'edited' => 
+'Edytowany',
 
-'ee_forums' => 'ExpressionEngine Forums',
+'ee_discussion_forum' => 
+'Forum dysksyjne ExpressionEngine',
 
-'elapsed_time' => 'Script Executed in {elapsed_time} seconds',
+'ee_forums' => 
+'Fora ExpressionEngine',
 
-'empty_body_field' => 'Your message field is empty',
+'elapsed_time' => 
+'Skrypt wykonany w {elapsed_time} sekundach',
 
-'empty_title_field' => 'Your post must have a title',
+'empty_body_field' => 
+'Twoje pole wiadomości jest puste',
 
-'enable_smileys' => 'Enable smileys in this post',
+'empty_title_field' => 
+'Twój post musi mieć tytuł',
 
-'error_message' => 'Error Message:',
+'enable_smileys' => 
+'Włącz emotikony w tym poście',
 
-'exact_match' => 'Exact Match',
+'error_message' => 
+'Komunikat o błędzie:',
 
-'exact_name_match' => 'Exact Name Match',
+'exact_match' => 
+'Dokładne dopasowanie',
 
-'expand' => 'Expand',
+'exact_name_match' => 
+'Dokładne dopasowanie nazwy',
 
-'fast_reply' => 'Fast Reply',
+'expand' => 
+'Rozszerz',
 
-'file_attachments' => 'File Attachments',
+'fast_reply' => 
+'Szybka odpowiedź',
 
-'file_name' => 'File Name',
+'file_attachments' => 
+'Załączniki do plików',
 
-'file_size' => 'File Size:',
+'file_name' => 
+'Nazwa pliku',
 
-'file_too_big' => 'The size of your attachments must not exceed %x KB',
+'file_size' => 
+'Wielkość pliku:',
 
-'font_formatting' => 'Font Formatting',
+'file_too_big' => 
+'Rozmiar załączników nie może przekraczać %x KB',
 
-'forgot_password' => 'Forgotten Password',
+'font_formatting' => 
+'Formatowanie czcionek',
 
-'forgot_your_password' => 'forgot password?',
+'forgot_password' => 
+'Zapomniane hasło',
 
-'formatting' => 'Formatting',
+'forgot_your_password' => 
+'zapomniałeś hasła?',
 
-'forum' => 'Forum',
+'formatting' => 
+'Formatowanie',
 
-'forum_boards' => 'Forum Boards',
+'forum' => 
+'Forum',
 
-'forum_module_description' => 'Discussion Forum Module',
+'forum_boards' => 
+'Tablica forum',
 
-'forum_module_name' => 'Discussion Forum',
+'forum_module_description' => 
+'Moduł forum dyskusyjnego',
 
-'forum_name_heading' => 'Forum Name',
+'forum_module_name' => 
+'Forum dyskusyjne',
 
-'forum_not_installed' => 'Forum does not appear to be installed',
+'forum_name_heading' => 
+'Nazwa forum',
 
-'forums' => 'Forums',
+'forum_not_installed' => 
+'Forum nie wydaje się być zainstalowane',
 
-'forums_currenty_offline' => 'Our discussion forums are currently offline.  We apologize for any inconvenience',
+'forums' => 
+'Fora',
 
-'forums_offline' => 'Discussion Forums Offline',
+'forums_currenty_offline' => 
+'Nasze fora dyskusyjne są obecnie offline. Przepraszamy za wszelkie niedogodności',
 
-'forums_removed' => 'Forums removed',
+'forums_offline' => 
+'Fora dyskusyjne są Offline',
 
-'forums_removed_desc' => 'The following forums were removed:',
+'forums_removed' => 
+'Usunięto fora',
 
-'found_in' => 'Keywords found in the following replies:',
+'forums_removed_desc' => 
+'Następujące fora zostały usunięte:',
 
-'found_in_many' => 'Keywords found in many replies',
+'found_in' => 
+'Słowa kluczowe znalezione w następujących odpowiedziach:',
 
-'green' => 'Green',
+'found_in_many' => 
+'Słowa kluczowe znalezione w wielu odpowiedziach',
 
-'grey' => 'Grey',
+'green' => 
+'Zielony',
 
-'guided' => 'Guided',
+'grey' => 
+'Szary',
 
-'harassment' => 'Harassment',
+'guided' => 
+'Prowadzony',
 
-'hide_category' => 'Hide Category',
+'harassment' => 
+'Dokuczanie',
 
-'hide_stats' => 'Hide Stats',
+'hide_category' => 
+'Ukryj kategorię',
 
-'home' => 'Forum Home',
+'hide_stats' => 
+'Ukryj statystyki',
 
-'ignore' => 'Ignore',
+'home' => 
+'Strona startowa forum',
 
-'ignore_member' => 'Ignore Member',
+'ignore' => 
+'Ignoruj',
 
-'ignore_member_confirmation' => 'Ignore Member Confirmation',
+'ignore_member' => 
+'Ignoruj członka',
 
-'image_attachments' => 'Image Attachments',
+'ignore_member_confirmation' => 
+'Ignoruj potwierdzenie członka',
 
-'in_all_forums' => 'In all forums',
+'image_attachments' => 
+'Załączniki do obrazów',
 
-'in_this_forum' => 'In this forum',
+'in_all_forums' => 
+'We wszystkich forach',
 
-'invalid_subscription_id' => 'The URL you submitted contains an invalid code number',
+'in_this_forum' => 
+'Na tym forum',
 
-'ip_address' => 'Private IP:',
+'invalid_subscription_id' => 
+'Przesłany adres URL zawiera nieprawidłowy numer kodu',
 
-'ip_addresses_banned' => 'The following IP addresses were banned:',
+'ip_address' => 
+'Prywatne IP:',
 
-'is_ignored' => 'is being ignored',
+'ip_addresses_banned' => 
+'Następujące adresy IP zostały zbanowane:',
 
-'joined' => 'Joined',
+'is_ignored' => 
+'jest ignorowany',
 
-'kb' => 'KB',
+'joined' => 
+'Dołączył',
 
-'keywords' => 'Keywords:',
+'kb' => 
+'KB',
 
-'language' => 'Language',
+'keywords' => 
+'Słowa kluczowe:',
 
-'large' => 'Large',
+'language' => 
+'Język',
 
-'largest' => 'Largest',
+'large' => 
+'Duży',
 
-'last_ten_posts' => 'Displaying the last ten posts.',
+'largest' => 
+'Największy',
 
-'last_visit_on' => 'You last visited on:',
+'last_ten_posts' => 
+'Wyświetlanie ostatnich dziesięciu postów.',
 
-'legend' => 'Post Marker Legend',
+'last_visit_on' => 
+'Ostatnio odwiedziłeś:',
 
-'legend_announcements' => 'Announcements',
+'legend' => 
+'Post Legenda znaczników',
 
-'legend_closed_topic' => 'Closed Topic',
+'legend_announcements' => 
+'Ogłoszenia',
 
-'legend_hot_old_topic' => 'Hot Topic with no new posts',
+'legend_closed_topic' => 
+'Zamknięty temat',
 
-'legend_hot_topic' => 'Hot Topic with new posts',
+'legend_hot_old_topic' => 
+'Gorący temat bez nowych postów',
 
-'legend_moved_topic' => 'Moved Topic',
+'legend_hot_topic' => 
+'Gorący temat z nowymi postami',
 
-'legend_new_poll' => 'New Poll',
+'legend_moved_topic' => 
+'Przeniesiony temat',
 
-'legend_new_posts' => 'New posts',
+'legend_new_poll' => 
+'Nowy sondaż',
 
-'legend_new_topic' => 'New Topic',
+'legend_new_posts' => 
+'Nowe posty',
 
-'legend_no_new_posts' => 'No new posts',
+'legend_new_topic' => 
+'Nowe tematy',
 
-'legend_old_poll' => 'Old Poll',
+'legend_no_new_posts' => 
+'Nie ma nowych postów',
 
-'legend_old_topic' => 'Old Topic',
+'legend_old_poll' => 
+'Stare sondaże',
 
-'legend_sticky_topic' => 'Sticky topic',
+'legend_old_topic' => 
+'Stare tematy',
 
-'link' => 'Link',
+'legend_sticky_topic' => 
+'Temat przyklejony',
 
-'logged_in_as' => 'Logged in as:',
+'link' => 
+'Link',
 
-'login' => 'Login',
+'logged_in_as' => 
+'Zalogowany jako:',
 
-'login_required' => 'Login Required',
+'login' => 
+'Login',
 
-'logout' => 'Log-Out',
+'login_required' => 
+'Wymagane logowanie',
 
-'make_post_announcement' => 'Make this an announcement',
+'logout' => 
+'Wyloguj',
 
-'make_post_sticky' => 'Make this a sticky post',
+'make_post_announcement' => 
+'Zrób z tego ogłoszenie',
 
-'mark_all_read' => 'Mark All Posts as Read',
+'make_post_sticky' => 
+'Zrób z tego przyklejony post',
 
-'max_attach_size' => 'Max Size:',
+'mark_all_read' => 
+'Oznacz wszystko jako przeczytane',
 
-'max_characters' => 'Characters',
+'max_attach_size' => 
+'Maksymalny rozmiar:',
 
-'medium' => 'Medium',
+'max_characters' => 
+'Znaki',
 
-'member_ban_warning' => 'Are you sure you want to suspend the following member\'s account?',
+'medium' => 
+'Średni',
 
-'member_banning' => 'Member Banning',
+'member_ban_warning' => 
+'Czy na pewno chcesz zawiesić konto następującego użytkownika?',
 
-'member_banning_form' => 'Member Banning Form',
+'member_banning' => 
+'Banowanie członka',
 
-'member_is_banned' => 'Member is Banned',
+'member_banning_form' => 
+'Formularz banowania członka',
 
-'member_name' => 'Member Name:',
+'member_is_banned' => 
+'Członek został zbanowany',
 
-'member_profile' => 'Member Profile',
+'member_name' => 
+'Nazwa członka:',
 
-'member_registration' => 'Member Registration',
+'member_profile' => 
+'Profil członka',
 
-'member_reinstating' => 'Member Reinstating',
+'member_registration' => 
+'Rejestracja członka',
 
-'memberlist' => 'Member List',
+'member_reinstating' => 
+'Przywrócenie członka',
 
-'merge' => 'Merge',
+'memberlist' => 
+'Lista członków',
 
-'merge_duplicate_id' => 'You cannot merge a topic with itself.',
+'merge' => 
+'Połącz',
 
-'merge_info' => 'The merge feature allows you to merge two threads together into a single thread',
+'merge_duplicate_id' => 
+'Nie możesz połączyć tematu z samym sobą.',
 
-'merge_requires_id' => 'You must specify a valid topic ID in order to merge.',
+'merge_info' => 
+'Funkcja scalania umożliwia połączenie dwóch wątków w jeden wątek',
 
-'merge_threads' => 'Merge Threads',
+'merge_requires_id' => 
+'Aby scalić, musisz podać prawidłowy identyfikator tematu.',
 
-'merge_url' => 'URL of Thread to Merge',
+'merge_threads' => 
+'Połącz wątki',
 
-'merge_url_info' => 'Please specify the URL or topic ID of the thread that you wish to merge with this one',
+'merge_url' => 
+'Adres URL wątku do scalenia',
 
-'merged_action' => 'merged',
+'merge_url_info' => 
+'Podaj adres URL lub identyfikator tematu wątku, który chcesz połączyć z tym wątkiem',
 
-'moderated_by' => 'Moderator:',
+'merged_action' => 
+'połączone',
 
-'moderated_by_plural' => 'Moderators:',
+'moderated_by' => 
+'Moderator:',
 
-'moderator' => 'Moderator',
+'moderated_by_plural' => 
+'Moderatorzy:',
 
-'more_options' => 'More Options',
+'moderator' => 
+'Moderator',
 
-'most_popular_posts' => 'Most Popular Threads',
+'more_options' => 
+'Więcej opcji',
 
-'most_posts' => 'Most Posts',
+'most_popular_posts' => 
+'Najpopularniejsze wątki',
 
-'most_recent_topics' => 'Most Recent Topics',
+'most_posts' => 
+'Większość postów',
 
-'most_users_ever' => 'The most visitors ever was',
+'most_recent_topics' => 
+'Najnowsze tematy',
 
-'move' => 'Move',
+'most_users_ever' => 
+'Najwięcej odwiedzających kiedykolwiek było',
 
-'move_reply' => 'Move Reply',
+'move' => 
+'Przenieś',
 
-'move_reply_requires_id' => 'You must specify a valid topic ID in order to move a reply.',
+'move_reply' => 
+'Przenieś odpowiedź',
 
-'move_reply_url' => 'URL of Target Topic',
+'move_reply_requires_id' => 
+'Musisz podać prawidłowy identyfikator tematu, aby przenieść odpowiedź.',
 
-'move_reply_url_info' => 'Please specify the URL or topic ID of the thread that you wish to move this reply to',
+'move_reply_url' => 
+'Adres URL tematu docelowego',
 
-'move_topic' => 'Move Thread',
+'move_reply_url_info' => 
+'Podaj adres URL lub identyfikator tematu wątku, na który chcesz przenieść tę odpowiedź',
 
-'moved' => 'Moved:',
+'move_topic' => 
+'Przenieś wątek',
 
-'moved_action' => 'moved',
+'moved' => 
+'Przeniesiono:',
 
-'moved_reply_action' => 'moved',
+'moved_action' => 
+'przeniesiono',
 
-'must_be_logged_in' => 'This page is only accessible to logged-in users with proper access privileges',
+'moved_reply_action' => 
+'przeniesiono',
 
-'must_be_logged_to_vote' => 'You must be a logged-in member to vote',
+'must_be_logged_in' => 
+'Ta strona jest dostępna tylko dla zalogowanych użytkowników z odpowiednimi uprawnieniami dostępu',
 
-'never' => 'Never',
+'must_be_logged_to_vote' => 
+'Musisz być zalogowanym członkiem, aby głosować',
 
-'new_messages' => 'New Messages',
+'never' => 
+'Nigdy',
 
-'new_reply' => 'Post a New Reply',
+'new_messages' => 
+'Nowe wiadomości',
 
-'new_title' => 'New Title',
+'new_reply' => 
+'Opublikuj nową odpowiedź',
 
-'new_topic' => 'Post a New Topic',
+'new_title' => 
+'Nowy tytuł',
 
-'new_topic_search' => 'New Topic Search',
+'new_topic' => 
+'Opublikuj nowy temat',
 
-'newer' => 'Newer',
+'new_topic_search' => 
+'Nowe wyszukiwanie tematu',
 
-'newest_members' => 'Newest Members:',
+'newer' => 
+'Nigdy',
 
-'next' => 'Next',
+'newest_members' => 
+'Najnowsi członkowie:',
 
-'no_feed_results' => 'Your request did not return any results',
+'next' => 
+'Następny',
 
-'no_feed_specified' => 'The URL you have requested does not contain active feed ID numbers.',
+'no_feed_results' => 
+'Twoja prośba nie zwróciła żadnych wyników',
 
-'no_forums_to_move_to' => 'There are no other forums into which to move this topic.',
+'no_feed_specified' => 
+'Żądany adres URL nie zawiera aktywnych numerów identyfikacyjnych kanału.',
 
-'no_name_result' => 'The member name you submitted does not match any records',
+'no_forums_to_move_to' => 
+'Nie ma innych forów do poruszania tego tematu.',
 
-'no_new_messages' => 'No New Messages',
+'no_name_result' => 
+'Przesłana nazwa członka nie pasuje do żadnych rekordów',
 
-'no_topics' => 'There are no topics in this forum yet',
+'no_new_messages' => 
+'Brak nowych wiadomości',
 
-'normal' => 'Normal',
+'no_topics' => 
+'Brak tematów na tym forum',
 
-'not_allowed_to_search' => 'You are not permitted to search',
+'normal' => 
+'Normalny',
 
-'not_subscribed_to_topic' => 'You do not appear to be subscribed to the topic ID you submitted',
+'not_allowed_to_search' => 
+'Nie możesz wyszukiwać',
 
-'notify_of_repsonses' => 'Notify me via email when someone posts in this thread',
+'not_subscribed_to_topic' => 
+'Wygląda na to, że nie subskrybujesz przesłanego identyfikatora tematu',
 
-'notify_reply_owner' => 'Send notification email of this moderation action to the author of the reply',
+'notify_of_repsonses' => 
+'Powiadom mnie pocztą e-mail, gdy ktoś opublikuje w tym wątku',
 
-'notify_thread_owner' => 'Send notification email of this moderation action to thread owner',
+'notify_reply_owner' => 
+'Wyślij wiadomość e-mail z powiadomieniem o tej akcji moderacji do autora odpowiedzi',
 
-'older' => 'Older',
+'notify_thread_owner' => 
+'Wyślij e-mail z powiadomieniem o tej akcji moderacji do właściciela wątku',
 
-'one_month_ago_and' => '1 Month Ago and...',
+'older' => 
+'Starsze',
 
-'one_year_ago_and' => '1 Year Ago and...',
+'one_month_ago_and' => 
+'1 miesiąc temu oraz...',
 
-'options' => 'Options',
+'one_year_ago_and' => 
+'1 rok temu oraz...',
 
-'orange' => 'Orange',
+'options' => 
+'Opcje',
 
-'other' => 'Other',
+'orange' => 
+'Pomarańczowy',
 
-'password' => 'Password',
+'other' => 
+'Inny',
 
-'pink' => 'Pink',
+'password' => 
+'Hasło',
 
-'pm_short' => 'PM',
+'pink' => 
+'Różowy',
 
-'poll' => 'Poll',
+'pm_short' => 
+'PM',
 
-'poll_answer_instructions' => 'submit as many answers as you need',
+'poll' => 
+'Ankieta',
 
-'poll_answers' => 'Poll Answers',
+'poll_answer_instructions' => 
+'zgłoś jak najwięcej odpowiedzi',
 
-'poll_delete_instructions' => 'To delete or cancel this poll submit the form with the question blank',
+'poll_answers' => 
+'Odpowiedzi ankiety',
 
-'poll_marker' => 'Poll:',
+'poll_delete_instructions' => 
+'Aby usunąć lub anulować tę ankietę, prześlij formularz z pustym pytaniem',
 
-'poll_must_have_two_answers' => 'Your poll must have at least two answers',
+'poll_marker' => 
+'Ankieta:',
 
-'poll_question' => 'Poll Question',
+'poll_must_have_two_answers' => 
+'Twoja ankieta musi mieć co najmniej dwie odpowiedzi',
 
-'post_delete_warning' => 'Are you sure you want to delete the following post?',
+'poll_question' => 
+'Pytania ankiety',
 
-'post_hidden' => 'A post is hidden because',
+'post_delete_warning' => 
+'Czy na pewno chcesz usunąć następujący wpis?',
 
-'post_info_heading' => 'Latest Post Info',
+'post_hidden' => 
+'Post jest ukryty, ponieważ',
 
-'post_is_moderated' => 'Your post is in a moderation queue and will be displayed after moderator approval.',
+'post_info_heading' => 
+'Najnowsze wiadomości',
 
-'post_marked_read' => 'All Posts Marked Read',
+'post_is_moderated' => 
+'Twój post jest w kolejce moderacji i zostanie wyświetlony po zatwierdzeniu przez moderatora.',
 
-'post_new_topic' => 'New Topic',
+'post_marked_read' => 
+'Wszystkie posty oznaczone jako przeczytane',
 
-'post_permalink' => 'Permalink to this post',
+'post_new_topic' => 
+'Nowy temat',
 
-'post_reply' => 'Post Reply',
+'post_permalink' => 
+'Link do tego posta',
 
-'post_throttle' => 'You are only allowed to post every %x seconds',
+'post_reply' => 
+'Odpowiedź na post',
 
-'post_too_big' => 'Your post is too large.  The maximum number of allowed characters is %x',
+'post_throttle' => 
+'Możesz pisać tylko co %x sekund',
 
-'posted_by' => 'Author:',
+'post_too_big' => 
+'Twój post jest za duży. Maksymalna liczba dozwolonych znaków to %x',
 
-'posted_on' => 'Posted:',
+'posted_by' => 
+'Autor:',
 
-'powered_by_ee' => 'Powered by ExpressionEngine',
+'posted_on' => 
+'Wysłano:',
 
-'preview_post' => 'Preview Post',
+'powered_by_ee' => 
+'Powered by ExpressionEngine',
 
-'previous' => 'Prev',
+'preview_post' => 
+'Podgląd posta',
 
-'private_message' => 'Private Messages',
+'previous' => 
+'Podgląd',
 
-'profile' => 'Profile',
+'private_message' => 
+'Wiadomości prywatne',
 
-'purple' => 'Purple',
+'profile' => 
+'Profil',
 
-'quote' => 'Quote',
+'purple' => 
+'Fioletowy',
 
-'rank' => 'Rank',
+'quote' => 
+'Cytat',
 
-'recent_post' => 'Most Recent Post',
+'rank' => 
+'Ranga',
 
-'recent_posts' => 'Most Recent Posts',
+'recent_post' => 
+'Najnowszy post',
 
-'red' => 'Red',
+'recent_posts' => 
+'Najnowsze posty',
 
-'register' => 'Register',
+'red' => 
+'Czerwony',
 
-'reinstate_account' => 'Reinstate suspended account to active user status',
+'register' => 
+'Zarejestrować',
 
-'remaining_space' => 'You have %x of attachment space remaining',
+'reinstate_account' => 
+'Przywróć zawieszone konto do aktywnego statusu użytkownika',
 
-'remember_me' => 'Remember Me?',
+'remaining_space' => 
+'Pozostało %x miejsca na załącznik',
 
-'remove' => 'Remove',
+'remember_me' => 
+'Pamiętasz mnie?',
 
-'remove_subscription_question' => 'Are you sure you want to remove your subscription to the following thread?',
+'remove' => 
+'Usuń',
 
-'replies_in_topic' => 'Replies In Topic:',
+'remove_subscription_question' => 
+'Czy na pewno chcesz usunąć subskrypcję do następującego wątku?',
 
-'reply' => 'Reply',
+'replies_in_topic' => 
+'Odpowiedzi w temacie:',
 
-'reply_info_heading' => 'Reply Info',
+'reply' => 
+'Odpowiedz',
 
-'reply_made_by' => 'Reply made by',
+'reply_info_heading' => 
+'Informacje o odpowiedzi',
 
-'report' => 'Report',
+'reply_made_by' => 
+'Odpowiedź wykonana przez',
 
-'report_info' => 'The report feature allows you to report a post to the forum moderators.',
+'report' => 
+'Raport',
 
-'report_instructions' => 'Please select the reason you are reporting the thread below, and include any notes you wish for the moderators.',
+'report_info' => 
+'Funkcja raportu pozwala zgłosić post moderatorom forum.',
 
-'report_missing_reason' => 'You must select a reason to report a post',
+'report_instructions' => 
+'Wybierz powód, dla którego zgłaszasz poniższy wątek, i dołącz wszelkie uwagi do moderatorów.',
 
-'report_reply' => 'Report Reply',
+'report_missing_reason' => 
+'Musisz wybrać powód zgłoszenia zgłoszenia',
 
-'report_topic' => 'Report Topic',
+'report_reply' => 
+'Zgłoś odpowiedź',
 
-'retain_move_link' => 'Leave a link in the original forum for redirection',
+'report_topic' => 
+'Temat raportu',
 
-'rss_feed' => 'RSS 2.0',
+'retain_move_link' => 
+'Zostaw łącze na oryginalnym forum do przekierowania',
 
-'search' => 'Search',
+'rss_feed' => 
+'RSS 2.0',
 
-'search_all_forums' => 'Search in all forums',
+'search' => 
+'Szukaj',
 
-'search_in_forums' => 'Search In Forums',
+'search_all_forums' => 
+'Szukaj we wszystkich forach',
 
-'search_in_posts' => 'Search in Posts',
+'search_in_forums' => 
+'Szukaj w forach',
 
-'search_in_title_and_posts' => 'Search in Titles and Posts',
+'search_in_posts' => 
+'Szukaj w postach',
 
-'search_not_available' => 'Searching is currently unavailable',
+'search_in_title_and_posts' => 
+'Szukaj w tytułach i postach',
 
-'search_posts_from' => 'Search Posts From',
+'search_not_available' => 
+'Wyszukiwanie jest obecnie niedostępne',
 
-'search_redirect_msg' => 'Stand by while we direct you to your search results',
+'search_posts_from' => 
+'Szukaj postów od',
 
-'search_this_forum' => 'Search this forum',
+'search_redirect_msg' => 
+'Wstań, a my skierujemy Cię do wyników wyszukiwania',
 
-'search_thread' => 'Search this thread',
+'search_this_forum' => 
+'Przeszukaj to forum',
 
-'select_theme' => 'Select A Theme',
+'search_thread' => 
+'Przeszukaj ten wątek',
 
-'show_category' => 'Show Category',
+'select_theme' => 
+'Wybierz motyw',
 
-'show_name_in_userlist' => 'Show my name in the online users list',
+'show_category' => 
+'Pokaż kategorię',
 
-'show_stats' => 'Show Stats',
+'show_name_in_userlist' => 
+'Pokaż moją nazwę na liście użytkowników online.',
 
-'signature' => 'Signature',
+'show_stats' => 
+'Pokaż statystyki',
 
-'six_months_ago_and' => '6 Months Ago and...',
+'signature' => 
+'Sygnatura',
 
-'size' => 'Size',
+'six_months_ago_and' => 
+'6 miesięcy temu oraz...',
 
-'small' => 'Small',
+'size' => 
+'Wielkość',
 
-'smileys' => 'Smileys',
+'small' => 
+'Mały',
 
-'sort_results_by' => 'Sort Results By',
+'smileys' => 
+'Uśmieszki',
 
-'spam' => 'Spam / Advertising',
+'sort_results_by' => 
+'Sortuj wyniki wg',
 
-'split' => 'Split',
+'spam' => 
+'Spam / Reklamy',
 
-'split_action' => 'split',
+'split' => 
+'Rozdziel',
 
-'split_info' => 'Please select all the posts you would like to turn into a new thread, then assign a title.',
+'split_action' => 
+'rozdziel',
 
-'split_thread' => 'Split Thread',
+'split_info' => 
+'Wybierz wszystkie posty, które chcesz zamienić w nowy wątek, a następnie przypisz tytuł.',
 
-'sticky' => 'Sticky:',
+'split_thread' => 
+'Rozdziel wątek',
 
-'stop_ignoring' => 'Stop ignoring',
+'sticky' => 
+'Przyklejony:',
 
-'submit_post' => 'Submit Post',
+'stop_ignoring' => 
+'Przestań ignorować',
 
-'subscribe_to_thread' => 'Subscribe to this thread',
+'submit_post' => 
+'Prześlij post',
 
-'subscription_cancelled' => 'Subscription Removed',
+'subscribe_to_thread' => 
+'Subskrybuj ten wątek',
 
-'subscription_confirmation_link' => 'Click here to confirm',
+'subscription_cancelled' => 
+'Usunięto subskrypcję',
 
-'suspend_account' => 'Suspend member account and leave all posts intact.',
+'subscription_confirmation_link' => 
+'Kliknij tutaj aby potwierdzić',
 
-'this_week_and' => 'This Week and...',
+'suspend_account' => 
+'Zawieś konto użytkownika i pozostaw wszystkie posty nienaruszone.',
 
-'thread' => 'Thread',
+'this_week_and' => 
+'Ten tydzień oraz...',
 
-'thread_delete_info' => 'All posts in this thread will be permanently deleted!',
+'thread' => 
+'Wątek',
 
-'thread_delete_warning' => 'Are you sure you want to delete this entire thread?',
+'thread_delete_info' => 
+'Wszystkie posty w tym wątku zostaną trwale usunięte!',
 
-'thread_no_exists' => 'The specified thread does not exist',
+'thread_delete_warning' => 
+'Czy na pewno chcesz usunąć cały wątek?',
 
-'thread_review' => 'Thread Review',
+'thread_no_exists' => 
+'Określony wątek nie istnieje',
 
-'thread_review_link' => 'Click here to read this entire thread',
+'thread_review' => 
+'Przegląd wątków',
 
-'thread_title' => 'Thread Title:',
+'thread_review_link' => 
+'Kliknij tutaj, aby przeczytać cały wątek',
 
-'three_months_ago_and' => '3 Months Ago and...',
+'thread_title' => 
+'Tytuł wątku:',
 
-'title' => 'Title',
+'three_months_ago_and' => 
+'3 miesiące temu oraz...',
 
-'today_and' => 'Today and...',
+'title' => 
+'Tytuł',
 
-'too_many_attachments' => 'You are only allowed %x attachments per post.',
+'today_and' => 
+'Dzisiaj oraz...',
 
-'too_many_name_results' => 'The name you submitted is similar to the name of more than one user.  Please refine your criteria.',
+'too_many_attachments' => 
+'Dozwolone jest tylko %x załączników na post.',
 
-'topic_heading' => 'Topic Title',
+'too_many_name_results' => 
+'Przesłana nazwa jest podobna do nazwy więcej niż jednego użytkownika. Uściślij kryteria.',
 
-'topic_hidden' => 'A topic is hidden because',
+'topic_heading' => 
+'Tytuł wątku',
 
-'topic_is_closed' => 'This thread is not currently open for posting',
+'topic_hidden' => 
+'Wątek jest ukryty ponieważ',
 
-'topic_no_exists' => 'Sorry, that forum topic no longer exists',
+'topic_is_closed' => 
+'Wątek obecnie nie jest otwarty na wysyłanie postów',
 
-'topic_title' => 'Topic Title',
+'topic_no_exists' => 
+'Przepraszamy, ten temat na forum już nie istnieje',
 
-'total_anonymous' => 'Total Anonymous Users:',
+'topic_title' => 
+'Tytuł wątku',
 
-'total_attach_allowed' => 'Total Attachments Allowed:',
+'total_anonymous' => 
+'Wszystkich anonimowych użytkowników:',
 
-'total_guests' => 'Total Guests:',
+'total_attach_allowed' => 
+'Łącznie dozwolone załączniki:',
 
-'total_logged_in' => 'Total Logged-in Users:',
+'total_guests' => 
+'Wszystkich gości:',
 
-'total_pm' => 'Total:',
+'total_logged_in' => 
+'Wszystkich zalogowanych użytkowników:',
 
-'total_posts' => 'Total Posts:',
+'total_pm' => 
+'Wszystkich:',
 
-'total_posts_heading' => 'Posts',
+'total_posts' => 
+'Wszystkich postów:',
 
-'total_registered_members' => 'Total Registered Members:',
+'total_posts_heading' => 
+'Posty',
 
-'total_replies' => 'Total Replies:',
+'total_registered_members' => 
+'Wszystkich zarejestrowanych członków:',
 
-'total_replies_heading' => 'Replies',
+'total_replies' => 
+'Wszystkich odpowiedzi:',
 
-'total_results' => 'Total Results:',
+'total_replies_heading' => 
+'Odpowiedzi',
 
-'total_topics' => 'Total Topics:',
+'total_results' => 
+'Wszystkich wyników:',
 
-'total_topics_heading' => 'Topics',
+'total_topics' => 
+'Wszystkich tematów:',
 
-'total_views_heading' => 'Views',
+'total_topics_heading' => 
+'Tematy',
 
-'total_votes' => 'Total Votes:',
+'total_views_heading' => 
+'Pokaż',
 
-'unable_to_recieve_attach' => 'We are unable to accept file attachments at this time',
+'total_votes' => 
+'Wszystkich głosów:',
 
-'unignore_member' => 'Stop Ignoring Member',
+'unable_to_recieve_attach' => 
+'W tej chwili nie możemy zaakceptować załączników do plików',
 
-'unread_pm' => 'Unread:',
+'unignore_member' => 
+'Przestań ignorować członka',
 
-'unsubscribe_to_thread' => 'Un-subscribe from this thread',
+'unread_pm' => 
+'Nieprzeczytane:',
 
-'update_post' => 'Update Post',
+'unsubscribe_to_thread' => 
+'Wypisz się z tego wątku',
 
-'user_account_deleted' => 'The following member account was deleted:',
+'update_post' => 
+'Aktualizuj post',
 
-'user_account_reinstated' => 'The following member account was reinstated:',
+'user_account_deleted' => 
+'Następujące konto członkowskie zostało usunięte:',
 
-'user_account_suspended' => 'The following member account was suspended:',
+'user_account_reinstated' => 
+'Następujące konto członkowskie zostało przywrócone:',
 
-'username' => 'Username',
+'user_account_suspended' => 
+'Następujące konto członkowskie zostało zawieszone:',
 
-'very_large' => 'Very Large',
+'username' => 
+'Nazwa użytkownika',
 
-'view_active_topics' => 'View Today\'s Active Topics',
+'very_large' => 
+'Bardzo duży',
 
-'view_hide' => 'View / Hide',
+'view_active_topics' => 
+'Zobacz dzisiejsze aktywne tematy',
 
-'view_new_topics' => 'View New Posts',
+'view_hide' => 
+'Pokaż / Ukryj',
 
-'view_pending_topics' => 'View Pending Posts',
+'view_new_topics' => 
+'Wyświetl nowe posty',
 
-'view_reply' => 'View Reply',
+'view_pending_topics' => 
+'Wyświetl oczekujące posty',
 
-'visited_on' => 'on',
+'view_reply' => 
+'Pokaż odpowiedź',
 
-'visitor_stats' => 'Visitor Statistics',
+'visited_on' => 
+'na',
 
-'votes' => 'votes',
+'visitor_stats' => 
+'Statystyka odwiedzin',
 
-'welcome' => 'Welcome Guest',
+'votes' => 
+'głosy',
 
-'yellow' => 'Yellow',
+'welcome' => 
+'Powitanie gościa',
 
-'you_have_been_subscribed' => 'You are now subscribed to the following thread:',
+'yellow' => 
+'Żółty',
 
-'you_have_been_unsubscribed' => 'Your subscription to the following thread has been removed:',
+'you_have_been_subscribed' => 
+'Subskrybujesz teraz następujący wątek:',
 
-'you_have_voted' => 'You have already voted in this poll',
+'you_have_been_unsubscribed' => 
+'Twoja subskrypcja następującego wątku została usunięta:',
 
-'you_may_rename' => 'You may optionally rename this topic',
+'you_have_voted' => 
+'Głosowałeś już w tej ankiecie',
 
-'your_account' => 'Your Account',
+'you_may_rename' => 
+'Możesz zmienić nazwę tego tematu',
 
-'your_control_panel' => 'Your Control Panel',
+'your_account' => 
+'Twoje konto',
 
-'your_last_visit' => 'Your last visit:',
+'your_control_panel' => 
+'Twój panel kontrolny',
 
-'your_post_total' => 'You have posted %x times',
+'your_last_visit' => 
+'Ostatnia wizyta:',
 
-'your_profile' => 'Your Public Profile',
+'your_post_total' => 
+'Wysłałeś %x razy',
 
-'your_subscription_cancelled' => 'Your subscription to the following topic has been removed:',
+'your_profile' => 
+'Twój profil publiczny',
 
+'your_subscription_cancelled' => 
+'Twoja subskrypcja na następujący temat została usunięta:',
+
+''=>''
 );
 
-// EOF
+// End of File
