@@ -54,7 +54,8 @@ $lang = array(
 'Zbudowano:',
 
 'captcha_explanation' => 
-'A CAPTCHA is an image containing a security code that users have to submit. Please consult the user guide for more info.',
+'CAPTCHA to obraz zawierający kod bezpieczeństwa, który użytkownicy muszą przesłać. Więcej informacji można znaleźć w instrukcji obsługi.
+',
 
 'categories' => 
 'Kategorie',
@@ -90,7 +91,7 @@ $lang = array(
 'Nie powielaj',
 
 'e_no_css' => 
-'The requested CSS file could not be opened.',
+'Nie można otworzyć żądanego pliku CSS.',
 
 'edit_quicklinks' => 
 'Edycja szybkich linków',
@@ -117,7 +118,7 @@ $lang = array(
 'Wczytywanie',
 
 'logged_back_in' => 
-'You are now logged back in!',
+'Jesteś teraz zalogowany ponownie!',
 
 'logout' => 
 'Wyloguj',
@@ -144,16 +145,16 @@ $lang = array(
 'Nowa zakładka',
 
 'new_version_available' => 
-'ExpressionEngine Wersja %s jest dostępna.',
+'ExpressionEngine wersja %s jest dostępna.',
 
 'notepad' => 
 'Notatnik',
 
 'notepad_no_content' => 
-'No Notepad Entry. Click to create one.',
+'Brak wpisu do notatnika. Kliknij, aby go utworzyć.',
 
 'page_rendered' => 
-'Script executed in %x seconds',
+'Skrypt wykonany w %x sekund',
 
 'password' => 
 'Hasło',
@@ -162,7 +163,7 @@ $lang = array(
 'Hasło:',
 
 'powered_by' => 
-'Powered By',
+'Oparto na',
 
 'queries_executed' => 
 'Użyto  %x zapytań SQL',
@@ -171,7 +172,7 @@ $lang = array(
 'Szybkie linki',
 
 'quicklinks_manager' => 
-'Quick Links Manager',
+'Manager szybkich łączy',
 
 'required_field' => 
 'pole wymagane',
@@ -198,13 +199,13 @@ $lang = array(
 'Trwa szukanie',
 
 'session_idle' => 
-'Idle session detected',
+'Wykryto bezczynną sesję',
 
 'session_idle_description' => 
-'You\'ve gone idle, please enter your password to continue.',
+'Przeszedłeś w stan bezczynności, wprowadź swoje hasło, aby kontynuować.',
 
 'session_idle_not_name' => 
-'Not %s?',
+'Żaden %s?',
 
 'show_hide' => 
 'Pokaż/Ukryj wszystko',
@@ -216,10 +217,10 @@ $lang = array(
 'Szablony',
 
 'unauthorized' => 
-'Unauthorized',
+'Nieautoryzowany',
 
 'unauthorized_access' => 
-'You are not authorized to access this page',
+'Nie masz wystarczających uprawnień, aby uzyskać dostęp do tej strony',
 
 'update_check_btn' => 
 'Sprawdź czy jest nowsza wersja',
@@ -246,10 +247,10 @@ $lang = array(
 'identyfikator:',
 
 'version_update_available' => 
-'A newer version of ExpressionEngine is available',
+'Dostępna jest nowsza wersja ExpressionEngine',
 
 'version_update_inst' => 
-'ExpressionEngine %s is available. <a href=\'#\' data-post-url=\'%s\'>Click here to upgrade</a> or follow the <a href=\'%s\' rel=\'external\'>manual upgrade instructions</a>.',
+'ExpressionEngine %s jest dostępny. <a href=\'#\' data-post-url=\'%s\'> Kliknij tutaj, aby uaktualnić </a> lub postępuj zgodnie z <a href=\'%s\' rel=\'external\'> instrukcjami ręcznej aktualizacji</a> .',
 
 'cancel' => 
 'Anuluj',
@@ -291,7 +292,7 @@ $lang = array(
 'Synchronizuj',
 
 'update' => 
-'Uaktualnik',
+'Uaktualnij',
 
 'action' => 
 'Akcja',
@@ -315,16 +316,16 @@ $lang = array(
 'Adres IP',
 
 'member_changed_email' => 
-'Changed email for "%s" (%d) from "%s" to "%s"',
+'Zmieniono e-mail dla "%s” (%d) z "% s" na "%s"',
 
 'member_changed_member_group' => 
-'Changed member group to "%s" for "%s" (%d)',
+'Zmieniono grupę członków na "%s" dla "%s" (%d)',
 
 'member_changed_password' => 
-'Changed password for "%s" (%d)',
+'Zmieniono hasło dla "%s" (%d)',
 
 'member_anonymized_member' => 
-'Anonymized member with ID: %d',
+'Anonimowy członek z ID: %d',
 
 'member_id' => 
 'ID członka',
@@ -333,10 +334,10 @@ $lang = array(
 'Zalogowany',
 
 'member_logged_out' => 
-'Wlogowany',
+'Wylogowany',
 
 'member_login_as' => 
-'Member logged in as "%s" (%d)',
+'Członek zalogowany jako "%s" (%d)',
 
 'by_date' => 
 'wg daty',
@@ -363,7 +364,7 @@ $lang = array(
 'Utwórz ii edytuj',
 
 'custom_date_range' => 
-'Custom Date Range',
+'Niestandardowy zakres dat',
 
 'date_added' => 
 'Data dodana',
@@ -405,10 +406,10 @@ $lang = array(
 'Strona',
 
 'recent_comments' => 
-'Recent Comments',
+'Ostatnie komentarze',
 
 'recent_entries' => 
-'Recent Entries',
+'Ostatnie wejścia',
 
 'results' => 
 'wyniki',
@@ -459,7 +460,7 @@ $lang = array(
 'wszystkich wpisów',
 
 'type_phrase' => 
-'type phrase...',
+'wpisz frazę...',
 
 'user_guide' => 
 'Podręcznik',
@@ -468,7 +469,7 @@ $lang = array(
 'Pokaż',
 
 'with_selected' => 
-'with selected',
+'z wybranym',
 
 'export' => 
 'Eksport',
@@ -495,7 +496,7 @@ $lang = array(
 'Edycja stron',
 
 'not_writable_path' => 
-'The following folders are not writeable:',
+'Następujące foldery nie są zapisywalne:',
 
 'photo_path' => 
 'Ścieżka do zdjęcia członka',
@@ -510,7 +511,8 @@ $lang = array(
 'ID strony',
 
 'site_specific_data' => 
-'This data is site specific. If you wish to select or change data for another site, then use the \'Sites\' menu tab to switch to that site.',
+'Te dane są specyficzne dla witryny. Jeśli chcesz wybrać lub zmienić dane dla innej witryny, użyj karty menu „Witryny”, aby przełączyć się na tę witrynę.
+',
 
 'sites' => 
 'Strony',
@@ -519,28 +521,28 @@ $lang = array(
 'Pokaż stronę',
 
 'building_ee_site_01' => 
-'Building An ExpressionEngine Site - Chapter 01',
+'Budowanie strony ExpressionEngine - Rozdział 01',
 
 'channel_template_relationship' => 
-'Channel Template Relationship',
+'Relacja szablonu kanału',
 
 'channels_custom_fields' => 
-'Channels and Custom Fields',
+'Kanały i pola niestandardowe',
 
 'community_resources' => 
-'Community Resources',
+'Zasoby społeczności',
 
 'community_tutorials' => 
-'Community Tutorials',
+'Samouczki społeczności',
 
 'designing_ee_architecture' => 
-'Designing and ExpressionEngine Architecture',
+'Projektowanie i architektura ExpressionEngine',
 
 'devot_ee' => 
 'Devot-EE',
 
 'documentation' => 
-'Documentation',
+'Dokumentacja',
 
 'ee_cp_overview' => 
 'Przegląd informacji o panelu kontrolnym ExpressionEngine',
@@ -552,10 +554,10 @@ $lang = array(
 'EE Podcast',
 
 'ee_screencasts' => 
-'EE Screencasts',
+'EE Screencasty',
 
 'ee_seach_bookmarklet' => 
-'ExpressionEngine Search Bookmarklet',
+'ExpressionEngine wyszukaj zakładkę',
 
 'installing_ee' => 
 'Instalowanie ExpressionEngine',
@@ -588,19 +590,20 @@ $lang = array(
 'Wiki',
 
 'corrupt_license_file' => 
-'The license file provided is missing data. <a href="%s">Please upload your license.</a>',
+'Podany plik licencji zawiera brakujące dane. <a href="%s">Prześlij swoją licencję.</a>',
 
 'invalid_license_number' => 
-'The license file provided is invalid. <a href="%s">Please upload your license.</a>',
+'Podany plik licencji jest nieprawidłowy. <a href="%s"> Prześlij swoją licencję. </a>',
 
 'invalid_signature' => 
-'The license file provided has an invalid signature. <a href="%s">Please upload your license.</a>',
+'Podany plik licencji ma nieprawidłowy podpis. <a href="%s">Prześlij swoją licencję.</a>',
 
 'missing_license' => 
-'This copy of ExpressionEngine is <strong>unregistered</strong>. <a href="%s">Please upload your license.</a>',
+'Ta kopia ExpressionEngine jest <strong> niezarejestrowana </strong>. <a href="%s"> Prześlij swoją licencję. </a>',
 
 'missing_pubkey' => 
-'The ExpressionEngine product is missing data. Pleas visit <a href="%s" rel="external">expressionengine.com</a> and download a fresh copy.',
+'W produkcie ExpressionEngine brakuje danych. Proszę odwiedzić <a href="%s" rel="external">expressionengine.com</a> i pobrać nową kopię.
+',
 
 'software_unregistered' => 
 'Oprogramowanie niezarejestrowane',
@@ -609,16 +612,16 @@ $lang = array(
 '404: Element nie istnieje',
 
 '404_does_not_exist_desc' => 
-'Sorry, we could not find the item you are trying to access in the system.',
+'Niestety, nie udało nam się znaleźć elementu, do którego próbujesz uzyskać dostęp w systemie.',
 
 'alphadash_desc' => 
-'<i>No spaces. Underscores and dashes are allowed.</i>',
+'<i>Bez spacji. Dopuszczalne są podkreślenia i kreski.</i>',
 
 'auto_br' => 
-'Auto line break',
+'Automatyczne łamanie linii',
 
 'btn_authenticate_and_save' => 
-'Authenticate &amp; Save',
+'Uwierzytelnij &amp; Zapisać',
 
 'btn_canceling' => 
 'Trwa anulowanie...',
@@ -630,7 +633,7 @@ $lang = array(
 'Zapisz %s',
 
 'btn_save_and_close' => 
-'Save &amp; Close',
+'Zapisz &amp; Zamknij',
 
 'btn_saving' => 
 'Trwa zapisywanie...',
@@ -681,7 +684,7 @@ $lang = array(
 'filtry',
 
 'form_validation_error' => 
-'There was a problem processing your submission, please check below and fix all errors.',
+'Podczas przetwarzania zgłoszenia wystąpił problem. Sprawdź poniżej i napraw wszystkie błędy.',
 
 'image' => 
 'Obraz',
@@ -756,16 +759,16 @@ $lang = array(
 '#',
 
 'revisions' => 
-'Revisions',
+'Wersje',
 
 'search_results_heading' => 
-'Search Results<br><i>we found %d results for "%s"</i>',
+'Wyniki wyszukiwania <br> <i> znaleźliśmy %d wyników dla „%s” </i>',
 
 'settings_save_error' => 
 'Uwaga: Nie zapisano ustawień',
 
 'settings_save_error_desc' => 
-'We were unable to save your settings, please review and fix errors below.',
+'Nie udało się zapisać ustawień, sprawdź i napraw błędy poniżej.',
 
 'success' => 
 'Sukces',
@@ -783,7 +786,7 @@ $lang = array(
 'tytuł ścieżki URL',
 
 'used_in_cp_only' => 
-'Used in the control panel only.',
+'Używane tylko w panelu sterowania.',
 
 'view_all' => 
 'Pokaż wszystko',
@@ -792,7 +795,7 @@ $lang = array(
 'XHTML',
 
 'about_expressionengine' => 
-'About ExpressionEngine',
+'O ExpressionEngine',
 
 'authenticating' => 
 'trwa autentykacja...',
@@ -825,7 +828,7 @@ $lang = array(
 'nie aktualne',
 
 'out_of_date_recommended' => 
-'Recommended Upgrade',
+'Zalecana aktualizacja',
 
 'out_of_date_upgrade' => 
 'Znaleziono nowszą wersję',
@@ -846,7 +849,7 @@ $lang = array(
 'przewijanie w górę',
 
 'session_timeout' => 
-'Your administration access session has timed out. Please use the form below to log back into your control panel.',
+'Upłynął limit czasu sesji administracyjnej. Użyj poniższego formularza, aby zalogować się ponownie do panelu sterowania.',
 
 'up_to_date' => 
 'Aktualne!',
@@ -855,7 +858,7 @@ $lang = array(
 'Wersja',
 
 'btn_confirm_and_remove' => 
-'Confirm, and Remove',
+'Potwierdź i usuń',
 
 'btn_confirm_and_remove_working' => 
 'Trwa usuwanie...',
@@ -864,7 +867,7 @@ $lang = array(
 'Potwierdź usunięcie',
 
 'confirm_removal_desc' => 
-'You are attempting to remove the following items, please confirm this action.',
+'Próbujesz usunąć następujące elementy, potwierdź tę czynność.',
 
 'btn_confirm_and_save' => 
 'Potwierdź i zapisz',
@@ -882,7 +885,7 @@ $lang = array(
 'Pokaż wszystko',
 
 'confirm_show_all_desc' => 
-'Viewing more than %d items at a time may result in reduced performance.',
+'Wyświetlanie więcej niż% d elementów jednocześnie może spowodować zmniejszenie wydajności.',
 
 'html_btn_anchor' => 
 'Link',
@@ -915,7 +918,7 @@ $lang = array(
 'Uwaga: Nie powidło się zapisanie porządku klawiszy html',
 
 'html_button_ajax_reorder_fail_desc' => 
-'We failed to save your new html buttons order. Refresh the page and make sure you\'re logged in.',
+'Nie udało się zapisać nowego zamówienia przycisków HTML. Odśwież stronę i upewnij się, że jesteś zalogowany.',
 
 ''=>''
 );
