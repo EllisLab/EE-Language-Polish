@@ -12,7 +12,7 @@ $lang = array(
 'czeka na moderację',
 
 'banned_members' => 
-'Banowani członkowie forum',
+'Zbanowani członkowie forum',
 
 'channels' => 
 'Kanały',
