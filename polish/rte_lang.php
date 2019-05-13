@@ -36,7 +36,7 @@ $lang = array(
 'Umożliwia edycję tekstu sformatowanego w obszarach tekstowych',
 
 'rte_module_name' => 
-'Rich Text Editor',
+'Edytor tekstu',
 
 'status' => 
 'Status',
@@ -87,7 +87,7 @@ $lang = array(
 'Wyłącz',
 
 'disable_rte' => 
-'Wyłącz Rich Text Editor',
+'Wyłącz edytor tekstu',
 
 'disabled' => 
 'Wyłączone',
@@ -96,7 +96,7 @@ $lang = array(
 'Włącz',
 
 'enable_rte' => 
-'Włączyć rich text editor?',
+'Włączyć edytor tekstu?',
 
 'enable_rte_desc' => 
 'Po włączeniu zarejestrowani użytkownicy będą mogli korzystać z edytora tekstu w formacie RTF do tworzenia nowych treści.',
@@ -123,7 +123,7 @@ $lang = array(
 'Następujące zestawy narzędzi zostały wyłączone',
 
 'enable_fail_desc' => 
-'Następujące zestawy narzędzi zostały <b> nie </ b> włączone',
+'Następujące zestawy narzędzi zostały <b>nie</ b> włączone',
 
 'enable_success_desc' => 
 'Następujące zestawy narzędzi zostały włączone',
@@ -132,7 +132,7 @@ $lang = array(
 'Nazwa zestawu narzędzi jest wymagana.',
 
 'remove_fail_desc' => 
-'Następujące zestawy narzędzi zostały usunięte <b> nie </ b>',
+'Następujące zestawy narzędzi zostały usunięte <b>nie</ b>',
 
 'remove_success_desc' => 
 'Usunięto następujące zestawy narzędzi',
@@ -141,7 +141,7 @@ $lang = array(
 'Błąd podczas zapisywania ustawień',
 
 'settings_error_desc' => 
-'Nie można zapisać ustawień edytora tekstu w formacie RTF. Proszę spróbuj ponownie.',
+'Nie można zapisać ustawień edytora tekstu w formacie RTF. Proszę spróbować ponownie.',
 
 'settings_saved' => 
 'Ustawienia zapisane',
@@ -279,7 +279,7 @@ $lang = array(
 'używa <img>',
 
 'italic_rte' => 
-'Italic',
+'Pochylony',
 
 'italic_rte_desc' => 
 'używa <i>',
