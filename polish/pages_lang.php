@@ -48,7 +48,7 @@ $lang = array(
 'filtrowanie kanałów',
 
 'invalid_page_name' => 
-'Przesłąno błędną nazwę strony',
+'Przesłano błędną nazwę strony',
 
 'invalid_page_num_segs' => 
 'Przekroczyłeś dozwoloną liczbę segmentów URI w adresie URL strony',
