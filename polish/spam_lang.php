@@ -57,7 +57,7 @@ $lang = array(
 'Procentowy próg, w którym zawartość jest oznaczona jako SPAM. Treść zostanie oznaczona jako SPAM, jeśli ma równą lub większą szansę na SPAM.',
 
 'spam_settings' => 
-'SPAM Settings',
+'Ustawienia SPAMu',
 
 'spam_settings_updated' => 
 'Twoje ustawienia dla spamu zostały zapisane',
