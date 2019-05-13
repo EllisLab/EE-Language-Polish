@@ -1,69 +1,103 @@
 <?php
-
 $lang = array(
 
-'ban_info' => 'Select the countries you wish to ban. When a country is banned, a person with a IP address corresponding to it will not be able to submit comments, or use your email/tell-a-friend form. They will still be able to view your site.',
 
-'banlist' => 'Nation Banlist',
+'ban_info' => 
+'Wybierz kraje, które chcesz zakazać. Gdy kraj zostanie zbanowany, osoba o adresie IP odpowiadającym temu nie będzie mogła przesyłać komentarzy ani korzystać z formularza e-mail / powiadom znajomego. Nadal będą mogli wyświetlać Twoją witrynę.
+',
 
-'banlist_updated' => 'Banlist Updated',
+'banlist' => 
+'Narodowa lista banowania',
 
-'banlist_updated_desc' => 'The banlist has been successfully updated.',
+'banlist_updated' => 
+'Zaktualizowano listę banowania',
 
-'banned_countries' => 'Banned countries',
+'banlist_updated_desc' => 
+'Lista banowania została pomyślnie zaktualizowana.',
 
-'btn_save_banlist' => 'Save Banlist',
+'banned_countries' => 
+'Zbanowane państwa',
 
-'btn_search' => 'Search',
+'btn_save_banlist' => 
+'Zapis listę banowania',
 
-'btn_searching' => 'Searching...',
+'btn_search' => 
+'Szukaj',
 
-'cache_full' => 'Cache is full and must be cleared manually to proceed.',
+'btn_searching' => 
+'Szukanie...',
 
-'countryfile_missing' => 'Unable to find the file called country.php in your config folder.',
+'cache_full' => 
+'Pamięć podręczna jest pełna i należy ją wyczyścić ręcznie, aby kontynuować.',
 
-'ip_address_located' => 'IP Address Located',
+'countryfile_missing' => 
+'Nie można znaleźć pliku o nazwie country.php w folderze konfiguracji.',
 
-'ip_address_not_located' => 'Unable to Locate IP Address',
+'ip_address_located' => 
+'Ustalono lokalizację adresu IP',
 
-'ip_db_connection_403' => '403 Connection Error, please wait 24 hours before attempting to retrieve database.',
+'ip_address_not_located' => 
+'Nie można ustalić lokalizacji adresu IP',
 
-'ip_db_connection_error' => 'Unable to connect to data provider.',
+'ip_db_connection_403' => 
+'Błąd połączenia 403, proszę poczekać 24 godziny przed próbą pobrania bazy danych.',
 
-'ip_db_downloaded' => 'Downloaded IP database. Unpacking ...',
+'ip_db_connection_error' => 
+'35/5000',
 
-'ip_db_failed' => 'IP databse update failed',
+'ip_db_downloaded' => 
+'Pobrana baza danych IP. Rozpakowanie ...',
 
-'ip_db_unpacked' => 'Unpacked IP database. Inserting data ...',
+'ip_db_failed' => 
+'Aktualizacja bazy danych IP nie powiodła się',
 
-'ip_db_updated' => 'IP database update successful',
+'ip_db_unpacked' => 
+'Rozpakowana baza danych IP. Wstawianie danych ...',
 
-'ip_db_updating' => 'Downloading update ...',
+'ip_db_updated' => 
+'Udana aktualizacja bazy danych IP',
 
-'ip_not_found' => 'There are no results for the IP you submitted.',
+'ip_db_updating' => 
+'Pobieranie aktualizacji ...',
 
-'ip_not_valid' => 'The IP you submitted is not a valid IP address.',
+'ip_not_found' => 
+'Brak wyników dla przesłanego adresu IP.',
 
-'ip_result' => 'The IP you submitted is from the following country:',
+'ip_not_valid' => 
+'Przesłany adres IP nie jest prawidłowym adresem IP.',
 
-'ip_search' => 'IP Address Search',
+'ip_result' => 
+'Przesłany adres IP pochodzi z następującego kraju:',
 
-'ip_to_nation_module_name' => 'IP to Nation',
+'ip_search' => 
+'Szukanie adresu IP',
 
-'last_update' => 'Last update: ',
+'ip_to_nation_module_name' => 
+'IP to Nation',
 
-'manage_banlist' => 'Manage Your Banned Country List',
+'last_update' => 
+'Ostatnia aktualizacja:',
 
-'no_countries' => 'No <b>Countries</b> found.',
+'manage_banlist' => 
+'Zarządzaj swoją listą zakazanych krajów',
 
-'search_for_ip' => 'Search for an IP address',
+'no_countries' => 
+'Nie znaleziono <b>krajów</b>.',
 
-'search_for_ip_desc' => 'Enter an IP address to determine the country it is associated with.',
+'search_for_ip' => 
+'Wyszukaj adres IP',
 
-'update_info' => 'Updates the IP and country code information. Data source: <a href="%s" title="Data Provider" rel="external">maxmind.com</a>.</em><em><i>The new data will automatically be downloaded and applied. This may take several minutes and increase load on your database.</i></em>',
+'search_for_ip_desc' => 
+'Wprowadź adres IP, aby określić kraj, z którym jest powiązany.',
 
-'update_ips' => 'Update IP database',
+'update_info' => 
+'Aktualizuje informacje o adresie IP i kodzie kraju. Źródło danych: <a href="%s" title="Data Provider" rel="external"> maxmind.com </a>. </em> <em> <i> Nowe dane zostaną automatycznie pobrane i zastosowane . Może to potrwać kilka minut i zwiększyć obciążenie bazy danych. </i> </em>
+',
 
+'update_ips' => 
+'Zaktualizuj bazę danych IP',
+
+''=>''
 );
 
-// EOF
+// End of File
