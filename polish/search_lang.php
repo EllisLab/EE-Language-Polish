@@ -57,7 +57,7 @@ $lang = array(
 'Szukaj dowolnego słowa',
 
 'search_ascending' => 
-'Rozsnąco',
+'Rosnąco',
 
 'search_author' => 
 'Autor',
@@ -66,7 +66,7 @@ $lang = array(
 'Szukaj wg słowa kluczowego',
 
 'search_by_member_group' => 
-'Szuaj wg grupy członków',
+'Szukaj wg grupy członków',
 
 'search_by_member_name' => 
 'Szukaj wg nazwy członka',
@@ -93,7 +93,7 @@ $lang = array(
 'Silnik wyszukiwania',
 
 'search_entries' => 
-'Search in Titles and Entries',
+'Szukaj w tytułach i wpisach',
 
 'search_entries_from' => 
 'Szukaj w formularzu zawartości',
@@ -150,7 +150,7 @@ $lang = array(
 'Najnowsze',
 
 'search_no_keywords' => 
-'Noe wysłano warunku wyszukiwania',
+'Nie wysłano warunku wyszukiwania',
 
 'search_no_result' => 
 'Wyszukiwanie nie przyniosło rezultatu.',
