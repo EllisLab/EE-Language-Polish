@@ -343,7 +343,7 @@ $lang = array(
 'Porządek postów w liście tematów.',
 
 'posting_throttle' => 
-'Dłąwienie postów (throttle)',
+'Dławienie postów (throttle)',
 
 'posting_throttle_desc' => 
 'Liczba sekund, które muszą upłynąć, zanim członek może opublikować nowy post lub temat.',
@@ -545,298 +545,298 @@ $lang = array(
 'Edycja forum',
 
 'edit_forum_error' => 
-'Cannot Update Forum',
+'Nie można zaktualizowac forum',
 
 'edit_forum_error_desc' => 
-'We were unable to update this forum, please review and fix errors below.',
+'Nie mogliśmy zaktualizować tego forum, sprawdź i napraw błędy poniżej.',
 
 'edit_forum_success' => 
-'Forum Updated',
+'Zaktualizowano forum',
 
 'edit_forum_success_desc' => 
-'The forum <b>%s</b> has been updated.',
+'Forum <b>%s</b> zostało zaktualizowane.',
 
 'forum_board_removed' => 
-'Forums Removed',
+'Usunięto fora',
 
 'forum_board_removed_desc' => 
-'The following forums were removed',
+'Następujące fora zostały usunięte',
 
 'topic_and_post_settings' => 
-'Topic and Post Settings',
+'Ustawienia tematów i postów',
 
 'btn_save_permissions' => 
-'Save Permissions',
+'Zapisz uprawnienia',
 
 'category_permissions' => 
-'%s Permissions',
+'%s uprawnienia',
 
 'edit_category_settings_success' => 
-'Category Permissions Updated',
+'Uprawnienia kategorii zaktualizowane',
 
 'edit_category_settings_success_desc' => 
-'The permissions for category <b>%s</b> have been updated.',
+'Uprawnienia dla kategorii <b>%s</b> zostały uaktualnione.',
 
 'view_category' => 
-'View category',
+'Pokaż kategorię',
 
 'view_category_desc' => 
-'Allow the following member groups to view this category.</em> <em>Super Administrators are <b>always</b> allowed.',
+'Pozwól następującym grupom członków wyświetlić tę kategorię. </em> <em> Super Administratorzy mają <b> zawsze </b> takie uprawnienie.',
 
 'view_hidden_category' => 
-'View hidden category',
+'Pokaż ukrytą kategorię',
 
 'view_hidden_category_desc' => 
-'Allow the following member groups to view this category.</em> <em>Super Administrators are <b>always</b> allowed.',
+'Pozwól następującym grupom członków wyświetlić tę kategorię. </em> <em> Super Administratorzy mają <b> zawsze </b> takie uprawnienie.',
 
 'edit_forum_settings_success' => 
-'Forum Permissions Updated',
+'Uprawnienia do forum zaktualizowane',
 
 'edit_forum_settings_success_desc' => 
-'The permissions for forum <b>%s</b> have been updated.',
+'Uprawnienia do forum <b>%s</b> zostały zaktualizowane.',
 
 'forum_permissions' => 
-'%s Permissions',
+'%s uprawnienia',
 
 'view_forum' => 
-'View forum',
+'Pokaż forum',
 
 'view_forum_desc' => 
-'Allow the following member groups to view this forum.</em><em>Super Administrators are <b>always</b> allowed.',
+'Pozwól następującym grupom członków przeglądać to forum. </em> <em> Super Administratorzy mają  <b> zawsze </b> takie uprawnienie.',
 
 'view_hidden_forum' => 
-'View hidden forums',
+'Pokaż ukryte fora',
 
 'view_hidden_forum_desc' => 
-'Allow the following member groups to view this forum when hidden.</em><em>Super Administrators are <b>always</b> allowed.',
+'Pozwól następującym grupom członków przeglądać to forum, gdy jest ukryte. </em> <em> Super Administratorzy mają zawsze <b> takie uprawnienie </b>.',
 
 'btn_save_rank' => 
-'Save Rank',
+'Zapisz rangę',
 
 'create_member_rank' => 
-'Create Member Rank',
+'Utwórz rangę członków',
 
 'create_new_rank' => 
-'Create new rank',
+'Utwórz nową rangę',
 
 'create_rank_error' => 
-'Cannot Create Rank',
+'Nie można utworzyć rangi',
 
 'create_rank_error_desc' => 
-'We were unable to create this rank, please review and fix errors below.',
+'Nie udało nam się utworzyć tej rangi, przejrzyj i napraw błędy poniżej.',
 
 'create_rank_success' => 
-'Rank Created',
+'Utworzono rangę',
 
 'create_rank_success_desc' => 
-'The rank <b>%s</b> has been created.',
+'Ranga <b>%s</b> został utworzona.',
 
 'edit_member_rank' => 
-'Edit Member Rank',
+'Edytuj rangę członka',
 
 'edit_rank_error' => 
-'Cannot Update Rank',
+'Nie można uaktualnić rangi',
 
 'edit_rank_error_desc' => 
-'We were unable to update this rank, please review and fix errors below.',
+'Nie można zaktualizować tej pozycji, przejrzyj i napraw błędy poniżej.',
 
 'edit_rank_success' => 
-'Rank Updated',
+'Ranga zaktualizowana',
 
 'edit_rank_success_desc' => 
-'The rank <b>%s</b> has been updated.',
+'Ranga <b>%s</b> została zaktualizowana.',
 
 'member_ranks' => 
-'Member Ranks',
+'Rangi członka',
 
 'no_ranks' => 
-'No ranks available',
+'Brak dostępnych rang',
 
 'posts' => 
-'Posts',
+'Posty',
 
 'posts_desc' => 
-'Minimum number of posts a user must have to reach this rank.',
+'Minimalna liczba postów, które użytkownik musi mieć, aby osiągnąć tę rangę.',
 
 'rank_title' => 
-'Title',
+'Tytuł',
 
 'rank_title_desc' => 
-'Full descriptive name of this rank.',
+'Pełna opisowa nazwa tej rangi.',
 
 'ranks_removed' => 
-'Member Ranks Removed',
+'Usunięto rangę członka',
 
 'ranks_removed_desc' => 
-'The following ranks were removed',
+'Następujące rangi zostały usunięte',
 
 'stars' => 
-'Stars',
+'Gwiazdki',
 
 'stars_desc' => 
-'Number of stars to show with this rank.',
+'Liczba gwiazdek do wyświetlenia z tą rangą.',
 
 'admin_type_individual' => 
-'Individual <i>&mdash; username, <b>not</b> screenname</i>',
+'Indywidualna <i>&mdash; nazwa użytkownika, <b>nie</b> nazwa na ekranie</i>',
 
 'admin_type_member_group' => 
-'Member Group <i>&mdash; All members of chosen group</i>',
+'Grupa użytkowników <i> &mdash; Wszyscy członkowie wybranej grupy </i>',
 
 'administrator_type' => 
-'Administrator type',
+'Typ administratora',
 
 'administrator_type_desc' => 
-'Select the type of administrator you want to add.',
+'Wybierz typ administratora, którego chcesz dodać.',
 
 'administrators' => 
-'Administrators',
+'Administratorzy',
 
 'administrators_desc' => 
-'Have access to all administration tools for all forums in this board.',
+'Posiada dostęp do wszystkich narzędzi administracyjnych dla wszystkich forów na tym forum.',
 
 'admins_removed' => 
-'Administrators Removed',
+'Administratorzy usunięci',
 
 'admins_removed_desc' => 
-'The following administrators were removed',
+'Następujący administratorzy zostali usunięci',
 
 'btn_save_administrator' => 
-'Save administrator',
+'Zapisz administratora',
 
 'create_administrator' => 
-'Create Administrator',
+'Utwórz administratora',
 
 'create_administrator_error' => 
-'Cannot Create Administrator',
+'Nie można utworzyć administratora',
 
 'create_administrator_error_desc' => 
-'We were unable to create this administrator, please review and fix errors below.',
+'Nie udało się utworzyć tego administratora, sprawdź i napraw błędy poniżej.',
 
 'create_administrator_success' => 
-'Administrator Created',
+'Utworzono administratora',
 
 'create_administrator_success_desc' => 
-'The administrator <b>%s</b> has been created.',
+'Administrator <b>%s</b> został utworzony.',
 
 'create_new_admin' => 
-'Create new admin',
+'Utwórz nowego administratora',
 
 'forum_admins' => 
-'Forum Administrators',
+'Administratorzy forum',
 
 'group' => 
 'grupa',
 
 'individual' => 
-'individual',
+'indywidualny',
 
 'invalid_member_group' => 
-'The member group you submitted does not appear to be valid',
+'Przesłana grupa członków nie wydaje się być ważna',
 
 'invalid_username' => 
-'The username you submitted does not appear to be valid',
+'Przesłana nazwa użytkownika nie wydaje się być ważna',
 
 'btn_save_moderator' => 
-'Save moderator',
+'Zapisz moderatora',
 
 'create_moderator' => 
-'Create Moderator',
+'Utwórz moderatora',
 
 'create_moderator_error' => 
-'Cannot Create Moderator',
+'Nie można utworzyć moderatora',
 
 'create_moderator_error_desc' => 
-'We were unable to create this moderator, please review and fix errors below.',
+'Nie udało się utworzyć tego moderatora, przejrzyj i napraw błędy poniżej.',
 
 'create_moderator_in' => 
-'Create Moderator in %s',
+'Utwórz moderatora w %s',
 
 'create_moderator_success' => 
-'Moderator Created',
+'Utworzono moderatora',
 
 'create_moderator_success_desc' => 
-'The moderator <b>%s</b> has been created.',
+'Moderator <b>%s</b> został utworzony.',
 
 'edit_moderator' => 
-'Edit Moderator',
+'Edycja moderatora',
 
 'edit_moderator_error' => 
-'Cannot Update Moderator',
+'Nie można uaktualnić moderatora',
 
 'edit_moderator_error_desc' => 
-'We were unable to update this moderator, please review and fix errors below.',
+'Nie możemy zaktualizować tego moderatora, przejrzyj i napraw błędy poniżej.',
 
 'edit_moderator_in' => 
-'Edit Moderator in %s',
+'Edycja moderatora w %s',
 
 'edit_moderator_success' => 
-'Moderator Updated',
+'Uaktualniono moderatora',
 
 'edit_moderator_success_desc' => 
-'The moderator <b>%s</b> has been updated.',
+'Moderator <b>%s</b> został zaktualizowany.',
 
 'mod_can_announce' => 
-'Create announcements',
+'Utwórz ogłoszenia',
 
 'mod_can_change_status' => 
-'Change status',
+'Zmień status',
 
 'mod_can_delete' => 
-'Delete',
+'Usuń',
 
 'mod_can_edit' => 
-'Edit',
+'Edytuj',
 
 'mod_can_merge' => 
-'Merge',
+'Połącz',
 
 'mod_can_move' => 
-'Move',
+'Przenieś',
 
 'mod_can_split' => 
-'Split',
+'Rozdziel',
 
 'mod_can_view_ip' => 
-'View IP addresses',
+'Pokaż adresy IP',
 
 'moderator_removed' => 
-'Moderator Removed',
+'Usunięto moderatora',
 
 'moderator_removed_desc' => 
-'The moderator <b>%s</b> was removed.',
+'Moderator <b>%s</b> został usunięty.',
 
 'moderator_type' => 
-'Moderator type',
+'Typ moderatora',
 
 'moderator_type_desc' => 
-'Select the type of moderator you want to add.',
+'Wybierz typ moderatora, którego chcesz dodać.',
 
 'moderator_type_individual' => 
-'Individual <i>&mdash; username, <b>not</b> screenname</i>',
+'Indywidualna <i>&mdash; nazwa użytkownika, ale <b>nie</b> nazwa wyświetlana</i>',
 
 'moderator_type_member_group' => 
-'Member Group <i>&mdash; All members of chosen group</i>',
+'Grupa członków <i>&mdash; Wszyscy członkowie wybranej grupy</i>',
 
 'moderators' => 
-'Moderators',
+'Moderatorzy',
 
 'moderators_desc' => 
-'Have access to assigned tools for forums they are assigned to.',
+'Miej dostęp do przypisanych narzędzi do forów, do których są przypisane.',
 
 'permissions_desc' => 
-'Moderators of this forum may take the following actions.',
+'Moderatorzy tego forum mogą podjąć następujące działania.',
 
 'remove_moderator' => 
-'remove moderator',
+'usuń moderatora',
 
 'no_forum_permissions' => 
-'You do not have permissions to post to this forum.',
+'Nie masz uprawnień do publikowania na tym forum.',
 
 'no_forum_topic_id' => 
-'There is no forum topic with that ID.',
+'Nie ma tematu na forum z tym identyfikatorem.',
 
 'only_forum_topic_id' => 
-'Do not specify a forum Title or Body when setting a Forum Topic ID.',
+'Nie określaj tytułu lub treści forum podczas ustawiania ID tematu forum.',
 
 ''=>''
 );
