@@ -54,7 +54,7 @@ $lang = array(
 'Usuń email',
 
 'delete_question' => 
-'Are you sure you want to delete the specified email(s)?',
+'Czy na pewno chcesz usunąć zaznaczone e-maile?',
 
 'dummy_location' => 
 'E-mail został wyprowadzony do: %s',
