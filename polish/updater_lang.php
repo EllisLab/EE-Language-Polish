@@ -34,7 +34,7 @@ $lang = array(
 'Uaktualnienie zatrzymało się',
 
 'updating_to_from' => 
-'Updating <b>%s</b> from %s to %s',
+'Uaktualnianie <b>%s</b> od %s od %s',
 
 'preflight_step' => 
 'Kontrola wstępna',
