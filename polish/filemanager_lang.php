@@ -178,7 +178,7 @@ $lang = array(
 '90 stopni w prawo',
 
 'btn_crop' => 
-'Crop, Rotate &amp; zmień rozmiar',
+'Przytnij, obróć &amp; zmień rozmiar',
 
 'btn_crop_and_save_image' => 
 'Przytnik &amp; zapisz obraz',
@@ -211,7 +211,7 @@ $lang = array(
 'Maksymalna szerokość i wysokość do jakiej przyciąć obraz.',
 
 'crop_file' => 
-'Crop, Rotate &amp; Resize "%s"',
+'Przytnij, Obróć &amp; zmień rozmiar "%s"',
 
 'crop_file_error' => 
 'Nie można %s pliku',
@@ -298,7 +298,7 @@ $lang = array(
 'Pliki nie zostały wgrane do tego katalogu.',
 
 'resize_constraints_desc' => 
-'Maximum width and height to resize this image to.',
+'Maksymalna szerokość i wysokość do której można rozszerzyć tą grafikę',
 
 'resized' => 
 'zmieniono rozmiar',
@@ -398,19 +398,19 @@ $lang = array(
 'Ogranicz lub przytnij',
 
 'constrain_or_crop_desc' => 
-'Changes to images in this <mark>upload</mark> directory, made upon upload.',
+'Zmiany w grafikach w tym katalogu <mark>wgrywania</mark> będą wykonane po przesłaniu.',
 
 'create_upload_directory' => 
-'Create Upload Directory',
+'Utwórz katalog wgrywania',
 
 'create_watermark' => 
 'Utwórz znak wodny',
 
 'default_modal_view' => 
-'Default modal view?',
+'Czy domyślnie widok modalny?',
 
 'default_modal_view_desc' => 
-'Default view for this upload directory in the file picker modal.',
+'Domyślny widok tego katalogu przesyłania w trybie wyboru pliku.',
 
 'default_modal_view_list' => 
 'Lista',
@@ -422,484 +422,486 @@ $lang = array(
 'Uwaga: Nie zapisano katalogu wgrywania',
 
 'directory_not_saved_desc' => 
-'We were unable to save your upload directory, please review and fix errors below.',
+'Nie można zapisać twojego katalogu wgrywania, proszę przejrzeć i usunąć poniższe błędy.',
 
 'directory_saved' => 
-'Upload directory saved',
+'Zapisano katalog wgrywania',
 
 'directory_saved_desc' => 
-'Your upload directory has been saved successfully.',
+'Katalog wgrywania został pomyślnie zapisany.',
 
 'directory_sync_warning' => 
-'Some files could not be synchronized',
+'Niektóre pliki nie mogą być zsynchronizowane',
 
 'directory_synced' => 
-'Upload directory synchronized',
+'Zsynchronizowano katalog wgrywania',
 
 'directory_synced_desc' => 
-'The contents of the upload directory have been successfully synchronized.',
+'Zawartość katalogu wgrywania została pomyślnie zsynchronizowana.',
 
 'duplicate_dir_name' => 
-'The name of your directory is already taken.',
+'Nazwa katalogu została już wykorzystana.',
 
 'duplicate_image_size_name' => 
-'You must enter a unique name for this image manipulation.',
+'Należy wprowadzić unikalną nazwę dla obróbki tej grafiki.',
 
 'edit_upload_directory' => 
-'Edit Upload Directory',
+'Edycja katalogu wgrywania',
 
 'edit_watermark' => 
-'Edit Watermark',
+'Edycja znaku wodnego',
 
 'file_limits' => 
-'File Limits',
+'Ograniczenia dla pliku',
 
 'file_sync' => 
-'File sync',
+'Symchronizacja pliku',
 
 'file_sync_desc' => 
-'<b>%d</b> files',
+'<b>%d</b> pliki',
 
 'file_sync_desc_images' => 
-'<b>%d</b> <mark>image</mark> files',
+'<b>%d</b> pliki <mark>graficzne</mark>',
 
 'horizontal' => 
-'horizontal',
+'poziomo',
 
 'image' => 
-'Image',
+'Grafika',
 
 'image_manip_dimension_required' => 
-'A height or width must be entered if no watermark is selected.',
+'Wysokość lub szerokość musi być wprowadzona, gdy nie jest zaznaczony żaden znak wodny.',
 
 'image_manip_height' => 
-'Height',
+'Wysokość',
 
 'image_manip_height_desc' => 
-'Final height of image',
+'Końcowa wysokość grafiki',
 
 'image_manip_name' => 
-'Short Name',
+'Nazwa krótka',
 
 'image_manip_name_desc' => 
-'Short name of this manipulation',
+'Krótka nazwa tych przekształceń',
 
 'image_manip_type' => 
-'Type',
+'Typ',
 
 'image_manip_type_desc' => 
-'Type of manipulation',
+'Typ przekształceń',
 
 'image_manip_type_opt_constrain' => 
-'Constrain (full image resized)',
+'Wymuś (zmianę rozmiar całego obrazu)',
 
 'image_manip_type_opt_crop' => 
-'Crop (part of image)',
+'Przytnij (część grafiki)',
 
 'image_manip_watermark' => 
-'Watermark',
+'Znak wodny',
 
 'image_manip_watermark_desc' => 
-'Add a watermark',
+'Dodaj znak wodny',
 
 'image_manip_width' => 
-'Width',
+'Szerokość',
 
 'image_manip_width_desc' => 
-'Final width of image',
+'Finalna szerokość grafiki',
 
 'image_options' => 
-'Image Options',
+'Opcje grafiki',
 
 'left' => 
-'Left',
+'Lewo',
 
 'middle' => 
-'Middle',
+'Środek',
 
 'new_upload_directory' => 
-'New Upload Directory',
+'Nowy katalog wgrywania',
 
 'no_manipulations' => 
-'No manipulations created',
+'Nie utworzono przekształceń',
 
 'no_upload_directories' => 
-'No Upload Directories',
+'Brak katalogów wgrywania',
 
 'no_watermark' => 
-'No watermark',
+'Brak znaku wodnego',
 
 'right' => 
-'Right',
+'Prawo',
 
 'sync_alt_title' => 
-'Sync %s',
+'Symchronizacja %s',
 
 'sync_title' => 
-'Directory Sync',
+'Synchronizacja katalogu',
 
 'text' => 
-'Text',
+'Tekst',
 
 'text_options' => 
-'Text Options',
+'Opcje tekstu',
 
 'top' => 
-'Top',
+'Góra',
 
 'upload_allowed_types' => 
-'Allowed file types?',
+'Dozwolone typy plików?',
 
 'upload_allowed_types_opt_all' => 
-'All file types',
+'Wszystkie typy plików',
 
 'upload_allowed_types_opt_images' => 
-'Images only',
+'Tylko grafiki',
 
 'upload_btn_edit' => 
-'edit',
+'edycja',
 
 'upload_btn_sync' => 
-'sync',
+'synchronizacja',
 
 'upload_btn_view' => 
-'view',
+'podgląd',
 
 'upload_category_groups' => 
-'Category groups',
+'Grupy kategorii',
 
 'upload_category_groups_desc' => 
-'Allow files to be assigned to categories from the following groups.',
+'Zezwalaj na przypisywanie plików do kategorii z następujących grup.',
 
 'upload_file_size' => 
-'File size',
+'Wielkość pliku',
 
 'upload_file_size_desc' => 
-'Maximum file size in kilobytes.',
+'Maksymalna wielkość pliku w kilobajtach.',
 
 'upload_id' => 
 'ID#',
 
 'upload_image_height' => 
-'Image height',
+'Wysokość grafiki',
 
 'upload_image_height_desc' => 
-'Maximum image height in pixels.',
+'Maksymalna wysokość grafiki w pikslach.',
 
 'upload_image_manipulations' => 
-'Image Manipulations',
+'Przekształcenia grafiki',
 
 'upload_image_width' => 
-'Image width',
+'Szerokość grafiki',
 
 'upload_image_width_desc' => 
-'Maximum image width in pixels.',
+'Maksymalna szerokość grafiki w pikslach.',
 
 'upload_manage' => 
-'Manage',
+'Zarządzaj',
 
 'upload_member_groups' => 
-'Allowed member groups',
+'Dozwolone grupy członkowskie',
 
 'upload_member_groups_desc' => 
-'The following user groups are allowed to upload to this directory.</em><br /><em>Super Administrators are <b>always</b> allowed.',
+'Następujące grupy użytkowników mogą przesyłać do tego katalogu. </em><br/><em>Super Administratorzy mogą <b>zawsze</b> to robić.
+',
 
 'upload_path' => 
-'Upload path',
+'Ścieżka wgrywania',
 
 'upload_path_desc' => 
-'Full path location of this <mark>upload</mark> directory.',
+'Pełna ścieżka położenia katalogu <mark>wgrywania</mark>.',
 
 'upload_privileges' => 
-'Upload Privileges',
+'Uprawnienia wgrywania',
 
 'upload_remove_modal_directories' => 
-'directories',
+'katalogi',
 
 'upload_remove_modal_upload_directory' => 
-'Upload directory',
+'Katalog wgrywania',
 
 'upload_url' => 
-'Upload directory',
+'Katalog wgrywania',
 
 'upload_url_desc' => 
-'<abbr title="Uniform Resource Location">URL</abbr> location of this <mark>upload</mark> directory.',
+'<abbr title="Uniform Resource Location">URL</abbr>położenie tego katalogu <mark>wgrywania</mark>.',
 
 'vertical' => 
-'vertical',
+'pionowo',
 
 'watermark' => 
-'Watermark',
+'Znak wodny',
 
 'watermark_alignment' => 
-'Alignment',
+'Wyrównanie',
 
 'watermark_alignment_desc' => 
-'Determines where this watermark will appear on the image.',
+'Określa w którym miejscu znak wodny wystąpi w grafice.',
 
 'watermark_created' => 
-'Watermark Created',
+'Utworzono znak wodny',
 
 'watermark_created_desc' => 
-'The watermark <b>%s</b> has been created.',
+'Znak wodny <b>%s</b> został utworzony.',
 
 'watermark_image_opacity' => 
-'Opacity',
+'Przeźroczystość',
 
 'watermark_image_opacity_desc' => 
-'Value for this image watermark\'s opacity.',
+'Wartość ',
 
 'watermark_image_path' => 
-'Path',
+'Ścieżka',
 
 'watermark_image_path_desc' => 
-'Full path location of your watermark image.',
+'Pełna ścieżka położenia grafiki znaku wodnego.',
 
 'watermark_image_transparency_map' => 
-'Image transparency map',
+'Mapa przezroczystości obrazu',
 
 'watermark_image_transparency_map_desc' => 
-'Coordinates for alpha transparency of images to be watermarked.',
+'Współrzędne dla przezroczystości kanału alfa obrazów, które mają być oznaczone znakiem wodnym.',
 
 'watermark_not_created' => 
-'Cannot Create Watermark',
+'Nie można utworzyć znaku wodnego',
 
 'watermark_not_created_desc' => 
-'We were unable to create this watermark, please review and fix errors below.',
+'Nie możemy utworzyć tego znaku wodnego, przejrzyj i napraw błędy poniżej.',
 
 'watermark_not_updated' => 
-'Cannot Update Watermark',
+'Nie można zaktualizować znaku wodnego',
 
 'watermark_not_updated_desc' => 
-'We were unable to update this watermark, please review and fix errors below.',
+'Nie możemy zaktualizować tego znaku wodnego, przejrzyj i napraw błędy poniżej.',
 
 'watermark_offset' => 
-'Offset',
+'Przesunięcie (offset)',
 
 'watermark_offset_desc' => 
-'Distance in pixels from the edge of the image.',
+'Odległość w pikselach od krawędzi obrazu.',
 
 'watermark_padding' => 
-'Padding',
+'Odstęp',
 
 'watermark_padding_desc' => 
-'Add padding around this watermark.',
+'Dodaj odstęp wokół znaku wodnego.',
 
 'watermark_text' => 
-'Text',
+'Tekst',
 
 'watermark_text_color' => 
-'Text color',
+'Tekst kolorowy',
 
 'watermark_text_desc' => 
-'Content of this watermark',
+'Zawartość znaku wodnego',
 
 'watermark_text_dropshadow' => 
-'Enable dropshadow?',
+'Włączyć cieniowanie?',
 
 'watermark_text_dropshadow_color' => 
-'Dropshadow color',
+'Kolor rzucanego cienia',
 
 'watermark_text_dropshadow_desc' => 
-'When enabled, a drop-shadow will be rendered.',
+'Gdy włączony, rzucany cień będzie renderowany.',
 
 'watermark_text_dropshadow_distance' => 
-'Dropshadow distance',
+'Odległość cieniowania',
 
 'watermark_text_font' => 
-'Font face',
+'Czcionka',
 
 'watermark_text_size' => 
-'Text size',
+'Wielkość tekstu',
 
 'watermark_updated' => 
-'Watermark Updated',
+'Uaktualniono znak wodny',
 
 'watermark_updated_desc' => 
-'The watermark <b>%s</b> has been updated.',
+'Znak wodny <b>%s</b> został uaktualniony.',
 
 'watermarks' => 
-'Watermarks',
+'Znaki wodne',
 
 'watermarks_removed' => 
-'Watermarks removed',
+'Usunięto znaki wodne',
 
 'watermarks_removed_desc' => 
-'%d watermarks were removed.',
+'%d znaki wodne zostały usunięte.',
 
 'watermarks_true_type' => 
-'Enable True Type?',
+'Włączyć True Type?',
 
 'watermarks_true_type_desc' => 
-'When enabled, text watermarks will be rendered with True Type.',
+'Gdy włączone, tekst znaku wodnego będzie renderowany z czcionką True Type.',
 
 'choose_file' => 
-'Please choose a file to delete',
+'Prosze wybrać plik do usunięcia',
 
 'confirm_del_file' => 
-'Are you sure you wish to permanently delete this file?',
+'Czy na pewno chcesz trwale usunąć ten plik?',
 
 'confirm_del_files' => 
-'Are you sure you wish to permanently delete these files?',
+'Czy na pewno chcesz trwale usunąć te pliki?',
 
 'content_files' => 
-'File Manager',
+'Manager plików',
 
 'create_new_upload_pref' => 
-'Create New Upload Destination',
+'Utwórz nowe miejsce docelowe przesyłania',
 
 'delete_fail' => 
-'There was a problem deleting one or more file(s). Please review the file list below.',
+'Wystąpił problem podczas usuwania jednego lub więcej plików. Przejrzyj poniższą listę plików.',
 
 'delete_selected_files' => 
-'Delete Selected Files',
+'Usuń wybrane pliki',
 
 'delete_success' => 
-'Delete Successful',
+'Usunięto pomyślnie',
 
 'download_selected' => 
-'Download Selected Files',
+'Pobierz wybrane pliki',
 
 'edit_file' => 
-'Edit File',
+'Edycja pliku',
 
 'email_files' => 
-'Email Selected Files',
+'Wyślij wybrane pliki pocztą e-mail',
 
 'file_download' => 
-'Download',
+'Pobierz',
 
 'file_information' => 
-'File Information',
+'Informacja o pliku',
 
 'file_metadata' => 
-'File Metadata',
+'Metadata pliku',
 
 'file_name' => 
-'File Name',
+'Nazwa pliku',
 
 'file_size' => 
-'File Size',
+'Wielkość pliku',
 
 'file_size_unit' => 
 'KB',
 
 'file_tools' => 
-'File Tools',
+'Narzędzia plikowe',
 
 'file_upload' => 
-'File Upload',
+'Wgrywanie pliku',
 
 'file_upload_prefs' => 
-'File Upload Preferences',
+'Preferencje wgrywania pliku',
 
 'image_editor' => 
-'Image Editor',
+'Edytor grafiki',
 
 'kind' => 
-'Kind',
+'Rodzaj',
 
 'image_manip_quality' => 
-'Quality',
+'Jakość',
 
 'image_manip_quality_desc' => 
-'Final quality of image',
+'Końcowa jakość grafiki',
 
 'no_upload_dirs' => 
-'You have no upload directories defined',
+'Nie zdefiniowano katalogów przesyłania',
 
 'permissions' => 
-'Permissions',
+'Uprawnienia',
 
 'rename_file' => 
-'Rename File',
+'Zmień nazwę pliku',
 
 'save_file' => 
-'Save File',
+'Zapisz plik',
 
 'size' => 
-'Size',
+'Wielkość',
 
 'upload' => 
-'Upload',
+'Wgrywanie',
 
 'upload_dir_choose' => 
-'Choose an upload directory',
+'Wybierz katalog wgrywania',
 
 'upload_edit' => 
-'Resize &amp; Rotate',
+'Zmień rozmiar &amp; Obróć',
 
 'upload_file' => 
-'Upload File',
+'Wgraj plik',
 
 'upload_rename' => 
-'File Already Exists',
+'Plik już istnieje',
 
 'upload_rename_message' => 
-'A file with that filename already exists. You can either choose a new name and the file will be renamed, or you can use the same name and the existing file will be overwritten.',
+'Plik o tej nazwie już istnieje. Możesz wybrać nową nazwę, a nazwa pliku zostanie zmieniona, lub możesz użyć tej samej nazwy, a istniejący plik zostanie nadpisany.
+',
 
 'upload_success' => 
-'Upload Successful',
+'Wgrywanie zakończone pomyślnie',
 
 'where' => 
-'Where',
+'Gdzie',
 
 'all_categories' => 
-'all categories',
+'wszystkie kategorie',
 
 'all_filetypes' => 
-'All file types',
+'Wszystkie typy plików',
 
 'allowed_types' => 
-'Allowed File Types',
+'Dozwolone typy plików',
 
 'apply_changes' => 
-'Apply Changes',
+'Dodaj zmiany',
 
 'auto_batch' => 
-'Automatic Batch Upload',
+'Automatyczne przesyłanie wsadowe',
 
 'batch_location' => 
-'Batch Upload Location',
+'Lokalizacja przesyłania wsadowego',
 
 'batch_upload' => 
-'Batch Upload',
+'Przesyłanie wsadowe',
 
 'browse_files' => 
-'Browse Files',
+'Przeglądaj pliki',
 
 'can_upload_files' => 
-'Can upload files',
+'Może przesyłać pliki',
 
 'cancel_changes' => 
-'Cancel Changes',
+'Anuluj zmiany',
 
 'cancel_crop' => 
-'Cancel Crop',
+'Anuluj przytnij',
 
 'category_group' => 
-'Category Groups',
+'Grupy kategorii',
 
 'category_groups' => 
-'File Category Groups',
+'Grupy kategorii plików',
 
 'category_groups_text' => 
-'Assign one or more category group to the file upload location',
+'Przypisz jedną lub więcej grup kategorii do lokalizacji przesyłania plików',
 
 'constrain' => 
-'Constrain',
+'Wymuś',
 
 'crop' => 
-'Crop',
+'Przytnij',
 
 'crop_height' => 
-'Height',
+'Wysokość',
 
 'crop_mode' => 
-'Crop Mode',
+'Tryb przycinania',
 
 'crop_width' => 
-'Width',
+'Szerokość',
 
 'crop_x' => 
 'X',
@@ -908,418 +910,420 @@ $lang = array(
 'Y',
 
 'current_upload_prefs' => 
-'Current Preferences',
+'Bieżące preferencje',
 
 'custom_fields' => 
-'Custom Fields',
+'Pola niestandardowe',
 
 'delete_upload_pref_confirmation' => 
-'Are you sure you want to permanently delete this preference?',
+'Czy na pewno chcesz trwale usunąć tę preferencję?',
 
 'delete_upload_preference' => 
-'Delete Upload Preference',
+'Usuń oreferencje wgrywania',
 
 'dir_name' => 
-'Upload Directory Name',
+'Prześlij nazwę katalogu',
 
 'directory' => 
-'Directory',
+'Katalog',
 
 'directory_manager' => 
-'Upload Directory Manager',
+'Manager katalogu wgrywania',
 
 'disallow_image' => 
-'Disallow Image',
+'Nie zezwalaj na obraz',
 
 'done' => 
-'Exit',
+'Wyjście',
 
 'edit_file_upload_preferences' => 
-'Edit File Upload Preferences',
+'Edytuj preferencje przesyłania plików',
 
 'edit_image' => 
-'Edit Image',
+'Edycja grafiki',
 
 'edit_modes' => 
-'Edit Modes',
+'Tryby edycji',
 
 'error_count' => 
-'Number of Errors',
+'Liczba błędów',
 
 'errors' => 
-'Errors Encountered',
+'Wystąpiły błędy',
 
 'exit_apply_changes' => 
-'You are about to exit this edit mode. Permanently apply changes first?',
+'Zamierzasz wyjść z tego trybu edycji. Najpierw trwale zastosować zmiany?',
 
 'file_count' => 
-'Number of Files',
+'Liczba plików',
 
 'file_directory_id' => 
 'ID',
 
 'file_exists_replacement_error' => 
-'A file with this name already exists.',
+'Plik o tej nazwie już istnieje.',
 
 'file_post_format' => 
-'File Post Formatting',
+'Formatowanie pliku post',
 
 'file_pre_format' => 
-'File Pre Formatting',
+'Formatowanie plików',
 
 'file_properties' => 
-'File Properties',
+'Właściwości pliku',
 
 'file_title' => 
-'File Title',
+'Tytuł pliku',
 
 'file_types' => 
-'Types of Files',
+'Typy plików',
 
 'file_upload_preferences' => 
-'File Upload Preferences',
+'Preferencje przesyłania pliku',
 
 'files_count_lang' => 
-'Currently showing %s out of %s total files.',
+'Obecnie wyświetla %s z %s wszystkich plików.',
 
 'files_processed' => 
-'Number of Files Processed',
+'Liczba przetworzonych plików',
 
 'filter_by_directory' => 
-'Filter By Directory',
+'Filtruj wg katalogu',
 
 'image_edit_success' => 
-'Image Successfully Edited',
+'Pomyślnie edytowano grafikę',
 
 'image_sizes' => 
-'Image Manipulations',
+'Przekształcenia grafiki',
 
 'image_sizes_rebuild' => 
-'New images will have all image manipulations automatically created for them. However, if you want to recreate image manipulations for existing images, check off the manipulations you want to recreate.',
+'Nowe obrazy będą automatycznie tworzone dla nich wszystkie manipulacje obrazem. Jeśli jednak chcesz odtworzyć manipulacje obrazami dla istniejących obrazów, sprawdź manipulacje, które chcesz odtworzyć.
+',
 
 'image_sizes_subtext' => 
-'Additional images that will be automatically created for each image upload.',
+'Dodatkowe obrazy, które zostaną automatycznie utworzone dla każdego przesłanego obrazu.',
 
 'image_tools' => 
-'Image Tools',
+'Narzędzia graficzne',
 
 'images_only' => 
-'Images only',
+'Tylko grafika',
 
 'list' => 
-'a list',
+'lista',
 
 'maintain_ratio' => 
-'Maintain Aspect Ratio',
+'Zachowaj współczynnik proporcji',
 
 'manual_batch' => 
-'Manual Batch Upload',
+'Ręczne przesyłanie wsadowe',
 
 'max_height' => 
-'Maximum Image Height (in pixels)',
+'Maksyalna wysokość grafiki w pikslach',
 
 'max_image_action' => 
-'Action to take if image size exceeded',
+'Działanie do podjęcia, jeśli rozmiar obrazu przekroczył',
 
 'max_size' => 
-'Maximum File Size (in bytes)',
+'Maksymalna wielkość pliku w bajtach',
 
 'max_width' => 
-'Maximum Image Width (in pixels)',
+'Maksymalna szerokośc grafiki w pikslach',
 
 'member_group' => 
-'Member Group',
+'Grupa członkowska',
 
 'new_file_upload_created' => 
-'New File Upload Created',
+'Utworzono nowe przesyłanie plików',
 
 'new_file_upload_preferences' => 
-'New File Upload Preferences',
+'Nowe preferencje przesyłania plików',
 
 'no_assigned_category_groups' => 
-'No category groups have been assigned to be used by the File Manager.<br /><a href="%s" title="Assign Category Groups">Assign Category Groups</a>',
+'Żadne grupy kategorii nie zostały przypisane do użycia przez Menedżera plików. <br /> <a href="%s" title="Assign Category Groups"> Przypisz grupy kategorii </a>',
 
 'no_change' => 
-'No change',
+'Bez zmian',
 
 'no_edit_selected' => 
-'No Edit Operation Selected',
+'Nie wybrano operacji edycji',
 
 'no_errors' => 
-'No errors',
+'Nie ma błędów',
 
 'no_results' => 
-'No available member groups.',
+'Brak dostępnych grup członkowskich.',
 
 'no_sync_title' => 
-'No Results',
+'Brak wyników',
 
 'no_upload_directories_for_fieldtype' => 
-'There are currently no upload directories available. Please <a href="%s" rel="external">add one or more upload directories</a> to use the File field type.',
+'Obecnie nie ma dostępnych katalogów przesyłania. <a href="%s" rel="external"> Dodaj jeden lub więcej katalogów przesyłania </a>, aby użyć typu pola Plik.
+',
 
 'no_upload_dirs_available' => 
-'No upload locations available',
+'Brak dostępnych lokalizacji przesyłania',
 
 'no_upload_prefs' => 
-'There are currently no file upload preferences',
+'Obecnie nie ma preferencji przesyłania plików',
 
 'pagination_count_text' => 
-'Showing %s to %s of %s files.',
+'Pokazywanie %s do %s z %s plików.',
 
 'pagination_filter_text' => 
-'Show files as %s',
+'Pokaż pliki jako %s',
 
 'pagination_page' => 
-'Page',
+'Strona',
 
 'php_max_filesize' => 
-'Maximum upload size allowed by PHP is %s',
+'Maksymalny rozmiar wysyłania dozwolony przez PHP wynosi %s',
 
 'please_add_upload' => 
-'There are currently no upload directories available. Please add one or more upload directories to use the File field type.',
+'Obecnie nie ma dostępnych katalogów przesyłania. Dodaj jeden lub więcej katalogów przesyłania, aby użyć typu pola Plik.',
 
 'please_select' => 
-'Please Select&hellip',
+'Proszę wybrać&hellip (kłódkę)',
 
 'post_format' => 
-'Image Post Formatting',
+'Końcowe formatowanie obrazu',
 
 'pre_format' => 
-'Image Pre Formatting',
+'Wstępne formatowanie obrazu',
 
 'preferences_updated' => 
-'Preferences Updated',
+'Preferencje zaktualizowane',
 
 'processing_image' => 
-'Processing Image',
+'Przetwarzanie obrazu',
 
 'properties' => 
-'Image Properties',
+'Właściwości grafiki',
 
 'resize' => 
-'Resize',
+'Zmień rozmiar',
 
 'resize_height' => 
-'Height',
+'Wysokość',
 
 'resize_mode' => 
-'Resize Mode',
+'Tryb zmiany obrazu',
 
 'resize_over_confirmation' => 
-'Resizing this image to a larger size than the source will result in a lower quality image. Are you sure you want to do that?',
+'Zmiana rozmiaru tego obrazu na większy niż źródło spowoduje obniżenie jakości obrazu. Czy na pewno chcesz to zrobić?',
 
 'resize_type' => 
-'Resize Type',
+'Typ zmiany rozmiaru',
 
 'resize_width' => 
-'Width',
+'Szerokość',
 
 'restrict_notes_1' => 
-'These radio buttons let you to specify which Member Groups are allowed to upload files.',
+'Te przyciski radiowe pozwalają określić, które grupy członkowskie mogą przesyłać pliki.',
 
 'restrict_notes_2' => 
-'Super Admins can always upload files',
+'Super Admini zawsze mogą przesyłać pliki',
 
 'restrict_notes_3' => 
-'Note: File uploading is currently only allowed via the control panel',
+'Uwaga: Przesyłanie plików jest obecnie dozwolone tylko za pośrednictwem panelu sterowania',
 
 'restrict_to_group' => 
-'Restrict file uploading to select member groups',
+'Ogranicz przesyłanie plików do wybranych grup członków',
 
 'rotate' => 
-'Rotate',
+'Obróć',
 
 'rotate_180' => 
 '180&#176',
 
 'rotate_90l' => 
-'90 degrees, left',
+'90 stopni w lewo',
 
 'rotate_90r' => 
-'90 degrees, right',
+'90 stopni w prawo',
 
 'rotate_flip_hor' => 
-'Flip horizontally',
+'Odwróć w poziomie',
 
 'rotate_flip_vert' => 
-'Flip vertically',
+'Odwróc w pionie',
 
 'rotate_mode' => 
-'Rotate Mode',
+'Tryb obracania',
 
 'save_crop' => 
-'Save Crop',
+'Zapisz obcięcie',
 
 'save_image' => 
-'Save Image',
+'Zapisz grafikę',
 
 'search_in' => 
-'Search in',
+'Szukaj w',
 
 'server_path' => 
-'Server Path to Upload Directory',
+'Ścieżka serwera do katalogu przesyłania',
 
 'short_name' => 
-'Short Name',
+'Nazwa krótka',
 
 'sync_complete' => 
-'The file synchronization is complete.',
+'Synchronizacja plików została zakończona.',
 
 'sync_progress' => 
-'Progress',
+'Postęp',
 
 'synchronize_directory' => 
-'Synchronize Directory',
+'Symchronizuj katalogi',
 
 'thumbnails' => 
-'thumbnails',
+'miniatury',
 
 'total_dir_size' => 
-'Total Directory Size:',
+'Całkowity rozmiar katalogu:',
 
 'upload_dir_dropdown' => 
-'%s (%s files)',
+'%s (%s plików)',
 
 'upload_pref_deleted' => 
-'Upload Preference Deleted:',
+'Usunięto preferencje przesyłania:',
 
 'upload_pref_name' => 
-'Descriptive name of upload directory',
+'Opisowa nazwa katalogu przesyłania',
 
 'uploading_file' => 
-'Uploading File',
+'Przesyłanie pliku',
 
 'url_to_upload_dir' => 
-'URL of Upload Directory',
+'Ścieżka URL katalogu wgrywania',
 
 'use_file' => 
-'Use Uploaded File',
+'Użyj przesłanego pliku',
 
 'width_needed' => 
-'A width or width/height must be selected, or a rotate/flip direction selected.',
+'Należy wybrać szerokość lub szerokość/wysokość lub wybrać kierunek obrotu/odwrócenia.',
 
 'caption' => 
-'Caption',
+'Podpis',
 
 'include' => 
-'Include?',
+'Zawrzeć?',
 
 'thumbnail' => 
-'Thumbnail',
+'Miniatura',
 
 'add_watermark' => 
-'None',
+'Żaden',
 
 'bot' => 
-'Bottom',
+'Dół',
 
 'color_picker' => 
-'Color Picker',
+'Wybór koloru',
 
 'create_new_wm_pref' => 
-'Create New Watermark',
+'Utwórz nowy znak wodny',
 
 'delete_watermark_pref_confirmation' => 
-'Delete Watermark Preference Confirmation',
+'Usuń potwierdzenie preferencji znaku wodnego',
 
 'delete_wm_preference' => 
-'Delete Watermark Preference',
+'Usuń preferencje znaku wodnego',
 
 'mid' => 
-'Middle',
+'Środek',
 
 'watermark_pref_deleted' => 
-'Watermark Preference Deleted',
+'Usunięto preferencje znaku wodnego',
 
 'watermark_prefs' => 
-'Watermark Preferences',
+'Preferencje znaku wodnego',
 
 'wm_alignment' => 
-'Watermark Alignment',
+'Wyrównanie znaku wodnego',
 
 'wm_edit' => 
-'Edit Watermark',
+'Edycja znaku wodnego',
 
 'wm_font' => 
-'Font',
+'Czcionka',
 
 'wm_font_color' => 
-'Text Color',
+'Kolor tekstu',
 
 'wm_font_size' => 
-'Font Size',
+'Wielkość czcionki',
 
 'wm_graphic' => 
-'Graphic Version',
+'Wersja grafiki',
 
 'wm_hor_offset' => 
-'Horizontal Offset',
+'Przesunięcie poziome',
 
 'wm_image_path' => 
-'Server Path to Watermark Image',
+'Ścieżka serwera do grafiki znaku wodnego',
 
 'wm_missing_font' => 
-'Unable to locate the specified font. Please check the path to your font.',
+'Nie można zlokalizować określonej czcionki. Sprawdź ścieżkę do swojej czcionki.',
 
 'wm_name' => 
-'Watermark Name',
+'Nazwa znaku wodnego',
 
 'wm_name_taken' => 
-'Duplicate Name',
+'Powiel nazwę',
 
 'wm_new' => 
-'Create Watermark',
+'Utwórz znak wodny',
 
 'wm_offset' => 
-'Watermark Offset',
+'Przeunięcie znaku wodnego',
 
 'wm_opacity' => 
-'Watermark Opacity',
+'Przeźroczystość znaku wodnego',
 
 'wm_padding' => 
-'Padding',
+'Odstęp',
 
 'wm_shadow_color' => 
-'Dropshadow Color',
+'Kolor rzucanego cienia',
 
 'wm_shadow_distance' => 
-'Dropshadow Distance',
+'Odległość rzucanego cienia',
 
 'wm_test' => 
-'Test Watermark',
+'Testuj znak wodny',
 
 'wm_test_explain' => 
-'The button below allows you to test your watermark preferences without leaving this page. In order to do so you must set the server path to a test image.',
+'Przycisk poniżej pozwala przetestować preferencje znaku wodnego bez opuszczania tej strony. Aby to zrobić, musisz ustawić ścieżkę serwera do obrazu testowego.',
 
 'wm_test_image_path' => 
-'Server Path to Test Image',
+'Ścieżka serwera do testowej grafiki',
 
 'wm_test_now' => 
-'Test Your Watermark Settings',
+'Testuj ustawienia znaku wodnego',
 
 'wm_text' => 
-'Watermark Text',
+'Tekst znaku wodnego',
 
 'wm_type' => 
-'Watermark Type',
+'Typ znaku wodnego',
 
 'wm_use_drop_shadow' => 
-'Enable Dropshadow',
+'Włącz rzucanie cienia',
 
 'wm_use_font' => 
-'Use True Type Font',
+'Korzystaj z fontów True Type',
 
 'wm_vrt_offset' => 
-'Vertical Offset',
+'Przesunięcie pionowe',
 
 'wm_watermark' => 
-'Watermark',
+'Znak wodny',
 
 'wm_x_transp' => 
-'Transparency X Coordinate',
+'Współrzędna X przeźroczystości',
 
 'wm_y_transp' => 
-'Transparency Y Coordinate',
+'Współrzędna Y przeźroczystości',
 
 ''=>''
 );
