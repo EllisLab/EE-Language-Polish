@@ -3,79 +3,79 @@ $lang = array(
 
 
 'consent_app_created' => 
-'(App Created)',
+'(Utworzono app)',
 
 'consent_granted_by_log_msg' => 
-'consent granted by %s via %s',
+'udzielono zgody przez %s poprzez %s',
 
 'consent_granted_log_msg' => 
-'consent granted via %s',
+'udzielono zgody poprzez %s',
 
 'consent_list_versions' => 
 'Wersje',
 
 'consent_name' => 
-'Consent Name',
+'Nazwa zgody',
 
 'consent_prefs_saved' => 
-'Your consent preferences have been saved for: %s',
+'Twoje preferencje dotyczące zgody zostały zapisane dla: %s',
 
 'consent_request' => 
-'Consent Request',
+'Żądanie zgody',
 
 'consent_request_created' => 
-'Consent Request Created',
+'Utworzono żądanie zgody',
 
 'consent_request_created_desc' => 
 'The consent request <b>%s</b> has been created.',
 
 'consent_request_not_created' => 
-'Cannot Create Consent Request',
+'Nie można utworzyć żądania zgody',
 
 'consent_request_not_created_desc' => 
-'We were unable to create this consent request, please review and fix errors below.',
+'Nie udało się utworzyć tej prośby o zgodę, sprawdź i napraw błędy poniżej.',
 
 'consent_request_not_updated' => 
-'Cannot Update Consent Request',
+'Nie można zaktualizować żądania zgody',
 
 'consent_request_not_updated_desc' => 
-'We were unable to update this consent request, please review and fix errors below.',
+'Nie możemy zaktualizować tego wniosku o zgodę, sprawdź i napraw błędy poniżej.',
 
 'consent_request_updated' => 
-'Consent Request Updated',
+'Żądanie zgody zaktualizowane',
 
 'consent_request_updated_desc' => 
-'The consent request <b>%s</b> has been updated.',
+'Żądanie zgody <b>%s</b> zostało zaktualizowane.',
 
 'consent_requests_removed' => 
-'Consent requests removed',
+'Usunięto żądanie zgody',
 
 'consent_requests_removed_desc' => 
-'%d consent requests were removed.',
+'%d prośby o zgodę zostały usunięte.',
 
 'consent_title' => 
-'Consent Title',
+'Tytuł zgody',
 
 'consent_withdrawn_by_log_msg' => 
-'consent withdrawn by %s',
+'zgoda wycofana przez %s',
 
 'consent_withdrawn_log_msg' => 
-'consent withdrawn',
+'wycofano zgodę',
 
 'consents' => 
-'Consents',
+'Zgody',
 
 'create_consent_request' => 
-'Create Consent Request',
+'Utwórz wniosek o zgodę',
 
 'edit_consent_request' => 
-'Edit Consent Request',
+'Edytuj żądanie zgody',
 
 'new_consent_version_destructive' => 
-'This is a destructive and irreversible action.',
+'Jest to działanie destrukcyjne i nieodwracalne.',
 
 'new_consent_version_notice' => 
-'Editing this Consent Request will result in all prior consents granted for this Request being universally revoked.',
+'Edytowanie tego wniosku o zgodę spowoduje, że wszystkie wcześniejsze zgody na to żądanie zostaną uniwersalnie odwołane.',
 
 'opt_in' => 
 'Opt In',
